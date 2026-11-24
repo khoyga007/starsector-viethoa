@@ -2,7 +2,7 @@
 	"id": "viethoa",
 	"name": "Viet Hoa (Vietnamese)",
 	"author": "Claire",
-	"version":"0.7.2",
+	"version":"0.7.3",
 	"description": "Vietnamese translation. Adds Vietnamese letters to every game font; translates loading tips, tooltips, fleet encounter text, commodity / industry / condition names and descriptions, hullmod, skill and special item descriptions, campaign dialogue (rules.csv, Askonia crisis), and small text tables (ranks, fleet types, planet types, map objects, weapon and ship role labels, sample missions, codex manual), ship skin description prefixes, per-faction ranks and fleet names so far.",
 	"gameVersion": "0.98.5a-RC8",
 	"replace": [

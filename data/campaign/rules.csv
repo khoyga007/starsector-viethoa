@@ -14385,9 +14385,9 @@ tut_mainBackground1,DialogOptionSelected,$option == tutBackground,,"""Một nhó
 Những thí nghiệm đầy hứa hẹn, ít nhất họ đã nghĩ vậy - cho đến khi một xung năng lượng mà họ dự đoán sẽ nhận được phản hồi từ Gate đã làm bất ổn các điểm nhảy dẫn vào hệ sao, cắt đứt chúng tôi khỏi phần còn lại của Sector.
 
 Gần giống cách Sector bị cắt khỏi Domain, nhưng thu nhỏ lại- các vì sao có một cảm giác mỉa mai, phải không?""","0:tutBgCont1:Tiếp tục",
-tut_mainGetDataInfo1,DialogOptionSelected,$option == tutBgCont1,,"""Những thợ mỏ của Derinkuyu Station, cũng nằm trong hệ sao này và đang hoạt động ở mức gần sinh tồn, là những người chịu thiệt hại nặng nhất. Họ quay sang hải tặc, chặn một trong những chuyến hàng lương thực cuối cùng cập bến - không nghi ngờ gì là vì tuyệt vọng, nhưng đã có người thiệt mạng, và họ đã tự đặt mình hoàn toàn ngoài vòng pháp luật.
+tut_mainGetDataInfo1,DialogOptionSelected,$option == tutBgCont1,,"""Thợ mỏ ở Derinkuyu Station, cũng nằm trong hệ sao này, vốn đã sống lay lắt qua ngày, nên là những người khốn đốn nhất. Họ sa vào con đường cướp bóc, chặn cướp một trong những chuyến hàng lương thực cuối cùng tới được đây - hẳn là vì cùng đường, nhưng đã có người chết, và họ đã tự đẩy mình ra hẳn ngoài vòng pháp luật.
 
-Các thủ lĩnh của họ biết rằng nếu các điểm nhảy được ổn định và hệ sao lại trở thành một phần của Sector, thì số phận tốt nhất của họ cũng chỉ là án chung thân tại một thuộc địa hình sự.""","1:tutCont1:""Được rồi - giờ thì tôi đóng vai trò gì?""",
+Đám cầm đầu của họ biết rằng nếu các điểm nhảy được ổn định và hệ sao lại nối với Sector, thì kết cục tốt nhất đang chờ họ là án tù chung thân ở một thuộc địa khổ sai.""","1:tutCont1:""Được rồi - vậy tôi có vai trò gì trong chuyện này?""",
 tut_mainGetDataInfo2,DialogOptionSelected,$option == tutCont1,,"""Những thợ mỏ đã thành hải tặc đang canh giữ các điểm nhảy, ngăn chúng tôi thu thập số liệu gần đây và nghĩ cách ổn định chúng.
 
 Chúng tôi có một biệt đội an ninh có thể đối phó lực lượng của họ, nhưng họ đang bận phòng thủ Ancyra.

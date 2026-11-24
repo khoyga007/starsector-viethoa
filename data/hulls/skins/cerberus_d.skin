@@ -1,0 +1,17 @@
+{
+	"baseHullId":"cerberus",
+	"skinHullId":"cerberus_d",
+	"hullName":"Cerberus (D)",
+	"descriptionId":"cerberus",
+	"descriptionPrefix":"Những tàu lẽ ra đã bị cho ngừng hoạt động trong thời bình nay được sử dụng rộng rãi khắp Sector. Mã hiệu thân tàu của các loại tàu này thường được gắn chữ \"D\", nghĩa là \"hư hỏng\" hoặc \"khiếm khuyết\".",
+	"baseValueMult":.67,
+	"spriteName":"graphics/ships/cerberus/cerberus_damaged.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":["shielded_holds","comp_armor","faulty_grid"],
+	"tags":["hide_in_codex"],
+	"builtInWeapons":{
+    },
+}

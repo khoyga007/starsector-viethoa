@@ -1,0 +1,17 @@
+{
+	"baseHullId":"mule",
+	"skinHullId":"mule_d",
+	"hullName":"Mule (D)",
+	"descriptionId":"mule",  # optional
+	"descriptionPrefix":"Những tàu lẽ ra đã bị cho ngừng hoạt động trong thời bình nay được sử dụng rộng rãi khắp Sector. Mã hiệu thân tàu của các loại tàu này thường được gắn chữ \"D\", nghĩa là \"hư hỏng\" hoặc \"khiếm khuyết\".",
+	"spriteName":"graphics/ships/mule/mule_d.png",
+	"baseValueMult":.65,
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":["degraded_engines","erratic_injector","increased_maintenance"],
+	"tags":["hide_in_codex"],
+	"builtInWeapons":{
+    },
+}

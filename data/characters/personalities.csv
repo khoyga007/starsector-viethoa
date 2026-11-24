@@ -1,0 +1,6 @@
+id,name,desc,bravery,CAPTURE,PATROL,INTERCEPT,ASSAULT,DEFEND,STRIKE,HARASS,FIRE_SUPPORT,CARRIER_GROUP,CIVILIAN_CRAFT,STRIKE_FORCE,LIGHT_ESCORT,DESTROYER_ESCORT
+timid,"Rụt rè","Trong chiến đấu, sĩ quan này sẽ cố tránh giao chiến trực diện bằng mọi cách, ngay cả khi chỉ huy một tàu chiến.",5,0.5,0.5,0.1,0,1,0,0,3,3,3,1,1,1
+cautious,"Thận trọng","Trong chiến đấu, sĩ quan này thích giữ ngoài tầm địch, chỉ thỉnh thoảng tiến vào khi bị địch vượt tầm.",5,1,0.7,0.3,0.3,2,0.3,0.3,2,2,2,1,1,1
+steady,"Vững vàng","Trong chiến đấu, sĩ quan này ưu tiên cách tiếp cận cân bằng, chiến thuật phù hợp với tình huống hiện tại.",5,1,1,1,1,1,1,1,1,1,1,1,1,1
+aggressive,"Hung hăng","Trong chiến đấu, sĩ quan này thích giao chiến ở tầm cho phép dùng toàn bộ vũ khí của tàu mình, sẽ điều khiển tàu dân sự như thể đó là tàu chiến, và sẽ dùng tiêm kích dưới quyền một cách quyết liệt.",5,1.5,1,2,2,0.5,2,2,0.5,0.5,0.5,1,0.5,0.5
+reckless,"Liều lĩnh","Trong chiến đấu, sĩ quan này hung hăng quá mức, thường bỏ qua hoàn toàn sự an toàn của tàu mình để giao chiến với địch.",5,1.5,1,2,2,0.5,2,2,0.5,0.5,0.5,1,0.5,0.5

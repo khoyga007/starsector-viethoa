@@ -1,0 +1,332 @@
+event_type,event_stage,p,target_rel,channels,subject,summary,assessment,image,icon,tags,sound_id,implementation notes
+food_shortage,possible,,,player_intel,"Có thể thiếu lương thực $onOrAt $market","Phân tích thông tin tình báo thu được từ liên lạc bị chặn và các nguồn khác cho thấy khả năng cao sẽ thiếu lương thực $onOrAt $market trong vài tuần tới.","Giá lương thực tăng và độ ổn định giảm $onOrAt $market nếu xảy ra tình trạng thiếu lương thực.",,graphics/icons/markets/food_shortage.png,,,
+food_shortage,likely,,,player_intel,"Rất có khả năng thiếu lương thực $onOrAt $market","Phân tích thông tin tình báo thu được từ liên lạc bị chặn và các nguồn khác cho thấy gần như chắc chắn sẽ thiếu lương thực $onOrAt $market trong vài tuần tới.","Giá lương thực tăng và độ ổn định giảm $onOrAt $market nếu xảy ra tình trạng thiếu lương thực.",,graphics/icons/markets/food_shortage.png,,,
+food_shortage,likely,0.5,HOSTILE,hegemony_internal,"Rất có khả năng thiếu lương thực $onOrAt $market","Báo cáo này cho biết gần như chắc chắn sẽ thiếu lương thực $onOrAt $market, và khuyến nghị các đơn vị trong khu vực xem xét những bước có thể thực hiện để tối đa hóa tác động của tình trạng này.","Có khả năng hạm đội cứu trợ sẽ được điều đi từ một hệ sao gần đó; chặn hạm đội này sẽ kéo dài tình trạng thiếu lương thực và làm $market mất ổn định thêm.
+
+Bán lương thực ở chợ đen sẽ làm tăng bất ổn sau khi tình trạng thiếu lương thực kết thúc.",,graphics/icons/markets/food_shortage.png,,,
+food_shortage,likely,0.5,FRIENDLY,hegemony_internal,"Rất có khả năng thiếu lương thực $onOrAt $market","Báo cáo này cho biết gần như chắc chắn sẽ thiếu lương thực $onOrAt $market, và khuyến nghị các đơn vị chuẩn bị sẵn sàng hỗ trợ.","Đưa đủ lương thực đến $market nhanh chóng sẽ rút ngắn thời gian và giảm tác động của tình trạng thiếu lương thực.",,graphics/icons/markets/food_shortage.png,,,
+food_shortage,start,,,news,"Thiếu lương thực $onOrAt $market","Báo cáo bàn về tình trạng thiếu lương thực $onOrAt $market và đưa ra góc nhìn cân bằng, nhưng không xác định được nguyên nhân cụ thể. Nguyên nhân có khả năng nhất là một chuỗi lỗi lan truyền trong hệ thống hậu cần đang suy yếu.","Giá lương thực tăng $onOrAt $market.
+
+Độ ổn định giảm $stabilityPenalty.
+
+Khoảng $neededFood đơn vị lương thực là cần thiết để chấm dứt tình trạng thiếu.
+Có khả năng hạm đội cứu trợ sẽ được điều đi từ một hệ sao gần đó.
+
+Tác động lên uy tín tăng thêm khi bán lương thực. Bán lương thực ở chợ đen sẽ làm tăng bất ổn sau khi thiếu hụt kết thúc.",,graphics/icons/markets/food_shortage.png,prices,,
+food_shortage,start,0.25,HOSTILE,hegemony_public,"Thiếu lương thực nghiêm trọng $onOrAt $market","Báo cáo cho biết tình trạng thiếu lương thực $onOrAt $market nghiêm trọng bất thường, và cáo buộc chính quyền $theMarketFaction đã gây ra một cuộc khủng hoảng nhân đạo.","Giá lương thực tăng $onOrAt $market.
+
+Độ ổn định giảm $stabilityPenalty.
+
+Khoảng $neededFood đơn vị lương thực là cần thiết để chấm dứt tình trạng thiếu.
+
+Có khả năng hạm đội cứu trợ sẽ được điều đi từ một hệ sao gần đó.
+
+Tác động lên uy tín tăng thêm khi bán lương thực. Bán lương thực ở chợ đen sẽ làm tăng bất ổn sau khi thiếu hụt kết thúc.",,graphics/icons/markets/food_shortage.png,prices,,
+food_shortage,start,0.25,SELF,hegemony_public,"Nghi ngờ thiếu lương thực $onOrAt $market","Báo cáo bác bỏ hoàn toàn mọi tin đồn về tình trạng thiếu lương thực $onOrAt $market, và kêu gọi công dân có trách nhiệm báo cáo bất kỳ ai bị nghi lan truyền tin đồn độc hại.","Giá lương thực tăng $onOrAt $market.
+
+Độ ổn định giảm $stabilityPenalty.
+
+Khoảng $neededFood đơn vị lương thực là cần thiết để chấm dứt tình trạng thiếu.
+
+Có khả năng hạm đội cứu trợ sẽ được điều đi từ một hệ sao gần đó.
+
+Tác động lên uy tín tăng thêm khi bán lương thực. Bán lương thực ở chợ đen sẽ làm tăng bất ổn sau khi thiếu hụt kết thúc.",,graphics/icons/markets/food_shortage.png,prices,,
+food_shortage,warning_relief,,,player_intel,"Thiếu lương thực $onOrAt $market: đang tổ chức cứu trợ tại $reliefMarket","Phân tích lưu lượng liên lạc cho thấy một hạm đội cứu trợ đang được tổ chức tại $reliefMarket trong $reliefSystem và sẽ được điều đến $market trong thời gian tới.","Hạm đội mang đủ lương thực để chấm dứt tình trạng thiếu.
+
+Nếu hạm đội không đến như dự kiến, tình hình tại $market sẽ tiếp tục mất ổn định.",,graphics/icons/markets/food_shortage.png,,,
+food_shortage,warning_relief,0.5,HOSTILE,"hegemony_internal,
+tritachyon_internal,
+sindrian_diktat_internal","Thiếu lương thực $onOrAt $market: đang tổ chức cứu trợ tại $reliefMarket","Báo cáo cho biết một hạm đội cứu trợ đang được tổ chức tại $reliefMarket trong $reliefSystem, và có khả năng sẽ khởi hành trong vài tuần tới.","Hạm đội mang đủ lương thực để chấm dứt tình trạng thiếu.
+
+Nếu hạm đội không đến như dự kiến, tình hình tại $market sẽ tiếp tục mất ổn định.",,graphics/icons/markets/food_shortage.png,,,
+food_shortage,warning_relief,0.5,FRIENDLY,"hegemony_internal,
+tritachyon_internal,
+sindrian_diktat_internal","Thiếu lương thực $onOrAt $market: đang tổ chức cứu trợ tại $reliefMarket","Báo cáo cho biết một hạm đội cứu trợ đang được tổ chức tại $reliefMarket trong $reliefSystem, và có khả năng sẽ khởi hành trong vài ngày tới. Các đơn vị gần đó nên bảo đảm hạm đội đến đích an toàn.","Hạm đội mang đủ lương thực để chấm dứt tình trạng thiếu.
+
+Nếu hạm đội không đến như dự kiến, tình hình tại $market sẽ tiếp tục mất ổn định.",,graphics/icons/markets/food_shortage.png,,,
+food_shortage,relief_sent,,,news,"Thiếu lương thực $onOrAt $market: cứu trợ được gửi từ $reliefMarket","Một hạm đội cứu trợ đang trên đường từ $reliefMarket trong hệ $reliefSystem và sẽ đến $marketSystem $eta.","Hạm đội mang đủ lương thực để chấm dứt tình trạng thiếu.
+
+Nếu hạm đội không đến như dự kiến, tình hình tại $market sẽ tiếp tục mất ổn định.",,graphics/icons/markets/food_shortage.png,,,
+food_shortage,relief_unavailable,,,news,"Thiếu lương thực $onOrAt $market: tình hình xấu đi","Ban đầu có suy đoán rằng một thế giới láng giềng có thể gửi cứu trợ, nhưng hiện không có viện trợ nào được gửi tới.","Bất ổn tăng thêm $stabilityPenaltyRelief.",,graphics/icons/markets/food_shortage.png,prices,,
+food_shortage,relief_aborted,,,news,"Thiếu lương thực $onOrAt $market: hạm đội cứu trợ quay đầu","Hạm đội cứu trợ từ $reliefMarket bị tấn công trên đường đến $market, chịu tổn thất nặng và buộc phải quay đầu. Tình trạng thiếu lương thực vẫn tiếp diễn không suy giảm.","Bất ổn tăng thêm $stabilityPenaltyRelief.",,graphics/icons/markets/food_shortage.png,prices,,
+food_shortage,end_relief_arrived,,,news,"Thiếu lương thực $onOrAt $market: hạm đội cứu trợ đã đến","Hạm đội cứu trợ từ $reliefMarket đã đến, và tình trạng thiếu lương thực $onOrAt $market đã kết thúc.","Bất ổn tăng thêm $stabilityPenaltyEnd.
+
+Giá lương thực $onOrAt $market trở về mức bình thường.",,graphics/icons/markets/food_shortage.png,prices,,
+food_shortage,relief_lost,,,news,"Thiếu lương thực $onOrAt $market: hạm đội cứu trợ bị mất","Hạm đội cứu trợ từ $reliefMarket không đến được đích, và tình trạng thiếu lương thực vẫn tiếp diễn không suy giảm.","Bất ổn tăng thêm $stabilityPenaltyRelief.",,graphics/icons/markets/food_shortage.png,prices,,
+food_shortage,end_expired,,,news,"Thiếu lương thực $onOrAt $market đã kết thúc","Báo cáo cho biết tình trạng thiếu lương thực $onOrAt $market nay đã kết thúc. Nhiều yếu tố, gồm phân phối khẩu phần nghiêm ngặt, các biện pháp trấn áp bạo loạn và sự xuất hiện của một số thương nhân độc lập, được ghi nhận là đã chấm dứt tình trạng này.","Bất ổn tăng thêm $stabilityPenaltyExpire.
+Giá lương thực $onOrAt $market trở về mức bình thường.",,graphics/icons/markets/food_shortage.png,prices,,
+food_shortage,end_player,,,news,"Thiếu lương thực $onOrAt $market đã kết thúc","Báo cáo cho biết tình trạng thiếu lương thực $onOrAt $market nay đã kết thúc. Việc hạm đội cứu trợ do $playerName chỉ huy đến nơi được ghi nhận là đã chấm dứt tình trạng này, dù một quản trị viên địa phương nhanh chóng chỉ ra đóng góp của chính viên quản trị đó.","Bất ổn tăng thêm $stabilityPenaltyEnd.
+Giá lương thực $onOrAt $market trở về mức bình thường.",,graphics/icons/markets/food_shortage.png,prices,,
+food_shortage,end_player_black,,,news,"Thiếu lương thực $onOrAt $market đã kết thúc","Báo cáo cho biết tình trạng thiếu lương thực $onOrAt $market nay đã kết thúc. Đáng tiếc, phần lớn việc phân phát cứu trợ lương thực do giới tội phạm đảm nhận, khiến chúng củng cố vị thế và làm suy yếu chính quyền địa phương cả về tài chính lẫn trong mắt dân chúng.","Bất ổn tăng thêm $stabilityPenaltyEndBlack.
+
+Giá lương thực $onOrAt $market trở về mức bình thường.",,graphics/icons/markets/food_shortage.png,,,
+food_shortage,end_player_fast,,,news,"Thiếu lương thực $onOrAt $market đã kết thúc","Báo cáo cho biết tình trạng thiếu lương thực $onOrAt $market nay đã kết thúc. Việc hạm đội cứu trợ do $playerName chỉ huy đến kịp thời được ghi nhận là đã chấm dứt tình trạng thiếu lương thực nhanh chóng và giảm thiểu các hệ quả lâu dài.","Không có bất ổn tăng thêm $onOrAt $market.
+
+Giá lương thực $onOrAt $market trở về mức bình thường.",,graphics/icons/markets/food_shortage.png,prices,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+# player smuggling investigation,,,,,,,,,,,,
+investigation_smuggling,start_smuggling,,,secure_comm,"Cuộc điều tra buôn lậu $onOrAt $market","Một tin nhắn mã hóa từ một trong những liên lạc của bạn trong thế giới ngầm của $market cảnh báo rằng chính quyền $theMarketFaction đã mở cuộc điều tra về hoạt động buôn lậu gần đây.","Nếu cuộc điều tra phát hiện bạn liên quan đến buôn lậu, $theMarketFaction sẽ trở nên không thân thiện với bạn.
+
+$InvestigatorPost $investigatorName phụ trách cuộc điều tra. Bạn có thể tác động đến kết quả bằng cách liên lạc với $invHimOrHer.
+
+Cuộc điều tra sẽ kéo dài $duration.",,,important,,
+investigation_smuggling,clear_smuggling,,,player_intel_always,"Cuộc điều tra buôn lậu $onOrAt $market - minh oan","Cuộc điều tra buôn lậu của $marketFaction đã kết thúc, và có vẻ tên bạn đã được minh oan, hoặc ít nhất không có bằng chứng kết luận nào chứng minh bạn có liên quan.","Quan hệ với $theMarketFaction không bị ảnh hưởng.",,,important,,
+investigation_smuggling,clear_smuggling_bribe,,,player_intel_always,"Cuộc điều tra buôn lậu $onOrAt $market - minh oan","Cuộc điều tra buôn lậu của $marketFaction đã hoàn tất theo ""thỏa thuận riêng"" của bạn với $investigatorName, và vết nhơ này trong uy tín của bạn đã được xóa bỏ.","Khoản hối lộ cho $InvestigatorPost $investigatorName đã có hiệu quả.
+
+Quan hệ với $theMarketFaction không bị ảnh hưởng.",,,important,,
+investigation_smuggling,player_guilty_smuggling,,,player_intel_always,"Cuộc điều tra buôn lậu $onOrAt $market - bị kết tội","Cuộc điều tra của $marketFaction đã kết luận rằng bạn thực sự có liên quan đến hoạt động buôn lậu gần đây.",,,,important,,
+# faction good reputation investigation,,,,,,,,,,,,
+investigation_goodrep,start_goodrep,,,secure_comm,"$MarketFaction điều tra mối quan hệ của bạn với $OtherFaction","Một tin nhắn mã hóa từ một trong những liên lạc của bạn $onOrAt $market cảnh báo rằng chính quyền $theMarketFaction đã mở cuộc điều tra về mối quan hệ của bạn với $theOtherFactionLong.","$TheMarketFaction có thể trở nên thù địch với bạn do cuộc điều tra này.
+
+$InvestigatorPost $investigatorName $onOrAt $market phụ trách cuộc điều tra. Bạn có thể tác động đến kết quả bằng cách liên lạc với $invHimOrHer.
+
+Cuộc điều tra sẽ kéo dài $duration.",,,important,,
+investigation_goodrep,clear_goodrep,,,player_intel_always,"$MarketFaction điều tra mối quan hệ của bạn với $OtherFaction - minh oan","Cuộc điều tra của $marketFaction về mối quan hệ của bạn với $theOtherFactionLong đã kết thúc, và bạn được minh oan vì không hành động chống lại lợi ích của $marketFaction.","Quan hệ với $theMarketFaction không bị ảnh hưởng.",,,important,,
+investigation_goodrep,clear_goodrep_bribe,,,player_intel_always,"$MarketFaction điều tra mối quan hệ của bạn với $OtherFaction - minh oan","Cuộc điều tra của $marketFaction về mối quan hệ của bạn với $theOtherFactionLong đã hoàn tất theo ""thỏa thuận riêng"" của bạn với $investigatorName, và bạn được minh oan vì không hành động chống lại lợi ích của $marketFaction.","Khoản hối lộ cho $InvestigatorPost $investigatorName đã có hiệu quả.
+
+Quan hệ với $theMarketFaction không bị ảnh hưởng.",,,important,,
+investigation_goodrep,player_guilty_goodrep,,,player_intel_always,"$MarketFaction điều tra mối quan hệ của bạn với $OtherFaction - bị kết tội","Cuộc điều tra của $marketFaction về mối quan hệ của bạn với $theOtherFactionLong đã kết luận rằng bạn đã hành động chống lại lợi ích của $theMarketFaction. Rõ ràng là $theMarketFaction sẽ đối xử với bạn bằng sự nghi ngờ đặc biệt.",,,,important,,
+,,,,,,,,,,,,
+# comm sniffer investigation,,,,,,,,,,,,
+investigation_comm_sniffer,start_comm_sniffer,,,player_intel_always,"Mất liên lạc với thiết bị nghe lén liên lạc tại $name","Thiết bị nghe lén liên lạc bạn cài tại $name đã ngừng gửi báo cáo. Có khả năng nó đã bị phần mềm an ninh gỡ bỏ. Nếu nhật ký bảo mật được kiểm tra thủ công, có thể sẽ dẫn đến một cuộc điều tra về nguồn gốc của thiết bị nghe lén.","Thiết bị nghe lén liên lạc tại $name không còn hoạt động.",,,,,
+investigation_comm_sniffer,player_guilty_comm_sniffer,,,player_intel_always,"Thiết bị nghe lén liên lạc tại $name đã truy ra bạn","Một cuộc kiểm tra kỹ nhật ký bảo mật tại $name đã quy trách nhiệm cho bạn về vụ vi phạm an ninh.",,,,,,
+,,,,,,,,,,,,
+# trade disruption reports,,,,,,,,,,,,
+trade_disruption,report_td,,,news,"Thương mại bị gián đoạn $onOrAt $market trong hệ $marketSystem","Các hạm đội thương mại đi đến hoặc đi từ $market không đến được đích với số lượng đáng kể. Báo cáo cho rằng hải tặc hoặc chiến tranh là nguyên nhân có khả năng nhất.","Giá có khả năng trở về mức bình thường trong vòng hai tháng.
+
+Các mặt hàng sau bị ảnh hưởng:
+$commoditySummary
+
+Chọn ""prices"" và chuyển sang tab bản đồ để xem chi tiết.",,graphics/icons/markets/trade_disruption.png,prices,,
+trade_disruption,report_smuggling,,,news,"Hoạt động buôn lậu $onOrAt $market trong hệ $marketSystem","Tình hình $onOrAt $market trở nên kém ổn định hơn do hoạt động buôn lậu gần đây. Chính quyền địa phương hứa sẽ mở một cuộc điều tra toàn diện.","Độ ổn định giảm $smugglingPenalty.",,graphics/icons/markets/smuggling.png,,,
+trade_disruption,report_smuggling_player,,,news,"Hoạt động buôn lậu $onOrAt $market trong hệ $marketSystem","Tình hình $onOrAt $market trở nên kém ổn định hơn do hoạt động buôn lậu gần đây, trong đó bạn đã tham gia. Chính quyền địa phương hứa sẽ mở một cuộc điều tra toàn diện.","Độ ổn định giảm $smugglingPenalty.
+
+Hành động gần đây của bạn đã góp phần vào tình hình này.",,graphics/icons/markets/smuggling.png,,,
+,,,,,,,,,,,,
+# rep changes,,,,,,,,,,,,
+rep_tracker,trade_rep,,,player_intel_always,"Quan hệ với $theFaction được cải thiện nhờ thương mại","Có dấu hiệu cho thấy hoạt động thương mại gần đây của bạn tại $marketList đã được $theFaction chú ý.",,,,nomap,,
+rep_tracker,smuggling_rep,,,player_intel_always,"Quan hệ với $theFaction giảm do buôn lậu","Có dấu hiệu cho thấy hoạt động mua bán chợ đen gần đây của bạn tại $marketList đã được $theFaction chú ý. Không có bằng chứng kết luận, nhưng rõ ràng các hành động của bạn đang bị theo dõi chặt chẽ hơn trước.",,,,nomap,,
+rep_tracker,trade_negative,,,player_intel_always,"Quan hệ với $theHostileFaction giảm do thương mại với $pickedMarket","Có dấu hiệu cho thấy thương mại của bạn với $pickedMarket đủ đáng kể để bị $theHostileFaction chú ý, phe này thù địch với $theFaction.","Hoạt động của bạn ban đầu được báo cáo bởi các bên tại $hostileMarket.
+
+Buôn lậu (nếu có) ảnh hưởng ít hơn thương mại công khai.",,,nomap,,
+#rep_tracker,trade_no_change,,,player_intel_always,Standing with $theFaction unaffected by trade,"Your recent trade activity with $marketList, while noted by $theFaction, has not led to any change in relations.",The relationship is at a point where trade will not influence it.,,,,,
+#rep_tracker,trade_no_change_negative,,,player_intel_always,Standing with $theHostileFaction unaffected by trade,"Your recent trade activity with $pickedMarket, while noted by the hostile authorities at $hostileMarket, has not led to any change in relations.",The relationship is at a point where trade will not influence it.,,,,,
+rep_tracker,trade_xp_gain,,,player_intel_always,"Kinh nghiệm thương mại","Các chuyến buôn gần đây đã cho bạn hiểu biết mới về vận hành của nền kinh tế. Bạn cũng đã có được một số mối liên hệ quý giá.","Nhận được $xpGain kinh nghiệm.",,,nomap,,
+rep_tracker,rep_decay_positive,,,player_intel_always,"Quan hệ với $theFaction được cải thiện","Những xích mích và lỗi nhỏ sẽ được quên đi sau một thời gian, nếu không bị củng cố bởi một chuỗi hành vi gần đây.",,,,nomap,,
+#rep_tracker,rep_decay_negative,,,player_intel_always,Standing with $theFaction reduced,"Minor slights and small favors are quickly forgotten, if not reinforced by a recent pattern of behavior.",,,,,,
+rep_tracker,battle_rep_positive,,,secure_comm,"Quan hệ với $theFaction được cải thiện","Trận chiến của bạn với $otherFleetName đã được $theFaction ghi nhận tại $market.","Tin về trận chiến ban đầu được các bên tại $market ghi nhận.",,,nomap,,
+rep_tracker,comm_access_granted,,,player_intel_always,"$Faction đã cấp quyền truy cập kênh liên lạc bảo mật","Nhờ mức quan hệ tốt ($factionStanding), bạn đã được các nhà chức trách $onOrAt $market cấp quyền truy cập các kênh liên lạc nội bộ của $Faction.",,,,nomap,,
+rep_tracker,comm_access_revoked,,,player_intel_always,"$Faction đã thu hồi quyền truy cập kênh liên lạc bảo mật","Do mức quan hệ giảm ($factionStanding), quyền truy cập các kênh liên lạc nội bộ của $Faction đã bị thu hồi.",,,,nomap,,
+,,,,,,,,,,,,
+# trade info updates (prices etc),,,,,,,,,,,,
+trade_info,prices_market,,,player_intel_always,"Cập nhật giá của $market","Khai thác mạng liên lạc địa phương cho thấy thông tin về một số mặt hàng có giá bất thường tại $market.","$priceList",,,prices,,
+trade_info,prices_local,,,player_intel_always,"Cập nhật giá địa phương","Việc khai thác lưu lượng liên lạc địa phương và các nguồn dữ liệu sẵn có khác đã thu được dữ liệu giá của một số mặt hàng tại các thị trường trong hệ.","$priceList",,,prices,,
+trade_info,prices_sniffer,,,player_intel_always,"Cập nhật giá","Một đợt dữ liệu vi mô từ thiết bị nghe lén liên lạc tại $relayName chứa thông tin giá của một số mặt hàng trong hệ sao $fromSystem.","$priceList",,,prices,,
+trade_info,prices_remote,,,player_intel_always,"Cập nhật giá","Việc khai thác lưu lượng liên lạc địa phương và các nguồn dữ liệu sẵn có khác đã thu được dữ liệu giá của một số mặt hàng trong hệ sao $fromSystem.","$priceList",,,prices,,
+,,,,,,,,,,,,
+# customs inspection,,,,,,,,,,,,
+customs_inspection,player_evaded,,,player_intel_always,"Kiểm tra hải quan","Việc bạn né tránh kiểm tra hải quan, dù thành công trong ngắn hạn, đã được các nhà chức trách $faction ghi nhận.",,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+# system-wide bounty reports,,,,,,,,,,,,
+system_bounty,likely,,,player_intel,"Có khả năng $market sẽ đưa ra tiền thưởng truy nã","Các nhà chức trách $onOrAt $market được đồn là đang cân nhắc treo tiền thưởng truy nã đối với mọi hạm đội thù địch với $theMarketFaction.","
+",,,,,
+system_bounty,start,,,news,"$market treo tiền thưởng truy nã","Các nhà chức trách $onOrAt $market, mệt mỏi vì các cuộc tấn công liên tục vào đường vận tải, sự gián đoạn thương mại và tình trạng gần như chiến tranh chung, đã treo tiền thưởng truy nã đối với mọi hạm đội thù địch với $theMarketFaction.","Kéo dài $daysLeft ngày.
+
+Số tiền trả phụ thuộc vào số tàu bị tiêu diệt (bắt đầu từ $baseBounty credits cho một tàu hộ vệ), quan hệ với $theMarketFaction cũng có thể được cải thiện.
+
+Tàu phải bị tiêu diệt hoặc vô hiệu hóa trong hệ hoặc gần đó trong siêu không gian.
+
+Tiền thưởng được chuyển qua kênh liên lạc bảo mật thông qua một trạm chuyển tiếp liên lạc gần đó.
+",,,,,
+system_bounty,start_with_faction,,,news,"$market treo tiền thưởng truy nã","Các nhà chức trách $onOrAt $market, mệt mỏi vì các cuộc tấn công liên tục vào đường vận tải, sự gián đoạn thương mại và tình trạng gần như chiến tranh chung, đã treo tiền thưởng truy nã đối với mọi hạm đội thù địch với $theMarketFaction.","Kéo dài $daysLeft ngày.
+
+Có khả năng do hoạt động của $enemyFaction trong hệ.
+
+Số tiền trả phụ thuộc vào số tàu bị tiêu diệt (bắt đầu từ $baseBounty credits cho một tàu hộ vệ), quan hệ với $theMarketFaction cũng có thể được cải thiện.
+
+Tàu phải bị tiêu diệt hoặc vô hiệu hóa trong hệ hoặc gần đó trong siêu không gian.
+
+Tiền thưởng được chuyển qua kênh liên lạc bảo mật thông qua một trạm chuyển tiếp liên lạc gần đó.
+",,,,,
+system_bounty,bounty_payment,,,secure_comm,"Tiền thưởng từ $market: $bountyCredits credits","Tin nhắn có một tệp đính kèm mã hóa chứa khoản thanh toán $bountyCredits credits.","Nhận được $bountyCredits credits.
+
+$market sẽ tiếp tục treo tiền thưởng trong $daysLeft ngày.",,graphics/icons/intel/gain_credits.png,nomap,,
+system_bounty,bounty_payment_share,,,secure_comm,"Tiền thưởng từ $market: $bountyCredits credits","Tin nhắn có một tệp đính kèm mã hóa chứa phần tiền thưởng của bạn, tổng cộng $bountyCredits credits.","Nhận được $bountyCredits credits.
+
+$market sẽ tiếp tục treo tiền thưởng trong $daysLeft ngày.",,graphics/icons/intel/gain_credits.png,nomap,,
+system_bounty,bounty_no_payment,,,player_intel_always,"Đánh giá về tiền thưởng từ $market","Tin nhắn chứa một báo cáo tình báo nội bộ về tiền thưởng do $market đưa ra.","Không có khoản tiền thưởng nào được trả vì $theMarketFaction đang có quan hệ $factionStanding với bạn.
+
+$market sẽ tiếp tục treo tiền thưởng trong $daysLeft ngày.",,,nomap,,
+system_bounty,bounty_no_rep,,,player_intel_always,"Đánh giá về tiền thưởng từ $market","Tin nhắn chứa một báo cáo tình báo nội bộ về tiền thưởng do $market đưa ra.","Không có tiền thưởng hay cải thiện quan hệ nào được trả vì $theMarketFaction đang có quan hệ $factionStanding với bạn.
+
+$market sẽ tiếp tục treo tiền thưởng trong $daysLeft ngày.",,,nomap,,
+system_bounty,end,,,news,"Tiền thưởng do $market đưa ra đã kết thúc","Các nhà chức trách $onOrAt $market đã tuyên bố kết thúc thời hạn tiền thưởng.","Sẽ không có thêm khoản tiền thưởng nào được trả.",,,nomap,,
+,,,,,,,,,,,,
+comm_sniffer,report,,,player_comm_sniffer,"Dữ liệu thiết bị nghe lén liên lạc","Một tệp đính kèm chứa bản ghi tổng hợp các luồng liên lạc, cả do người tạo lẫn tự động, đi qua hệ $system.","Giúp tăng khả năng dự đoán chính xác các sự kiện tương lai trong hệ sao.",,,,,
+,,,,,,,,,,,,
+# person bounty reports,,,,,,,,,,,,
+person_bounty,start_pirate,,,news,"Tiền thưởng $bountyCredits credits do $theFaction treo cho $targetName","Các nhà chức trách $Faction $onOrAt $market đã treo tiền thưởng để bắt $targetName, một tên hải tặc khét tiếng, ra trước công lý.","Phần thưởng $bountyCredits credits, được chuyển qua kênh liên lạc bảo mật thông qua một trạm chuyển tiếp liên lạc gần đó.
+
+Treo trong $daysLeft ngày.
+
+$targetDesc
+
+Được đồn là $hideoutCrumb.",,,,,
+person_bounty,start_deserter,,,news,"Tiền thưởng $bountyCredits credits do $theFaction treo cho $targetName","Các nhà chức trách $Faction $onOrAt $market đã treo tiền thưởng để bắt $targetName, bị kết tội đào ngũ, ra trước công lý.","Phần thưởng $bountyCredits credits được chuyển qua kênh liên lạc bảo mật thông qua một trạm chuyển tiếp liên lạc gần đó.
+
+Treo trong $daysLeft ngày.
+
+$targetDesc
+
+Được đồn là $hideoutCrumb.",,,,,
+person_bounty,bounty_payment_end,,,secure_comm,"Tiền thưởng từ $theFaction: $bountyCredits credits","Tin nhắn có một tệp đính kèm mã hóa chứa khoản thanh toán $bountyCredits credits cho việc đưa $targetName ra trước công lý.","Nhận được $bountyCredits credits.",,graphics/icons/intel/gain_credits.png,nomap,,
+person_bounty,bounty_payment_share_end,,,secure_comm,"Tiền thưởng từ $theFaction: $bountyCredits credits","Tin nhắn có một tệp đính kèm mã hóa chứa phần tiền thưởng của bạn, tổng cộng $bountyCredits credits, cho việc đưa $targetName ra trước công lý.","Nhận được $bountyCredits credits.",,graphics/icons/intel/gain_credits.png,nomap,,
+person_bounty,bounty_no_payment_end,,,player_intel_always,"Đánh giá về tiền thưởng truy bắt $targetName","Tin nhắn chứa một báo cáo tình báo nội bộ về tiền thưởng truy bắt $targetName.","Không có khoản tiền thưởng nào được trả vì $theFaction đang có quan hệ $factionStanding với bạn.",,,nomap,,
+person_bounty,bounty_no_rep_end,,,player_intel_always,"Đánh giá về tiền thưởng truy bắt $targetName","Tin nhắn chứa một báo cáo tình báo nội bộ về tiền thưởng truy bắt $targetName.","Không có tiền thưởng hay cải thiện quan hệ nào được trả vì $theFaction đang có quan hệ $factionStanding với bạn.",,,nomap,,
+person_bounty,other_end,,,news,"Tiền thưởng truy bắt $targetName đã kết thúc","Có báo cáo cho biết $targetName đã thiệt mạng trong một sự cố không liên quan đến việc treo thưởng.","Tiền thưởng không còn được treo nữa.",,,nomap,,
+person_bounty,expire_end,,,news,"Tiền thưởng truy bắt $targetName đã kết thúc","$Faction, các nhà chức trách $onOrAt $market đã rút tiền thưởng trước đó treo cho $targetName.","Tiền thưởng không còn được treo nữa.",,,nomap,,
+,,,,,,,,,,,,
+# test mission,,,,,,,,,,,,
+test_mission,start,,,player_intel_always,"Đã nhận nhiệm vụ thử nghiệm","Bạn đã nhận một nhiệm vụ thử nghiệm. Xin chúc mừng, chắc là vậy.","Có lẽ sẽ không có phần thưởng nào.",,,,,
+test_mission,end_success,,,player_intel_always,"Nhiệm vụ thử nghiệm hoàn thành: thành công","Nhiệm vụ thử nghiệm đã hoàn thành thành công.",,,,,,
+test_mission,end_failure,,,player_intel_always,"Nhiệm vụ thử nghiệm hoàn thành: thất bại","Nhiệm vụ thử nghiệm đã thất bại.",,,,,,
+,,,,,,,,,,,,
+# market procurement mission,,,,,,,,,,,,
+market_procurement,posting,,,posting,"Thu mua $quantity đơn vị $commodity và giao đến $market trong $daysLeft để nhận $rewardCredits thanh toán.","Liên hệ $contactDesc $contactName tại $market để hoàn tất việc giao hàng.","Thanh toán cơ bản là $perUnit mỗi đơn vị.
+
+$market do chính quyền $marketFaction kiểm soát.
+
+$contactName $contactDetail.",,,no_system_prefix,,
+market_procurement,posting_bonus,,,posting,"Thu mua $quantity đơn vị $commodity và giao đến $market trong $daysLeft để nhận $rewardCredits thanh toán. Thưởng thêm $bonusCredits nếu giao trong $bonusDays.","Liên hệ $contactDesc $contactName tại $market để hoàn tất việc giao hàng.","Thanh toán cơ bản là $perUnit mỗi đơn vị.
+
+$market do chính quyền $marketFaction kiểm soát.
+
+$contactName $contactDetail.",,,,,
+market_procurement,accept,,,secure_comm,"Đã nhận: thu mua $quantity đơn vị $commodity và giao đến $market","Thu mua $quantity đơn vị $commodity và giao đến $market.
+
+Liên hệ $contactDesc $contactName tại $market để hoàn tất việc giao hàng.","$daysLeft để hoàn tất việc giao hàng.
+
+Phần thưởng $rewardCredits ($perUnit mỗi đơn vị).
+
+$market do chính quyền $marketFaction kiểm soát.
+
+$contactName $contactDetail.",,,"no_system_prefix, important",,
+market_procurement,accept_bonus,,,secure_comm,"Đã nhận: thu mua $quantity đơn vị $commodity và giao đến $market","Thu mua $quantity đơn vị $commodity và giao đến $market.
+
+Liên hệ $contactDesc $contactName tại $market để hoàn tất việc giao hàng.","$daysLeft để hoàn tất việc giao hàng.
+
+Phần thưởng $rewardCredits ($perUnit mỗi đơn vị).
+
+Thưởng thêm $bonusCredits nếu giao trong $bonusDays.
+
+$market do chính quyền $marketFaction kiểm soát.
+
+$contactName $contactDetail.",,,"no_system_prefix, important",,
+market_procurement,success,,,player_intel_always,"Đã hoàn thành: $quantity đơn vị $commodity đã giao đến $market","Nhiệm vụ đã hoàn thành thành công.","Nhận được $actualReward.",,,"no_system_prefix, important",,
+market_procurement,success_bonus,,,player_intel_always,"Đã hoàn thành: $quantity đơn vị $commodity đã giao đến $market","Nhiệm vụ đã hoàn thành thành công.","Nhận được $actualReward, gồm $bonusCredits tiền thưởng thêm.",,,"no_system_prefix, important",,
+market_procurement,failure,,,player_intel_always,"Thất bại: không giao được $quantity đơn vị $commodity đến $market đúng hạn","Nhiệm vụ thất bại - quá hạn.",,,,"no_system_prefix, important",,
+,,,,,,,,,,,,
+# analyze entity mission,,,,,,,,,,,,
+analyze_entity,posting,,,posting,"Chạy gói cảm biến được cung cấp trên $entityName trong $systemName trong vòng $daysLeft để nhận $rewardCredits thanh toán.","Nhiệm vụ được coi là hoàn thành và thanh toán được chuyển ngay khi chạy gói cảm biến.","$locationHint",,,no_system_prefix,,
+analyze_entity,accept,,,secure_comm,"Đã nhận: chạy gói cảm biến trên $entityName trong $systemName","Phần thưởng $rewardCredits, phải hoàn thành trong $daysLeft.
+
+Nhiệm vụ được coi là hoàn thành và thanh toán được chuyển ngay khi chạy gói cảm biến.","$locationHint",,,"no_system_prefix, important",,
+analyze_entity,failure,,,player_intel_always,"Thất bại: chạy gói cảm biến trên $entityName trong $systemName","Nhiệm vụ thất bại - quá hạn.",,,,"no_system_prefix, important",,
+analyze_entity,success,,,player_intel_always,"Hoàn thành: chạy gói cảm biến trên $entityName trong $systemName","Nhiệm vụ đã hoàn thành thành công.","Nhận được $rewardCredits.",,,"no_system_prefix, important",,
+,,,,,,,,,,,,
+# survey planet mission,,,,,,,,,,,,
+survey_planet,posting,,,posting,"Thực hiện khảo sát toàn diện $planetName trong $systemName trong vòng $daysLeft để nhận $rewardCredits thanh toán.","Nhiệm vụ được coi là hoàn thành và thanh toán được chuyển ngay khi hoàn tất khảo sát.","$surveyInfo",,,no_system_prefix,,
+survey_planet,accept,,,secure_comm,"Đã nhận: thực hiện khảo sát toàn diện $planetName trong $systemName","Phần thưởng $rewardCredits, phải hoàn thành trong $daysLeft.
+
+Nhiệm vụ được coi là hoàn thành và thanh toán được chuyển ngay khi hoàn tất khảo sát.","$surveyInfo",,,"no_system_prefix, important",,
+survey_planet,failure,,,player_intel_always,"Thất bại: thực hiện khảo sát toàn diện $planetName trong $systemName","Nhiệm vụ thất bại - quá hạn.",,,,"no_system_prefix, important",,
+survey_planet,success,,,player_intel_always,"Hoàn thành: thực hiện khảo sát toàn diện $planetName trong $systemName","Nhiệm vụ đã hoàn thành thành công.","Nhận được $rewardCredits.",,,"no_system_prefix, important",,
+,,,,,,,,,,,,
+# tutorial mission,,,,,,,,,,,,
+tutorial_mission,start,,,secure_comm,"Liên lạc bảo mật từ Ancyra","Bạn nhận được một liên lạc tia hẹp từ thế giới có người ở chính của hệ, Ancyra.
+
+Tin nhắn ngắn gọn và yêu cầu bạn đến đó và liên hệ $mainContactPost $mainContactName càng sớm càng tốt.",,,,"no_system_prefix, important",,
+tutorial_mission,sneak_start,,,player_intel_always,"Thu thập dữ liệu điểm nhảy tại Derinkuyu","Liên hệ $dataContactName tại Trạm khai thác Derinkuyu để lấy các số liệu thô về điểm nhảy.
+
+Phải liên lạc khi tắt bộ phát đáp, vì thợ mỏ ở Derinkuyu đã trở thành hải tặc và hạm đội của bạn sẽ bị tấn công nếu không làm vậy.","Dùng ""Go Dark"" để tránh bị phát hiện, và ""Emergency Burn"" để thoát đi nếu bị nhìn thấy.",,,"no_system_prefix, important",,
+tutorial_mission,sneak_end,,,player_intel_always,"Quay về Ancyra với dữ liệu","Quay về Ancyra và liên hệ $mainContactPost $mainContactLastName để giao dữ liệu điểm nhảy.",,,,"no_system_prefix, important",,
+tutorial_mission,salvage_core_start,,,player_intel_always,"Trục vớt lõi AI từ một tàu bỏ hoang","Phân tích dữ liệu điểm nhảy cần một lõi AI.
+
+Có một tàu thăm dò thời kỳ Domain ngoài quỹ đạo Pontus. Nếu trục vớt được, có khả năng nó sẽ cho ra một lõi AI gamma, đủ cho nhiệm vụ.","Đến Pontus, tiến về phía vành đai tiểu hành tinh, rồi dùng một Active Sensor Burst để định vị tàu thăm dò. 
+
+Tiếp cận và trục vớt nó, hoặc phá thành mảnh vụn rồi thu gom qua trường mảnh vỡ tạo ra.
+
+Có khả năng bạn sẽ phải vượt qua các phòng thủ tự động trước.",,,"no_system_prefix, important",,
+tutorial_mission,salvage_core_end,,,player_intel_always,"Quay về Ancyra với lõi AI","Quay về Ancyra và liên hệ $mainContactPost $mainContactLastName để giao lõi AI.",,,,"no_system_prefix, important",,
+tutorial_mission,ship_recovery_start,,,player_intel_always,"Thu hồi các tàu bỏ hoang quanh Tetra","Đến nghĩa địa tàu quanh Tetra và thu hồi càng nhiều tàu càng tốt.
+
+Mang theo thêm thủy thủ đoàn để điều khiển các tàu thu hồi, và thêm tiếp tế để khôi phục độ sẵn sàng chiến đấu của chúng.",,,,"no_system_prefix, important",,
+tutorial_mission,ship_recovery_end,,,player_intel_always,"Quay về Ancyra và trang bị cho các tàu đã thu hồi","Quay về gặp $mainContactPost $mainContactLastName tại Ancyra để được hỗ trợ trang bị vũ khí cho các tàu đã thu hồi.",,,,"no_system_prefix, important",,
+tutorial_mission,stabilize_jump_point,,,player_intel_always,"Ổn định điểm nhảy trong hệ nội","Dùng chuỗi hyperwave do lõi AI tạo ra để ổn định điểm nhảy trong hệ nội.
+
+Bạn sẽ phải đánh bại bọn hải tặc canh giữ nó trước.",,,,"no_system_prefix, important",,
+tutorial_mission,stabilize_jump_point_done,,,player_intel_always,"Quay về Ancyra và báo cáo thành công","Kết nối siêu không gian của Galatia đã được khôi phục, và các hạm đội thương mại lại có thể ra vào hệ.
+
+Ban lãnh đạo Derinkuyu chắc chắn sẽ sớm bị lật đổ bởi những thợ mỏ bình thường, háo hức được đứng về phía luật pháp một lần nữa.",,,,"no_system_prefix, important",,
+tutorial_mission,deliver_message,,,player_intel_always,"Gửi báo cáo đến Jangala trong hệ Corvus","$MainContactRank $mainContactLastName giao cho bạn nhiệm vụ mang báo cáo chi tiết các sự kiện gần đây đến $jangalaContactPost $jangalaContactLastName tại Jangala.
+
+Hãy chắc chắn rằng bạn có đủ nhiên liệu để thực hiện chuyến đi thành công.",,,,"no_system_prefix, important",,
+tutorial_mission,end,,,player_intel_always,"Đã gửi báo cáo","Bạn đã gửi báo cáo và mức quan hệ của bạn với Hegemony đã tăng đáng kể.",,,,"no_system_prefix, important",,
+,,,,,,,,,,,,
+# faction commission,,,,,,,,,,,,
+faction_commission,posting,,,posting,"Cần thiết cho hầu hết các giao dịch quân sự, và trả một khoản tiền thưởng nhỏ cho kẻ thù của phe này, đồng thời người giữ giấy ủy nhiệm sẽ trở thành đối tượng thù địch.","Tiền thưởng bắt đầu từ $baseBounty credits cho một tàu hộ vệ địch và tăng với tàu lớn hơn.
+
+Sẽ bị hủy nếu quan hệ của người giữ giấy ủy nhiệm với $theFaction giảm xuống mức trung lập.",,,,important,,
+faction_commission,accept,,,secure_comm,"Giấy ủy nhiệm $Faction đã được chấp nhận","Cần thiết cho hầu hết các giao dịch quân sự, và trả một khoản tiền thưởng nhỏ cho kẻ thù của phe này, đồng thời người giữ giấy ủy nhiệm sẽ trở thành đối tượng thù địch.","Tiền thưởng bắt đầu từ $baseBounty credits cho một tàu hộ vệ địch và tăng với tàu lớn hơn.
+
+Sẽ bị hủy nếu quan hệ của người giữ giấy ủy nhiệm với $theFaction giảm xuống mức trung lập.
+",,,important,,
+faction_commission,become_hostile,,,secure_comm,"$otherFaction đã trở thành thù địch","Do bạn nhận giấy ủy nhiệm từ $theFaction, $theOtherFactionLong nay trở thành thù địch với bạn.",,,,"important, nomap",,
+faction_commission,bounty_payment,,,secure_comm,"Thanh toán từ $theFaction: $bountyCredits credits","Tin nhắn có một tệp đính kèm mã hóa chứa khoản thanh toán $bountyCredits credits cho việc chiến đấu với kẻ thù của $theFaction.
+
+Tệp tham chiếu dữ liệu nhật ký chuyến bay từ trận chiến gần đây của bạn với $enemyDesc.","Nhận được $bountyCredits credits.",,graphics/icons/intel/gain_credits.png,nomap,,
+faction_commission,annul,,,secure_comm,"Giấy ủy nhiệm từ $theFaction đã bị hủy","Thông báo chính thức từ $theFaction hủy giấy ủy nhiệm của bạn do quan hệ không còn tốt.","Có thể nhận thêm một ủy nhiệm khác khi quan hệ với phe được cải thiện.",,,"important, nomap",,
+faction_commission,rep_drop_hostile,,,secure_comm,"Thông báo của $Faction về xung đột với $theOtherFaction","Thông điệp là công văn chính thức từ $theFaction, chất vấn về cáo buộc bạn gây xung đột với $theOtherFaction, và nhắc bạn bằng giọng gay gắt rằng $theOtherFaction $otherFactionIsOrAre không phải kẻ thù của $theFaction.","Hành động của bạn có thể gây ra giao tranh công khai giữa $theFaction và $theOtherFaction.",,,nomap,,
+,,,,,,,,,,,,
+# faction hostility,,,,,,,,,,,,
+faction_hostility,warning,,,secure_comm,"Sắp nổ ra xung đột giữa $theOneFaction và $theTwoFaction","Bạn nhận được cảnh báo từ $theCommissionFaction rằng tình trạng chiến tranh lạnh với $theOtherFaction gần như chắc chắn sẽ chuyển thành giao tranh công khai trong vòng vài tuần tới.","$TheOtherFaction sẽ trở thành thù địch với bạn, vì bạn đang giữ một ủy nhiệm của $commissionFaction.
+
+Uy tín của bạn với $theOtherFaction sẽ được khôi phục phần lớn khi giao tranh kết thúc.",,graphics/icons/intel/faction_conflict.png,important,,
+faction_hostility,start,,,news,"Giao tranh công khai giữa $theOneFaction và $theTwoFaction","Tình trạng chiến tranh lạnh giữa $theOneFaction và $theTwoFaction đã chuyển thành giao tranh công khai.
+
+Tuy nhiên, không dự kiến sẽ có các trận hải chiến lớn hay các cuộc tấn công vào trung tâm dân cư, và phần lớn chuyên gia dự đoán sẽ đạt được một thỏa thuận hòa bình nào đó trong vòng một chu kỳ.",,,graphics/icons/intel/faction_conflict.png,important,,
+faction_hostility,end,,,news,"Đình chiến giữa $theOneFaction và $theTwoFaction","Một thỏa thuận đã đạt được qua kênh ngoại giao không chính thức; giao tranh công khai giữa $theOneFaction và $theTwoFaction đã chấm dứt, và thương mại bình thường đã được nối lại.","Giao tranh công khai đã kết thúc.",,graphics/icons/intel/faction_peace.png,important,,
+,,,,,,,,,,,,
+# civil disorder,,,,,,,,,,,,
+civil_disorder,possible1,,,player_intel,"Có thể xảy ra bất ổn dân sự $onOrAt $market","Có dấu hiệu cho thấy bất ổn dân sự có khả năng xảy ra $onOrAt $market trong vài tuần tới.","Sản xuất giảm $onOrAt $market.",,,,,
+civil_disorder,possible2,,,news,"Có thể xảy ra bất ổn dân sự $onOrAt $market","Một trí thức nổi tiếng $onOrAt $market đã ra tuyên bố chỉ trích $rulingfaction và bị bắt ngay sau đó. Các quan chức $rulingfaction chưa đưa ra bình luận nào.","Dấu hiệu bất ổn dân sự gia tăng $onOrAt $market.",,,,,
+civil_disorder,possible3,,,news,"Có thể xảy ra bất ổn dân sự $onOrAt $market","Một cuộc biểu tình được tổ chức bên ngoài trụ sở hành chính địa phương của $rulingFaction $onOrAt $market. Đám đông bị chính quyền giải tán, khiến nhiều người thiệt mạng.","Dấu hiệu bất ổn dân sự gia tăng $onOrAt $market.",,,,,various factions may comment on this event
+civil_disorder,possible3,,HOSTILE,"tritachyon_public,
+hegemony_public","Có thể xảy ra bất ổn dân sự $onOrAt $market","$faction đã ra tuyên bố lên án cuộc đàn áp biểu tình quá khắc nghiệt, không cần thiết, của $rulingFaction $onOrAt $market.","Dấu hiệu bất ổn dân sự gia tăng $onOrAt $market.",,,,,possible reaction to the above event
+civil_disorder,possible3,,FRIENDLY,"tritachyon_public,
+hegemony_public","Có thể xảy ra bất ổn dân sự $onOrAt $market","$faction đã ra tuyên bố lên án các cuộc biểu tình đang diễn ra $onOrAt $market, kêu gọi các lãnh đạo của họ tự thú với các quan chức $rulingFaction.","Dấu hiệu bất ổn dân sự gia tăng $onOrAt $market.",,,,,possible reaction to the above event
+civil_disorder,possible4,,,news,"Có thể xảy ra bất ổn dân sự $onOrAt $market","Chính quyền địa phương của $rulingfaction $onOrAt $market đã thông báo bắt giữ nhiều kẻ kích động chống chính phủ nổi tiếng.","Dấu hiệu bất ổn dân sự gia tăng $onOrAt $market.",,,,,
+civil_disorder,likely,,,player_intel,"Bất ổn dân sự có khả năng xảy ra $onOrAt $market","Có dấu hiệu cho thấy bất ổn dân sự gần như chắc chắn sẽ xảy ra $onOrAt $market trong vài tuần tới.","Sản xuất giảm $onOrAt $market.",,,,,
+civil_disorder,start1,,,news,"Bất ổn dân sự $onOrAt $market","Một cuộc tổng đình công đã bùng phát $onOrAt $market. Các quan chức $rulingfaction đã ra tuyên bố lên án hành động của một số kẻ cầm đầu chống chính phủ. ","Sản xuất giảm $onOrAt $market.",,,,,
+civil_disorder,start2,,,news,"Bất ổn dân sự $onOrAt $market","Một loạt vụ đánh bom nhắm vào các cơ sở của $rulingparty đã xảy ra $onOrAt $market. Một tuyên bố chính thức hứa rằng thủ phạm sẽ bị đưa ra công lý.","Sản xuất giảm $onOrAt $market.",,,,,
+civil_disorder,start3,,,news,"Bất ổn dân sự $onOrAt $market","Các vụ phá hoại đã khiến những trung tâm sản xuất lớn $onOrAt $market rơi vào tình trạng đình trệ.","Sản xuất giảm $onOrAt $market.",,,,,
+civil_disorder,ending1,,,news,,"Thiết quân luật đã được ban bố $onOrAt $market để dẹp bất ổn dân sự.","Sản xuất có khả năng sớm trở lại mức bình thường.",,,,,
+civil_disorder,ending2,,,news,,"Các quan chức $rulingfaction $onOrAt $market đã thông báo các cuộc truy quét nhiều điểm trú ẩn của phe đối lập. Vụ đấu súng sau đó khiến hàng chục người thương vong.","Sản xuất có khả năng sớm trở lại mức bình thường.",,,,,
+civil_disorder,ending3,,,news,,"Lính thủy đánh bộ đã được triển khai tới các trung tâm dân cư lớn $onOrAt $market để dẹp bất ổn dân sự.","Sản xuất có khả năng sớm trở lại mức bình thường.",,,,,
+civil_disorder,ending4,,,news,,"Các cuộc đàm phán đã mở ra giữa $rulingFaction và các lãnh đạo đối lập $onOrAt $market.","Sản xuất có khả năng sớm trở lại mức bình thường.",,,,,
+civil_disorder,end1,,,news,,"Thiết quân luật đã được dỡ bỏ khi hòa bình trở lại $market.","Sản xuất đã trở lại mức bình thường.",,,,,
+civil_disorder,end2,,,news,,"Lính thủy đánh bộ đã rút khỏi các trung tâm dân cư lớn khi hòa bình trở lại $market.","Sản xuất đã trở lại mức bình thường.",,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+sindria_terrorists,likely,,,sindrian_diktat_internal,"Có thể xảy ra các vụ tấn công khủng bố tại Sindria","Tin tình báo cho biết bọn khủng bố đã có được một kho vũ khí bất hợp pháp và định dùng chúng nhắm vào các mục tiêu của chính phủ.","Có khả năng sản xuất trên Sindria giảm.",,,,,precursor to terrorist attacks
+sindria_terrorists,start1,,,news,"Các vụ tấn công khủng bố tại Sindria","Một tượng đài công cộng kỷ niệm các chiến thắng quân sự của Lion's đã bị phá hủy trong một vụ đánh bom lúc nửa đêm, và nhanh chóng bị các quan chức Diktat lên án. Lệnh giới nghiêm tạm thời đã được áp dụng tại các thành phố tổ ong lớn và tuần tra an ninh được tăng cường.","Sản xuất trên Sindria giảm.",,,,,start option 1
+sindria_terrorists,start2,,,news,"Các vụ tấn công khủng bố tại Sindria","Nhiều quả bom đã được phát hiện và vô hiệu hóa tại các trung tâm công nghiệp trọng yếu của Sindria. Các cơ sở trên khắp hành tinh đã bị đóng cửa và lục soát tìm bom. Một quan chức Diktat thông báo thành lập một đội đặc nhiệm để truy tìm thủ phạm.","Sản xuất trên Sindria giảm.",,,,,start option 2
+sindria_terrorists,start3,,,news,"Các vụ tấn công khủng bố tại Sindria","Một loạt vụ đánh bom nhắm vào các văn phòng hành chính của Diktat đã xảy ra trên Sindria. Một tuyên bố của các quan chức Diktat hứa rằng bọn khủng bố sẽ sớm bị đưa ra công lý.","Sản xuất trên Sindria giảm.",,,,,start option 3
+sindria_terrorists,continued1,,,news,"Các vụ tấn công khủng bố tại Sindria","Nhiều vụ nổ làm rung chuyển các tầng trên của những thành phố tổ ong lớn; các thủ lĩnh khủng bố đã phát đi một tuyên bố holovid, nói rằng các vụ đánh bom sẽ tiếp tục cho đến khi một số tù nhân chính trị đang bị giam trên Cruor được chính quyền Diktat thả. ","Sản xuất trên Sindria giảm.",,,,,"may proceed through zero or more of the ""continued"" event stages before reaching one of the concluding stages."
+sindria_terrorists,continued2,,,news,"Các vụ tấn công khủng bố tại Sindria","Các tay súng khủng bố đã xông vào một trung tâm tuyển quân hải quân của Diktat hôm nay. Tất cả đều bị giết trong một trận đấu súng kéo dài hàng giờ, khiến hàng chục thường dân thương vong. Các quan chức Diktat đã lên án hành động hèn nhát này.","Sản xuất trên Sindria giảm.",,,,,""""
+sindria_terrorists,concluding1,,,news,"Các vụ tấn công khủng bố tại Sindria sắp kết thúc","Một điểm trú ẩn của khủng bố bị lực lượng an ninh xông vào nhưng được phát hiện đã bỏ hoang. Các quan chức Diktat Intelligence tuyên bố đã tìm thấy bằng chứng sẽ giúp truy lùng bọn khủng bố.","Sản xuất trên Sindria sẽ sớm trở lại mức bình thường.",,,,,
+sindria_terrorists,concluding2,,,news,"Các vụ tấn công khủng bố tại Sindria sắp kết thúc","Một tay sai khủng bố đã bị bắt và thẩm vấn bởi tình báo Diktat. Các quan chức cho biết cuộc truy lùng các thủ lĩnh khủng bố đang đến hồi kết.","Sản xuất trên Sindria sẽ sớm trở lại mức bình thường.",,,,,
+sindria_terrorists,end1,,,news,"Các vụ tấn công khủng bố tại Sindria đã chấm dứt.","Nhiều điểm trú ẩn của khủng bố đã bị lực lượng an ninh Diktat đột kích trong một chiến dịch bất ngờ vào sáng sớm. Theo các quan chức, đạn dược cất giữ không đúng cách đã phát nổ, không để lại người sống sót.","Mức sản xuất trên Sindria trở lại bình thường.",,,,,
+sindria_terrorists,end2,,,news,"Các vụ tấn công khủng bố tại Sindria đã chấm dứt.","Lực lượng an ninh Diktat đã bắt giữ các thủ lĩnh khủng bố đang cố trốn khỏi Sindria. Các quan chức tuyên bố sau khi bị Diktat Intelligence thẩm vấn, họ sẽ bị xét xử nhanh chóng và hành quyết công khai.","Mức sản xuất trên Sindria trở lại bình thường.",,,,,"Like a Cardassian novel, everyone arrested in Sindria is guilty - the only question remains: of what?"

@@ -1,0 +1,24 @@
+CATEGORY gm_cat_other|generic|Khác|game_mechanics
+
+CURRENT_CATEGORY gm_cat_other
+
+BEGIN gm_techs|Các loại công nghệ
+Các mức công nghệ của một số tàu - {{Công nghệ thấp}}, {{Công nghệ trung}}, và {{Công nghệ cao}} - không phải là thang đo chất lượng. Đúng hơn, đó chỉ là những cách thiết kế khác nhau cho chiến đấu, và không cách nào vượt trội hơn các cách còn lại. Tàu mạnh hơn thường tốn nhiều điểm triển khai hơn.
+
+COLOR Low Tech
+==Công nghệ thấp==
+RESET
+Giáp dày, chậm, dùng hỗn hợp vũ khí đạn đạo và tên lửa. Khiên yếu hơn. {{rel:codex_system_burndrive|Burn Drive}}, một hệ thống tàu phổ biến ở công nghệ thấp, chỉ cung cấp khả năng cơ động về phía trước và cho phép tàu đuổi theo và trừng phạt các địch thủ nhanh hơn, nhưng không giúp ích nhiều khi rút lui khỏi tình thế xấu. Tàu lớn thường dễ bị đánh bọc sườn và cần được hỗ trợ mới phát huy hiệu quả.
+
+COLOR Midline
+==Công nghệ trung==
+RESET
+Nhìn chung giáp, khiên và khả năng cơ động ở mức trung bình. Dùng hỗn hợp vũ khí đạn đạo, năng lượng và tên lửa. Vũ khí năng lượng chủ yếu giới hạn ở tia - tuy tàu có thể gắn các vũ khí năng lượng khác, nhưng thường thiếu khả năng tản flux cần thiết để sử dụng tốt chúng. Thường phụ thuộc vào các tàu chuyên biệt phối hợp với nhau để tối đa hóa hiệu quả.
+
+COLOR High Tech
+==Công nghệ cao==
+RESET
+Nhanh, khiên mạnh và giáp yếu hơn. Dùng hỗn hợp vũ khí năng lượng và tên lửa, với khả năng tản flux đủ để hỗ trợ nhiều loại năng lượng hơn. Vũ khí năng lượng thường có tầm ngắn hơn, được bù đắp bằng tốc độ tối đa cao hơn của tàu. Thường dựa vào chiến thuật đánh rồi rút và nhìn chung phát huy tốt trong môi trường chiến trường hỗn loạn hơn.
+
+Tất cả những điều này chỉ là khái quát, và vẫn có ngoại lệ.  
+END

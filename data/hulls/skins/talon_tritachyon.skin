@@ -1,0 +1,16 @@
+{
+	"baseHullId":"talon",
+	"skinHullId":"talon_tritachyon",
+	"hullName":"Talon (Tri-Tachyon)",
+	"descriptionId":"talon",  # optional
+	"descriptionPrefix":"Con tàu này đã được tập đoàn Tri-Tachyon đại tu toàn diện. Các bản vá phần mềm tuân thủ Tri-Tachyon đã được cài đặt, tích hợp hoàn toàn với các giao thức giám sát trạng thái TriPad (R), các nâng cấp ống dẫn flux cấu hình cao đã được thực hiện, và các điểm gắn vũ khí đã được tân trang để lắp vũ khí năng lượng tiên tiến.",
+	"spriteName":"graphics/ships/talon/talon_tritachyon.png",
+	"baseValueMult":0.75,
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":[],
+	"builtInWeapons":{
+    },
+}

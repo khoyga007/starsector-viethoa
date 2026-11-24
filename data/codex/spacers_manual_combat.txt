@@ -1,0 +1,93 @@
+CATEGORY gm_cat_combat|manual_combat|Chiến đấu|game_mechanics
+
+CURRENT_CATEGORY gm_cat_combat
+
+BEGIN gm_damage_types|Các loại sát thương
+Mọi loại sát thương đều gây {{100%}} sát thương lên thân tàu, tùy theo giá trị giáp còn lại. Ngoài ra:
+IMAGE ui|icon_high_explosive
+{{Sát thương nổ mạnh}} gây {{200%}} lên giáp, và {{50%}} lên khiên. Các phát bắn thường có màu vàng.
+IMAGE ui|icon_kinetic
+{{Sát thương động năng}} gây {{200%}} lên khiên, và {{50%}} lên giáp. Các phát bắn thường có màu trắng.
+IMAGE ui|icon_energy
+{{Sát thương năng lượng}} gây {{100%}} lên cả khiên lẫn giáp. Vũ khí có sức đánh cao hơn thường kém hiệu quả về flux.
+IMAGE ui|icon_fragmentation
+{{Sát thương mảnh văng}} gây {{25%}} lên khiên và giáp. Vũ khí gây loại sát thương này thường có DPS cao và hiệu quả flux tốt. Các phát bắn thường có màu đỏ.
+END
+
+BEGIN gm_armor|Giáp
+ICON manual_armor
+#==Damage reduction==
+Giáp giảm sát thương nhận từ mọi cú đánh và đòn tia, dựa trên lượng giáp còn lại ở ô bị trúng và các ô giáp lân cận, cũng như {{sức đánh}} của đòn tấn công. Mức giảm sát thương tối đa nhờ giáp là {{85%}}.
+
+Một tàu có thể bị phá giáp ở một điểm nhưng vẫn còn đủ giáp ở điểm khác. Xoay tàu để nhận sát thương vào phần giáp còn nguyên thường rất hiệu quả.
+==Sức đánh==
+Vũ khí có sát thương mỗi phát cao hơn gây nhiều sát thương hơn lên giáp. {{rel:gm_damage_types|sát thương nổ mạnh}} đặc biệt hữu ích, nhưng vũ khí năng lượng sát thương cao cũng dễ dàng phá giáp. Sức đánh của vũ khí tia dựa trên DPS của chúng.
+==Giáp còn lại==
+Ngay cả khi giáp đã bị bóc hoàn toàn, {{5%}} lượng giáp vẫn được tính vào sát thương thân tàu nhận được để giảm sát thương. Nhờ vậy, tàu có giáp gốc cao ít bị tổn hại hơn trước vũ khí sát thương thấp, bắn nhanh, ngay cả khi giáp đã bị phá.
+END
+
+BEGIN gm_shields|Khiên
+ICON manual_shields
+RELATED gm_damage_types|gm_flux
+Sát thương nhận vào khiên làm tăng mức {{rel:gm_flux|flux cứng}}, và sẽ khiến tàu {{rel:gm_venting|quá tải}} nếu mức flux đạt tối đa. Mức flux cứng được thể hiện bằng một vết khía nhỏ trên thanh flux của tàu. Flux cứng không tản đi khi khiên đang bật.
+
+Chỉ cần giữ khiên bật cũng tốn một phần tốc độ tản flux gốc của tàu. Riêng việc này không làm mức flux tăng lên, nhưng nó làm giảm khả năng tản {{rel:gm_flux|flux mềm}} sinh ra khi bắn vũ khí. Hạ khiên {{làm tăng hỏa lực của tàu}} về lâu dài.
+END
+
+
+BEGIN gm_flux|Flux
+ICON manual_flux
+RELATED codex_weapon_harpoon
+Bắn vũ khí hoặc nhận sát thương lên khiên làm tăng mức flux của tàu. Nếu flux đạt tối đa, tàu sẽ không thể bắn vũ khí, và nhận thêm sát thương lên khiên sẽ khiến tàu {{rel:gm_venting|quá tải}}. Flux tản liên tục theo tốc độ tản flux của tàu, và tàu có thể chủ động {{rel:gm_venting|xả flux}} để đẩy nhanh quá trình này.
+
+==Flux cứng==
+Sát thương nhận vào {{rel:gm_shields|khiên}} làm tăng mức {{rel:gm_flux|flux cứng}}. Mức flux cứng được thể hiện bằng một vết khía nhỏ trên thanh flux của tàu. Flux cứng không tản đi khi khiên đang bật.
+
+Flux thông thường đôi khi được gọi là {{flux mềm}}, để phân biệt với flux cứng.
+END
+
+BEGIN gm_venting|Xả flux và quá tải
+ICON manual_venting
+==Xả flux==
+Tàu đang xả flux sẽ tản {{rel:gm_flux|flux}} với tốc độ gấp đôi bình thường. Tàu không thể bắn vũ khí hoặc dùng khiên và các phòng thủ khác, nhưng vẫn di chuyển bình thường.
+
+Xả flux khiến tàu dễ bị tổn thương, và tàu thường chỉ xả flux khi tương đối an toàn, trừ khi tình thế tuyệt vọng. Tàu giáp dày thường chấp nhận chịu một ít sát thương giáp trong lúc xả flux.
+
+==Quá tải==
+Tàu đang quá tải không thể bắn vũ khí hoặc dùng khiên và các phòng thủ khác, nhưng vẫn di chuyển bình thường. Flux tản với một nửa tốc độ bình thường khi tàu đang quá tải.
+
+Thời gian quá tải phụ thuộc vào lượng sát thương nhận lên khiên đã khiến tàu vượt quá sức chứa flux tối đa.
+
+Tàu quá tải thường cố lùi về nơi an toàn, và là mục tiêu phổ biến của các loạt tên lửa kết liễu như Harpoon.
+
+END
+
+BEGIN gm_ballistics|Vũ khí đạn đạo
+ICON manual_ballistic_weapons
+Vũ khí đạn đạo thường có tầm xa hơn các loại năng lượng tương đương, và thường gây {{rel:gm_damage_types|sát thương động năng}} hoặc {{rel:gm_damage_types|sát thương nổ mạnh}}, cho phép chuyên hóa để chống lại {{rel:gm_shields|khiên}} và {{rel:gm_armor|giáp}}.
+END
+
+BEGIN gm_energies|Vũ khí năng lượng
+ICON manual_energy_weapons
+Vũ khí {{color:text|năng lượng}} thường có tầm ngắn hơn các loại đạn đạo tương đương, và thường gây {{rel:gm_damage_types|sát thương năng lượng}}, loại này hiệu quả như nhau với mọi phòng thủ nhưng không khắc chế được phòng thủ nào. Tuy vậy, các loại sát thương cũng khá đa dạng, và vũ khí năng lượng có sức đánh cao vẫn rất hiệu quả chống lại {{rel:gm_armor|giáp}}.
+
+==Vũ khí tia==
+Vũ khí tia thường có tầm rất xa - vượt cả tầm thông thường của vũ khí {{rel:gm_ballistics|đạn đạo}} - nhưng chỉ gây sát thương {{rel:gm_flux|flux mềm}} lên {{rel:gm_shields|khiên}}.
+
+Dù vậy, chúng vẫn rất hữu ích; chỉ là sẽ không tự mình phá được khiên trừ khi được dùng với số lượng áp đảo.
+END
+
+BEGIN gm_missiles|Vũ khí tên lửa
+ICON manual_missiles
+Tên lửa thường có số đạn hạn chế, nhưng có nhiều lựa chọn đảm nhận các vai trò khác nhau. Tàu có nhiều khe tên lửa hơn có cấu hình trang bị linh hoạt hơn và có nhiều tự do hơn để chuyên hóa hoặc củng cố điểm yếu của mình.
+
+Một số tên lửa, như ngư lôi {{rel:codex_weapon_reaper|Reaper}}, cho phép tàu nhỏ trở thành mối đe dọa lớn với tàu lớn - cho đến khi hết đạn!
+END
+
+
+
+
+
+
+
+

@@ -1,0 +1,6 @@
+Địa điểm: Đâu đó trong Mediosolar Expanse
+Ngày: Không rõ
+
+Điều khiển một tàu chủ lực trong nhiệm vụ này, đối đầu giữa hai hạm đội ngang sức được tạo ngẫu nhiên.
+
+Nhấp vào nhiệm vụ trong danh sách để tạo lại các hạm đội.

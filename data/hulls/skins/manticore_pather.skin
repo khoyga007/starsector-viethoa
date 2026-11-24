@@ -1,0 +1,23 @@
+{
+	"baseHullId":"manticore",
+	"skinHullId":"manticore_luddic_path",
+	"hullName":"Manticore (LP)",
+	"descriptionId":"manticore",
+	"descriptionPrefix":"Những kẻ cuồng tín của Luddic Path đã cải biến con tàu này một cách thô sơ: quá tải động cơ và hệ thống năng lượng, sau đó thay bệ tháp pháo đạn đạo nguyên bản bằng một bệ phóng tên lửa khổng lồ, để dễ dàng thực hiện các đòn công kích alpha táo bạo vào tàu chủ lực và tàu tuần dương.",
+	"tags":["rare_bp"],
+	"tech":"Luddic Path",
+	"parts/dmod":6,
+	"suppliesToRecover":14,
+	"suppliesPerMonth":14,
+	"spriteName":"graphics/ships/manticore/manticore_pather.png",
+	"removeWeaponSlots":[],
+	"weaponSlotChanges":{
+		"WS 000":{"type": "MISSILE"},
+		"WS 004":{"type": "BALLISTIC"},
+		"WS 005":{"type": "BALLISTIC"},
+	},
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":["ballistic_rangefinder"], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":["safetyoverrides","ill_advised"],
+}

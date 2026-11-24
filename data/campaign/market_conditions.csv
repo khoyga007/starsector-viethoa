@@ -1,0 +1,169 @@
+name,id,tags,planetary,decivRemove,script,desc,icon,order
+"Chính thể đô thị hóa",urbanized_polity,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.UrbanizedPolity,"Trung tâm dân cư dày đặc và đa dạng. Mọi tầng lớp người dân sống, làm việc và qua đời trong các khu nhà ở xếp chồng, phố thương mại và xưởng lắp ghép.",graphics/icons/markets/urbanized_polity.png,130
+"Chính thể công nghiệp",industrial_polity,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.IndustrialPolity,"Một trung tâm công nghiệp sầm uất. Chính sách của chính quyền địa phương khuyến khích công nghiệp phát triển mạnh, bất chấp mọi mối bận tâm khác.",graphics/icons/markets/urbanized_polity.png,130
+"Chính thể nông thôn",rural_polity,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.RuralPolity,"Một chính thể thưa dân gồm các trang trại tự cung và thị trấn khép kín. Trong thời buổi rối ren này, người ngoài thường bị đối xử với sự nghi ngờ.",graphics/icons/markets/rural_polity.png,130
+"Đông dân tị nạn",large_refugee_population,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.LargeRefugeePopulation,"Những người tị nạn tuyệt vọng chạy trốn một thảm họa nào đó đã đến đây. Người tị nạn sống ở tầng đáy xã hội, gần như không có cơ hội đổi đời, làm căng thẳng hạ tầng trong nước và sống trong tình trạng bán hợp pháp đầy bất an. Sản xuất chung giảm. Nhiều thủy thủ đoàn tiềm năng có thể được tìm thấy trong số những người đang cố thoát khỏi điều kiện sống tồi tệ.",graphics/icons/markets/refugee_population.png,140
+"Ao nuôi tôm hùm Volturnian",volturnian_lobster_pens,"show_in_codex, codex_unlockable",TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,"Sự pha trộn của nhiều loài thuộc Trái Đất cổ và chút trí tưởng tượng đã tạo ra sinh vật này, nó mọc hoang ở đáy biển sâu nén ép của Volturn. Hương vị được cho là đặc biệt.",graphics/icons/markets/lobster_pens.png,137
+"Nhu cầu tệ nạn",vice_demand,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.ViceDemand,"Nhu cầu đối với hàng tệ nạn ở đây cao bất thường.",graphics/icons/markets/vice_demand.png,145
+"Tội phạm có tổ chức",organized_crime,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.OrganizedCrime,"Hoạt động tội phạm sản xuất chất kích thích và nội tạng người. Làm tăng nhu cầu vũ khí cầm tay (từ cả các trùm tội phạm lẫn người dân địa phương) và lính thủy đánh bộ (từ chính quyền địa phương).",graphics/icons/markets/organized_crime.png,148
+"Biên viễn",frontier,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Frontier,"Xa các trung tâm dân cư sầm uất, sự sinh tồn, tự lực và chỉ những thứ thiết yếu là luật lệ của biên viễn. Tăng nhu cầu vũ khí và tiếp tế, giảm nhu cầu hàng xa xỉ.",graphics/icons/markets/frontier.png,130
+"Trung tâm phá dỡ tàu",shipbreaking_center,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.ShipbreakingCenter,"Một trung tâm phá dỡ tàu lớn trong khu vực này của Sector. Xác tàu được hải quân các phe phái lớn cùng nhiều khách hàng khác từ các thế giới lõi của Sector đưa đến đây để tháo dỡ.",graphics/icons/markets/shipbreaking.png,360
+"Trung tâm thương mại",trade_center,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.TradeCenter,"Một trung tâm thương mại lớn. Tàu buôn từ khắp Sector cập bến ở đây, mong tìm người mua hàng hoá của mình và tìm thứ để mua lại với lợi nhuận hậu hĩnh.",graphics/icons/markets/trade_center.png,280
+"Mất văn minh",decivilized,,,,com.fs.starfarer.api.impl.campaign.econ.Decivilized,"Không có chính thể cai trị ổn định nào ở đây. Nền văn minh đã sụp đổ và dân số hiện tại gần như không rõ, dù vẫn phát hiện được các nhóm người sống sót, thổ phỉ và kẻ cướp bóc.",graphics/icons/markets/decivilized.png,130
+"Nhóm dân mất văn minh",decivilized_subpop,,,,com.fs.starfarer.api.impl.campaign.econ.DecivilizedSubpop,"Nền văn minh đã được khôi phục ở một số vùng của $market, thường là dưới họng súng gauss. Tuy nhiên, vẫn còn một lượng dân không rõ là bao nhiêu, gồm người sống sót, thổ phỉ và kẻ cướp bóc ở vùng rìa.",graphics/icons/markets/decivilized.png,130
+"Trạm bỏ hoang",abandoned_station,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.AbandonedStation,"Trạm này đã bị bỏ hoang.",graphics/icons/markets/abandoned.png,130
+"Tiểu thủ công nghiệp",cottage_industry,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.CottageIndustry,"$Market có nền tảng vững chắc về công nghiệp nhẹ công nghệ thấp, tốn nhiều lao động. Làm tăng nhu cầu nhiên liệu hữu cơ và vật liệu đơn giản, cung cấp hàng gia dụng kém hiệu quả nhưng được làm thủ công rất duyên dáng.",graphics/icons/markets/cottage_industry.png,230
+"Tiền đồn",outpost,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Outpost,"$Market được vận hành giống một đồn trú hoặc một con tàu lớn, với cơ cấu chỉ huy chính thức và cứng nhắc. Điều này cải thiện độ ổn định, nhưng cần một số nhân sự để lo các vấn đề an ninh nội bộ.",graphics/icons/markets/outpost.png,130
+"Đa số Luddic",luddic_majority,"show_in_codex, codex_unlockable",,TRUE,com.fs.starfarer.api.impl.campaign.econ.LuddicMajority,,graphics/icons/markets/luddic_majority.png,142
+"Bãi mìn tàng hình",stealth_minefields,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.StealthMinefields,"Một mạng lưới mìn ẩn giúp $market được an toàn trước những kẻ ngoài hay gây rối. Cải thiện độ ổn định.",graphics/icons/markets/stealth_mines.png,510
+"Thủ phủ vùng",regional_capital,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.RegionalCapital,"Một trung tâm lớn về hành chính, an ninh và hậu cần. Cải thiện độ ổn định.",graphics/icons/markets/capital.png,500
+"Cảng tự do",free_market,show_in_codex,,TRUE,com.fs.starfarer.api.impl.campaign.econ.FreeMarket,"Cảng vụ địa phương hầu như không quy định gì về hàng hoá được giao dịch. Kiểm soát nhập cư cũng được nới lỏng, dẫn đến dòng người nhập vào nhiều hơn, dù đôi khi có thành phần đáng ngờ hơn. Điều này có thể khiến các phe phái khác nhìn thuộc địa này bằng con mắt nghi ngờ.",graphics/icons/markets/free_port.png,141
+"Đóng cửa nhập cư",closed_immigration,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.ClosedImmigration,"Về mặt chính thức, nhập cư vào $market không được phép. Trên thực tế, điều này làm chậm đáng kể tổng thể nhập cư và tạo khoảng trống để một số loại tội phạm hoạt động.",graphics/icons/markets/vice_demand.png,142
+,,,,,,,,
+"Thế giới không thể sinh sống",uninhabitable,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldUninhabitable,"Một hành tinh cằn cỗi. Bề mặt của $market không thể nuôi sống sinh vật hữu cơ như chúng ta biết, và canh tác là bất khả thi ngoài các hệ sinh thái nhân tạo kín.",graphics/icons/markets/uninhabitable_wide.png,10
+"Thế giới băng",ice,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldIce,"Nhiệt độ trung bình của $Market thấp hơn nhiệt độ đóng băng của nước rất nhiều, và một số khí phổ biến trên Trái Đất rơi xuống dưới dạng tuyết. Có thể khai thác các khối băng và sông băng chứa những nguyên tố nhẹ, dễ bay hơi.",graphics/icons/markets/ice_world_wide.png,10
+"Thế giới sa mạc",desert,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldDesert,"$Market: hành tinh sa mạc. Một sinh quyển ưa khô duy trì bầu khí quyển có thể thở được chỉ với mặt nạ nhẹ. Canh tác gần như bất khả thi.",graphics/icons/markets/desert_world_wide.png,10
+"Thế giới khô cằn",arid,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldArid,"$Market được bao phủ bởi những đồng bằng và vùng hoang khô cằn rộng lớn. Nước hiếm, và canh tác quy mô lớn rất khó khăn.",graphics/icons/markets/arid_world_wide.png,10
+"Thế giới nước",water,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldWater,"Khí hậu của $market khá dễ chịu, nhưng canh tác chủ yếu chỉ giới hạn ở nuôi trồng thủy sản, và việc phát triển môi trường sống và công nghiệp đòi hỏi hạ tầng chuyên biệt cao.",graphics/icons/markets/water_world_wide.png,10
+"Thế giới rừng rậm",jungle,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldJungle,"$Market là một thế giới rừng nhiệt đới ẩm, nóng, phủ đầy thực vật rậm rạp và sinh vật lạ, khiến canh tác và duy trì hạ tầng lâu dài trở nên khó khăn.",graphics/icons/markets/jungle_world_wide.png,10
+"Thế giới kiểu Trái Đất",terran,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldTerran,"$Market là nơi gần giống điều kiện của Trái Đất cổ nhất có thể tìm thấy trong Sector, tạo điều kiện lý tưởng cho canh tác và định cư.",graphics/icons/markets/terran_world_wide.png,10
+"Thế giới bán cằn cỗi",barren_marginal,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldBarrenMarginal,"Khắc nghiệt và không khoan nhượng, điều kiện bên ngoài trên $market chỉ vừa đủ để con người sống sót khi mang mặt nạ và trang bị bảo hộ, dù một số loại địa y cải tạo khí hậu đủ chịu đựng được.",graphics/icons/markets/barren_desert_wide.png,10
+"Thế giới hoàng hôn",twilight,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldTwilight,"Gần như bị khóa thủy triều với sao chính, $market là một thế giới đã được cải tạo với những ngày dài bằng cả mùa. Chênh lệch nhiệt độ ngày đêm khắc nghiệt, ngay cả với sự sống kiểu Trái Đất được kỹ thuật hóa. Các đảo sinh quyển 'văn minh', ôn hòa được duy trì nhờ việc sử dụng khéo léo các tấm chắn và gương mặt trời. ",graphics/icons/markets/twilight_terran_world.png,10
+"Thế giới lãnh nguyên",tundra,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldTundra,"Quá trình cải tạo đã đưa sự sống kiểu Trái Đất đến $market, nhưng thế giới vẫn lạnh như thời kỳ băng hà sâu nhất của Trái Đất. Dù hàng triệu km vuông bị băng hà bao phủ, vẫn có những vùng rừng taiga và thảo nguyên gợn sóng, nơi điều kiện ấm hơn chiếm ưu thế.",graphics/icons/markets/tundra_terran_wide.png,10
+"Thế giới núi lửa băng",cryovolcanic,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldUninhabitable,"Một thế giới đóng băng vượt xa cái lạnh sâu nhất: tuyết mê-tan rơi trên những ngọn núi băng nước, và núi lửa phun amoniac. Bức xạ từ sao phá vỡ các chất bay hơi để tạo thành bầu khí quyển gồm các khí nhẹ như nitơ và oxy, trong khi hydro bị cuốn vào không gian. ",graphics/icons/markets/cryo_world_wide.png,10
+,,,,,,,,
+"Dân cư chống đối",dissident,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Dissident,"$Market là nơi bị đẩy những người bất đồng chính kiến, phiến quân, người tư duy tự do, nghệ sĩ và những kẻ gây rối khác. Làm tăng nhu cầu vũ khí và lính thủy đánh bộ để trấn áp đám đông. Tăng nguồn thủy thủ đoàn sẵn có nhờ di cư.",graphics/icons/markets/dissidents.png,139
+"Trụ sở",headquarters,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Headquarters,"$Market là trung tâm chỉ huy quân sự và điều hành hậu cần của chính thể cầm quyền. Tăng độ ổn định thị trường.
+
+Tăng chất lượng và số lượng sĩ quan trong các hạm đội của $market.",graphics/icons/markets/headquarters.png,360
+"Khu thủy canh",hydroponics_complex,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Hydroponics,"Các cơ sở sản xuất nông nghiệp với sinh quyển kín, cho phép canh tác trong quỹ đạo hoặc trên bề mặt các thế giới khắc nghiệt. Cần thủy thủ đoàn để vận hành, môi trường nuôi cấy hữu cơ và máy móc hạng nặng để bảo trì.",graphics/icons/markets/hydroponics.png,120
+,,,,,,,,
+"Dân số",population_1,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,"Chỉ có vài chục người sống ở đây lâu dài.",graphics/icons/markets/population01.png,20
+"Dân số",population_2,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,"Chỉ có vài trăm người sinh sống tại $marketName.",graphics/icons/markets/population02.png,20
+"Dân số",population_3,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,"Hàng nghìn người coi $marketName là quê hương.",graphics/icons/markets/population03.png,20
+"Dân số",population_4,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,"Hàng chục nghìn người sống trên $marketName.",graphics/icons/markets/population04.png,20
+"Dân số",population_5,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,"$MarketName là nơi sinh sống của hàng trăm nghìn người.",graphics/icons/markets/population05.png,20
+"Dân số",population_6,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,"Dân số của $marketName lên đến hàng triệu người.",graphics/icons/markets/population06.png,20
+"Dân số",population_7,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,"$MarketName là một thế giới với hàng chục triệu người.",graphics/icons/markets/population07.png,20
+"Dân số",population_8,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,"$MarketName là một trong số ít thế giới trong Sector có dân số hàng trăm triệu người.",graphics/icons/markets/population08.png,20
+"Dân số",population_9,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,"Là nơi trú ẩn quý giá của nhân loại giữa một thiên hà nguy hiểm, $marketName là nhà của hàng tỷ linh hồn.",graphics/icons/markets/population09.png,20
+"Dân số",population_10,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,"$MarketName là một trung tâm dân cư chủ chốt trong Sector, sánh ngang Trái Đất cổ với hàng chục tỷ người.",graphics/icons/markets/population10.png,20
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+# event-related market conditions,,,,,,,,
+"Thiếu lương thực",event_food_shortage,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.FoodShortage,"Tạm thời thiếu lương thực trên $market.
+- Độ ổn định giảm $stabilityPenalty
+- Cần khoảng $neededFood đơn vị lương thực để chấm dứt tình trạng thiếu hụt
+- Giá lương thực tăng do nguồn cung giảm
+- Tăng uy tín và kinh nghiệm khi bán lương thực",graphics/icons/markets/food_shortage.png,1000
+"Bất ổn gần đây",recent_unrest,show_in_codex,,TRUE,com.fs.starfarer.api.impl.campaign.econ.RecentUnrest,"$Market vừa trải qua những biến động dữ dội, để lại ảnh hưởng kéo dài lên độ ổn định.",graphics/icons/markets/recent_unrest.png,2000
+"Gián đoạn thương mại",event_trade_disruption,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.TradeDisruption,"Các đoàn tàu buôn đi đến hoặc đi từ $market đang chịu thiệt hại nặng nề. Hải tặc hoặc chiến tranh là nguyên nhân có khả năng cao nhất.
+
+Các hàng hoá sau đây bị ảnh hưởng:
+$commoditySummary",graphics/icons/markets/trade_disruption.png,1100
+"Buôn lậu",event_smuggling,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Smuggling,"$market đang ghi nhận lượng buôn lậu lớn.
+
+- Độ ổn định giảm $smugglingPenalty",graphics/icons/markets/smuggling.png,1000
+"Treo thưởng hệ sao",event_bounty,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.SystemBounty,,graphics/icons/markets/bounty.png,1000
+"Lõi AI nổi loạn",rogue_ai_core,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.RogueAICore,"Có một lõi AI nổi loạn đang hoạt động trên hoặc gần $market. Kế hoạch dài hạn và tham vọng của nó, ngoài việc tự bảo toàn, vẫn chưa rõ.
+
+Tối thiểu, việc phải luôn cảnh giác trước những hành động có thể có của nó khiến hoạt động hằng ngày kém hiệu quả hơn và tạo mảnh đất màu mỡ cho những tin đồn đáng lo ngại.",graphics/icons/markets/rogue_ai.png,1200
+"Quản trị lõi AI (ẩn)",ai_core_admin,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.AICoreAdmin,"Điều kiện ẩn để theo dõi thời điểm lõi không thể gỡ bỏ. Không cần biểu tượng.",graphics/icons/markets/rogue_ai.png,1000
+"Hoạt động hải tặc",pirate_activity,,,TRUE,com.fs.starfarer.api.impl.campaign.intel.bases.PirateActivity,"Có dấu hiệu cho thấy hải tặc đang nhắm vào tàu vận chuyển và thuộc địa trong hệ sao này: từ việc thanh tra cảng bị gây sức ép làm ngơ, đến những chỗ không khớp trong bản kê hàng hoá chở theo, đến các hoạt động tội phạm gia tăng khác.
+
+Hải tặc rất có thể có căn cứ ở đâu đó tương đối gần.",graphics/icons/markets/pirate_activity.png,1300
+"Hoạt động thù địch",hostile_activity,,,TRUE,com.fs.starfarer.api.impl.campaign.intel.events.HostileActivity,,graphics/icons/markets/pirate_activity.png,1350
+"Tạm lắng hải tặc",piracy_respite,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.PiracyRespite,"Thuộc địa này đang được tạm nghỉ khỏi những cuộc cướp bóc của hải tặc vốn phổ biến trong Sector.",graphics/icons/markets/respite40.png,1375
+"Chính thể lâu đời",established_polity,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.EstablishedPolity,,graphics/icons/markets/established_polity.png,1380
+"Bị phong tỏa",blockaded,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Blockaded,"Hệ sao nơi thuộc địa này nằm đang bị phong tỏa, và vận tải thương mại thường lệ liên tục bị quấy rối, thậm chí tệ hơn. Ảnh hưởng sẽ tiếp diễn cho đến khi lực lượng phong tỏa rời đi hoặc bị đánh bại triệt để.",graphics/icons/markets/blockade.png,1385
+"Ổ nhóm Luddic Path",pather_cells,,,TRUE,com.fs.starfarer.api.impl.campaign.intel.bases.LuddicPathCells,,graphics/icons/markets/pather_cells.png,1400
+,,,,,,,,
+# stand-alone conditions,,,,,,,,
+"Gián đoạn thương mại",shipping_disruption,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.ShippingDisruption,,graphics/icons/markets/trade_disruption.png,1000
+,,,,,,,,
+# misc,,,,,,,,
+"Chuyển tiếp liên lạc (ẩn)",comm_relay,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.CommRelayCondition,"Điều kiện ẩn; không cần biểu tượng.",,
+,,,,,,,,
+,,,,,,,,
+# procgen conditions,,,,,,,,
+"Có thể sinh sống",habitable,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.Habitable,"Con người có thể sống sót khi tiếp xúc không được bảo vệ với bề mặt của $market.",graphics/icons/markets/habitable.png,21
+,,,,,,,,
+,,,,,,,,
+"Tàn tích rải rác",ruins_scattered,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,"Thế giới này chỉ bị Domain chạm đến nhẹ trong dự án vĩ đại của họ trước cuộc Sụp Đổ. Chỉ còn lại những mái vòm đổ nát rải rác, biết đâu vẫn giữ những kho vật liệu quý giá đã thất lạc.",graphics/icons/markets/ruins_scattered.png,100
+"Tàn tích lan rộng",ruins_widespread,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,"Tàn tích lan rộng, các điểm nguồn bức xạ và tín hiệu radar rè đặc trưng của cấu trúc gốm kim loại dạng bọt có thể được tìm thấy khắp $market, bằng chứng của một nỗ lực định cư nhỏ nhưng tập trung từ thời kỳ mở rộng muộn của Domain.",graphics/icons/markets/ruins_widespread.png,100
+"Tàn tích rộng lớn",ruins_extensive,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,"Các thành phố đổ nát có thể được tìm thấy khắp bề mặt $market, từ những trung tâm tan nát tràn ra các đường phố nứt vỡ và tuyến magrail đổ nát, đến bộ xương của nhà máy, vòm thủy canh và tháp thông tin.",graphics/icons/markets/ruins_extensive.png,100
+"Tàn tích mênh mông",ruins_vast,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,"$Market bị phủ bởi những tàn tích mênh mông: thành phố, nhà máy, mỏ, nông trại, nhà cửa. Vô số người chết nằm lẫn với vật liệu có thể trục vớt, hàng hoá, dụng cụ và vũ khí. Thế giới này là ngôi mộ cho sự kiêu ngạo của dự án chinh phục thiên hà và bá quyền của Domain. ",graphics/icons/markets/ruins_vast.png,100
+,,,,,,,,
+,,,,,,,,
+"Lạnh",cold,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,"Nhiệt độ thấp trên $market đòi hỏi thiết bị chuyên dụng để thực hiện các hoạt động thông thường, làm phức tạp hệ thống duy trì sự sống và hạ tầng.",graphics/icons/markets/cold.png,25
+"Cực lạnh",very_cold,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,"Cái lạnh cực độ đòi hỏi thiết bị và quy trình chuyên dụng để vận hành an toàn trên $market, làm phức tạp hậu cần, hệ thống duy trì sự sống và hạ tầng.",graphics/icons/markets/cold_extreme.png,25
+,,,,,,,,
+"Nóng",hot,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,"Nhiệt độ cao trên $market đòi hỏi thiết bị chuyên dụng để thực hiện các hoạt động thông thường, làm phức tạp hệ thống duy trì sự sống và hạ tầng.",graphics/icons/markets/hot.png,25
+"Cực nóng",very_hot,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,"Nhiệt độ cực cao đòi hỏi thiết bị và quy trình chuyên dụng để vận hành an toàn trên $market, làm phức tạp nghiêm trọng hậu cần, hệ thống duy trì sự sống và độ ổn định lâu dài của hạ tầng.",graphics/icons/markets/hot_extreme.png,25
+,,,,,,,,
+,,,,,,,,
+"Hoạt động kiến tạo",tectonic_activity,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,"Bề mặt $market không ổn định và dễ xảy ra động đất dữ dội. Mọi công trình cần gia cố đặc biệt, và bất kỳ việc khai đào nào cũng kèm theo rủi ro lớn.",graphics/icons/markets/tectonic.png,26
+"Hoạt động kiến tạo cực mạnh",extreme_tectonic_activity,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,"Vỏ của $market sôi lên hỗn loạn với động đất cực mạnh và các đợt núi lửa thảm khốc. Mọi hoạt động đều cần sự cẩn trọng đặc biệt và hệ thống cảnh báo dự phòng nhiều lớp để tránh những mối nguy hiểm nghiêm trọng nhất. Việc xây dựng trên thế giới này chỉ có thể được coi là bán vĩnh viễn.",graphics/icons/markets/tectonic_extreme.png,26
+,,,,,,,,
+,,,,,,,,
+"Không có khí quyển",no_atmosphere,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,"Không có khí quyển đáng kể trên $market. Bề mặt của nó chịu sự phong hóa khắc nghiệt của không gian, mưa bức xạ đều đặn và thiên thạch nhỏ.",graphics/icons/markets/atmosphere_none.png,27
+"Khí quyển mỏng",thin_atmosphere,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,"Một lớp khí quyển loãng bám dai dẳng trên bề mặt $market.",graphics/icons/markets/atmosphere_thin.png,27
+"Khí quyển độc",toxic_atmosphere,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,"Khí quyển của $market cực kỳ độc hại và ăn mòn, làm mài mòn các bề mặt không được bảo vệ và đòi hỏi mọi không gian có người ở phải được làm kín tuyệt đối.",graphics/icons/markets/atmosphere_toxic.png,27
+"Khí quyển dày đặc",dense_atmosphere,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,"Bề mặt $market được bao phủ bởi một lớp khí quyển dày đặc, với các xoáy hỗn loạn ở đỉnh và một lớp hỗn hợp bám dính ở đáy. Cảm biến bị suy giảm, và mọi hoạt động phải được tiến hành cẩn thận.",graphics/icons/markets/atmosphere_dense.png,27
+,,,,,,,,
+,,,,,,,,
+"Khí hậu ôn hòa",mild_climate,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.MildClimate,"Khí hậu của $market dễ chịu và hiền hòa: một làn sương nhẹ chào đón mỗi bình minh, rồi tan vào những đám mây mềm phát sáng đầy quyến rũ vào mỗi hoàng hôn.",graphics/icons/markets/climate_mild.png,28
+"Thời tiết cực đoan",extreme_weather,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,"Những cơn bão dữ dội đầy sét hoành hành trên bầu trời $market. Dù từ quỹ đạo nhìn lại là vẻ đẹp siêu phàm, điều này tạo ra điều kiện bề mặt khắc nghiệt, khiến giao thông và sinh sống cực kỳ bất tiện.",graphics/icons/markets/weather_extreme.png,28
+,,,,,,,,
+"Trọng lực thấp",low_gravity,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.LowGravity,"Trọng lực trên bề mặt $market cực kỳ thấp, dù vẫn đáng kể cao hơn không trọng lực. Quy trình làm việc và vận hành máy móc hạng nặng (tương đối) trở nên phức tạp vì phải áp dụng các quy trình không chuẩn để xử lý những thay đổi về ma sát, trọng lượng và áp suất.",graphics/icons/markets/gravity_low.png,24
+"Trọng lực cao",high_gravity,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.HighGravity,"Lực hấp dẫn trên bề mặt $market cao đến mức nghiền nát. Con người cần bộ xương ngoài trợ lực để đi lại bình thường, và ngay cả những hành động cơ bản cũng khiến họ kiệt sức. Sinh sống liên tục ở đây ở mức tốt nhất cũng rất vất vả. Mọi hoạt động đều diễn ra với nguy cơ ngã cao hơn và, nếu kỹ thuật chuyên biệt không được thực hiện với đủ sự cảnh giác, nguy cơ sụp đổ cấu trúc.",graphics/icons/markets/gravity_high.png,24
+,,,,,,,,
+"Nhiễm bức xạ",irradiated,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,"Bề mặt $market bị bức xạ tàn phá. Bất kỳ sinh vật sống nào cũng phải ở trong môi trường sống có che chắn nếu muốn sống lâu ở đây. Các mạch chưa gia cố và vật liệu hoặc máy móc kích thước nano cũng sẽ nhanh chóng hỏng trong điều kiện khắc nghiệt này.",graphics/icons/markets/irradiated.png,29
+,,,,,,,,
+,,,,,,,,
+"Sinh quyển thù địch",inimical_biosphere,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.LCAttractorLow,"Sinh quyển của $market gây chết người với con người không được bảo vệ. Dù điều kiện này rất thú vị với các nhà khoa học sinh học, các kỹ thuật viên bề mặt bị cản trở bởi quy định cách ly nghiêm ngặt khi thực hiện công việc thường nhật.",graphics/icons/markets/inimical_biosphere.png,30
+,,,,,,,,
+"Bề mặt phủ nước",water_surface,planet_search,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,"Đây là một thế giới đại dương không có bề mặt rắn đáng kể để hạ cánh, đi lại hoặc xây dựng. Hoạt động gặp khó khăn vì cần huấn luyện và thiết bị chuyên biệt.",graphics/icons/markets/water_covered.png,31
+,,,,,,,,
+"Ánh sáng yếu",poor_light,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,"Ánh sáng từ sao chính của $market chỉ cung cấp sự chiếu sáng và năng lượng yếu ớt cho thế giới này.",graphics/icons/markets/poor_light.png,32
+"Bóng tối",dark,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,"Bề mặt $market tối tăm và đầy bóng râm, gần như không nhận được ánh sáng nào từ sao chính.",graphics/icons/markets/darkness.png,32
+,,,,,,,,
+"Va chạm thiên thạch",meteor_impacts,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,"Thế giới này liên tục bị bắn phá với tốc độ kinh hoàng bởi các đợt mưa thiên thạch đều đặn. Bất kỳ cư dân con người nào, dù chỉ tạm thời, cũng phải luôn đề phòng bầu trời. Mọi công trình lâu dài tốt nhất nên được chôn sâu và củng cố kỹ càng.",graphics/icons/markets/meteor_impacts.png,33
+,,,,,,,,
+,,,,,,,,
+"Ô nhiễm",pollution,,,,com.fs.starfarer.api.impl.campaign.econ.Pollution,"Công nghiệp của con người đã khiến thế giới này đầy dioxin, hợp chất lưu huỳnh, tro và tiếng tích tắc đều đều của bụi phóng xạ đang phân rã. Những mẩu nhựa bám vào các mảnh kim loại bọt, bầu trời được dò vào một kênh đã chết.",graphics/icons/markets/pollution.png,110
+,,,,,,,,
+,,,,,,,,
+"Mỏ quặng thưa",ore_sparse,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,"Có vài mỏ quặng thưa thớt ở đây, nhưng chúng có giá trị nghiên cứu hơn là công nghiệp, vì việc khai thác hầu như không sinh lời.",graphics/icons/markets/ore_sparse.png,50
+"Mỏ quặng trung bình",ore_moderate,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,"$Market có các mỏ quặng ở mức trung bình, mà trong điều kiện kinh tế phù hợp, có thể được khai thác có lãi.",graphics/icons/markets/ore_moderate.png,50
+"Mỏ quặng phong phú",ore_abundant,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,"Các mỏ quặng phong phú, rải rác và có thể khai thác có lãi nằm trên $market.",graphics/icons/markets/ore_abundant.png,50
+"Mỏ quặng giàu",ore_rich,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,"Các mỏ khoáng sản giàu tạo thành mạng tinh thể dày đặc trong vỏ của $market, nhưng cần một nhà công nghiệp đầy tham vọng để khai thác và thu về lợi nhuận khổng lồ.",graphics/icons/markets/ore_rich.png,50
+"Mỏ quặng cực giàu",ore_ultrarich,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,"Khoáng sản trên $market giàu như được bàn tay Midas chạm vào, vượt xa những mộng tưởng điên rồ nhất của các tập đoàn khai khoáng huyền thoại thời Domain.",graphics/icons/markets/ore_ultrarich.png,50
+,,,,,,,,
+,,,,,,,,
+"Mỏ quặng hiếm thưa",rare_ore_sparse,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,"Có vài mỏ siêu plutoni thưa thớt ở đây, nhưng chúng có giá trị nghiên cứu hơn là công nghiệp, vì việc khai thác hầu như không sinh lời.",graphics/icons/markets/rareore_sparse.png,60
+"Mỏ quặng hiếm trung bình",rare_ore_moderate,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,"$Market có các mỏ siêu plutoni ở mức khiêm tốn, mà với sản xuất công nghiệp và đầu tư bền bỉ, có thể được khai thác có lãi.",graphics/icons/markets/rareore_moderate.png,60
+"Mỏ quặng hiếm phong phú",rare_ore_abundant,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,"Các mỏ siêu plutoni phong phú nằm trong vỏ của $market, đủ để thỏa mãn tham vọng của bất kỳ lãnh chúa đáng gờm hay ông trùm nào.",graphics/icons/markets/rareore_abundant.png,60
+"Mỏ quặng hiếm giàu",rare_ore_rich,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,"Những dải siêu plutoni dày đặc trải rộng với sự phong phú rực rỡ trong vỏ của $market, hứa hẹn quyền lực to lớn và mạnh mẽ cho những ai chỉ cần vươn tay ra lấy.",graphics/icons/markets/rareore_rich.png,60
+"Mỏ quặng hiếm cực giàu",rare_ore_ultrarich,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,"Các mỏ siêu plutoni lấp lánh với mật độ khó tin trên lưới cảm biến, gợi điềm báo về một sức mạnh có thể rèn nên những hạm đội chiến tranh hùng mạnh để thiêu rụi các thế giới thành tro -- hoặc một kỷ nguyên lộng lẫy và giàu có cho một chính thể với những tòa tháp pha lê, như đã từng tồn tại trong các chu kỳ trước cuộc Sụp Đổ của Domain.",graphics/icons/markets/rareore_ultrarich.png,60
+,,,,,,,,
+,,,,,,,,
+"Chất bay hơi dạng vết",volatiles_trace,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,"Chất bay hơi dạng vết tìm thấy ở đây hầu như không đáng thu hoạch.",graphics/icons/markets/volatiles_trace.png,40
+"Chất bay hơi rải rác",volatiles_diffuse,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,"Có thể tìm thấy chất bay hơi rải rác ở đây, và có thể đủ để khai thác công nghiệp.",graphics/icons/markets/volatiles_diffuse.png,40
+"Chất bay hơi phong phú",volatiles_abundant,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,"Chất bay hơi phong phú có thể được khai thác có lãi từ $market.",graphics/icons/markets/volatiles_abundant.png,40
+"Chất bay hơi dồi dào",volatiles_plentiful,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,"$Market là một mạch nguồn chất bay hơi có kích thước bằng cả thế giới: giàu, sâu và mạnh.",graphics/icons/markets/volatiles_plentiful.png,40
+,,,,,,,,
+,,,,,,,,
+"Chất hữu cơ dạng vết",organics_trace,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,"$Market gần như không còn trữ lượng chất hữu cơ, dù vẫn có thể khai thác một ít.",graphics/icons/markets/organics_trace.png,38
+"Chất hữu cơ phổ biến",organics_common,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,"Có thể tìm thấy trữ lượng chất hữu cơ có thể khai thác có lãi trên $market.",graphics/icons/markets/organics_common.png,38
+"Chất hữu cơ phong phú",organics_abundant,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,"Một dòng chảy của cải chạy dưới bề mặt $market, dành cho những ai tìm được và khai thác được nó.",graphics/icons/markets/organics_abundant.png,38
+"Chất hữu cơ dồi dào",organics_plentiful,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,"Các hồ chứa chất hữu cơ quý giá vọt lên khỏi bề mặt $market thành từng luồng phun trên những hồ tối sâu, hứa hẹn những đại dương của cải ngay bên dưới.",graphics/icons/markets/organics_plentiful.png,38
+,,,,,,,,
+,,,,,,,,
+"Đất nông nghiệp cằn",farmland_poor,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,"Thực vật kiểu Trái Đất chỉ mọc còi cọc và yếu ớt ở đây. Cần những nông dân có tài năng ngang bằng với sự tuyệt vọng của họ mới khiến vùng đất này đơm hoa kết trái.",graphics/icons/markets/farmland_poor.png,70
+"Đất nông nghiệp tạm được",farmland_adequate,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,"Một hệ sinh quyển kiểu Trái Đất đủ mạnh cho phép canh tác nông nghiệp trên $market.",graphics/icons/markets/farmland_adequate.png,70
+"Đất nông nghiệp màu mỡ",farmland_rich,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,"Những cánh đồng của $market hứa hẹn một vụ mùa bội thu, thưởng cho những nông dân làm việc trên vùng đất màu mỡ này.",graphics/icons/markets/farmland_rich.png,70
+"Đất nông nghiệp trù phú",farmland_bountiful,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,"$Market là một vườn Địa Đàng thực sự: nở hoa, sum suê, tươi tốt và rực rỡ với thực vật. Cành cây rủ thấp, trĩu quả; những cánh đồng lúa vàng lấp lánh trong làn gió thơm cỏ.",graphics/icons/markets/farmland_bountiful.png,70
+,,,,,,,,
+"Dàn pin mặt trời quỹ đạo",solar_array,"show_in_planet_list, planet_search",TRUE,,com.fs.starfarer.api.impl.campaign.econ.SolarArray,"Hành tinh này có một dàn chắn hoặc gương mặt trời trên quỹ đạo, được đặt khéo léo để đưa điều kiện bề mặt gần hơn với tiêu chuẩn kiểu Trái Đất.",graphics/icons/markets/solar_shade.png,101

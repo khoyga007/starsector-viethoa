@@ -1,0 +1,21 @@
+{
+	"baseHullId":"afflictor",
+	"skinHullId":"afflictor_d_pirates",
+	"hullName":"Afflictor (P)",
+	"descriptionId":"afflictor",
+	"descriptionPrefix":"Sau Chiến tranh AI lần thứ hai, nhiều bản thiết kế bị hỏng trở nên sẵn có, được những người trục vớt sẵn sàng liều mạng khai thác từ các hệ sao mà Tri-Tachyon đã bỏ lại. Phần lớn trong số đó được bán cho những phần tử mờ ám như kẻ buôn chợ đen và hải tặc, bọn này nhanh chóng đưa chúng trở lại hoạt động, sản xuất ra những con tàu chất lượng thấp nhưng vẫn đủ sức chiến đấu.",
+	"tags":["pirate_bp"],
+	"tech":"Pirate",
+	"fleetPoints":12,
+	"ordnancePoints":40,
+	"baseValueMult":.8,
+	"suppliesToRecover":9,
+	"suppliesPerMonth":9,
+	"spriteName":"graphics/ships/afflictor/afflictor_d_pirates.png",
+	"removeWeaponSlots":["WS 001", "WS 004"], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":["missleracks"], # hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInWeapons":{
+    },
+}

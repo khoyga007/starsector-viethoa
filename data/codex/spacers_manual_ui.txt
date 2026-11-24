@@ -1,0 +1,22 @@
+CATEGORY gm_cat_ui|manual_ui|Giao diện|game_mechanics
+
+CURRENT_CATEGORY gm_cat_ui
+
+BEGIN gm_basic_ui|Làm quen với TriPad
+ICON manual_tripad
+==Cuộn danh sách==
+Thanh cuộn sẽ lớn hơn khi chuột của bạn đến gần để dễ nhấp hơn. Bạn cũng có thể giữ {{Shift}} khi dùng con lăn chuột để cuộn nhanh hơn.
+
+ ==Ô nhập liệu==
+Bạn có thể nhấn {{Ctrl-Backspace}} để xóa một từ, và {{Shift-Backspace}} để xóa toàn bộ ô nhập liệu.
+
+==Thẻ==
+Bạn có thể {{Ctrl-Click}} để chọn nhiều thẻ, hoặc bỏ chọn một thẻ mà không ảnh hưởng đến phần còn lại của lựa chọn.
+
+==Tình báo==
+Bạn có thể nhấn {{Ctrl-S}} để lưu bộ thẻ hiện tại, và {{Q}} để chọn lại chúng. Bạn cũng có thể nhấn {{Shift-Q}} để thêm bộ thẻ đã lưu vào lựa chọn hiện tại. Điều này chỉ áp dụng cho các thẻ trên màn hình {{Tình báo}}.
+
+==Codex==
+Bạn có thể nhấn {{F2}} ở bất kỳ đâu để mở Codex. Trong nhiều trường hợp, chẳng hạn ở màn hình trang bị lại, hoặc khi xem chú giải, Codex sẽ tự động mở đúng mục.
+
+END

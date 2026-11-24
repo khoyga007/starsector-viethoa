@@ -1,0 +1,50 @@
+{
+	"baseHullId":"falcon",
+	"skinHullId":"falcon_p",
+	"hullName":"Falcon (P)",
+	"descriptionId":"falcon",
+	"descriptionPrefix":"Hệ thống đẩy của chiếc Falcon này đã được một thủy thủ đoàn hải tặc nhiệt tình 'nâng cấp' theo kiểu kém thực dụng nhưng phô trương; đống linh kiện động cơ ghép vá, bằng cách nào đó được thuyết phục cùng hướng tới một mục đích vụng về, không tuân thủ tiêu chuẩn an toàn nào.",
+	"tags":["rare_bp"],
+	"tech":"Pirate",
+	"suppliesToRecover":20,
+	"suppliesPerMonth":20,
+	"baseValueMult":1.25,
+	"spriteName":"graphics/ships/falcon/falcon_p.png",
+	"removeWeaponSlots":["WS 003","WS 004"], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"weaponSlotChanges":{
+    	"WS 005":{
+			#"angle": 0,
+            #"arc": 210,
+            #"mount": "TURRET",
+            #"size": "SMALL",
+            "type": "COMPOSITE"
+		},	
+		"WS 006":{
+			#"angle": 0,
+            #"arc": 210,
+            #"mount": "TURRET",
+            #"size": "SMALL",
+            "type": "COMPOSITE"
+        },
+		"WS 007":{
+			#"angle": 0,
+            #"arc": 210,
+            #"mount": "TURRET",
+            #"size": "SMALL",
+            "type": "MISSILE"
+		},	
+		"WS 008":{
+			#"angle": 0,
+            #"arc": 210,
+            #"mount": "TURRET",
+            #"size": "SMALL",
+            "type": "MISSILE"
+		},
+	},
+	"builtInMods":["augmentedengines","unstable_injector"],
+	"builtInWeapons":{
+    },
+}

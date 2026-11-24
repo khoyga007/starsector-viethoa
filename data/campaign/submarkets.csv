@@ -1,0 +1,23 @@
+id,name,faction,desc,script,icon,order
+open_market,"Chợ
+tự do",,"Chợ tự do. Chỉ hàng hợp pháp mới được giao dịch ở đây, và mọi giao dịch đều chịu thuế quan. Khi độ ổn định cao, có nhiều hàng hoá hơn.
+
+Bán đủ lượng một mặt hàng sẽ tạm thời giải quyết tình trạng thiếu hụt.",com.fs.starfarer.api.impl.campaign.submarkets.OpenMarketPlugin,,0
+black_market,"Chợ
+đen",pirates,"Chợ đen. Mọi thứ đều có thể mua hoặc bán, và không có thuế quan. Khi độ ổn định thấp, có nhiều hàng hoá hơn.
+
+Bán đủ lượng một mặt hàng sẽ tạm thời giải quyết tình trạng thiếu hụt.
+
+Giao dịch ở chợ đen có thể thu hút sự chú ý của nhà chức trách, dẫn đến việc bị quét khoang hàng và giảm uy tín với phe phái, trừ khi giao dịch được thực hiện với bộ phát đáp đã tắt.
+
+Giao dịch hợp pháp làm ""vỏ bọc"" cũng giúp giảm xác suất thu hút sự chú ý của nhà chức trách.",com.fs.starfarer.api.impl.campaign.submarkets.BlackMarketPlugin,graphics/factions/black_market.png,999
+storage,"Kho chứa",player,"Nơi cất tàu và hàng hoá.",com.fs.starfarer.api.impl.campaign.submarkets.StoragePlugin,graphics/factions/storage.png,1000
+generic_military,,,"Giao dịch với căn cứ quân sự của $theFaction.
+
+Vũ khí và khí tài quân sự khác có thể được mua và bán ở đây, ngay cả khi chúng bị cấm ở chợ tự do. Khi có sự ủy nhiệm và uy tín tốt hơn với $theFaction, khí tài cấp cao hơn sẽ có sẵn.
+
+Sẽ thu mua hàng bị cấm tại địa phương theo chương trình mua lại không hỏi han.
+
+Bán đủ lượng một mặt hàng sẽ tạm thời giải quyết tình trạng thiếu hụt.",com.fs.starfarer.api.impl.campaign.submarkets.MilitarySubmarketPlugin,,100
+local_resources,"Dự trữ
+tài nguyên",,,com.fs.starfarer.api.impl.campaign.submarkets.LocalResourcesSubmarketPlugin,,200

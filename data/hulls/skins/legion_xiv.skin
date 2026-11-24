@@ -1,0 +1,53 @@
+{
+	"baseHullId":"legion",
+	"skinHullId":"legion_xiv",
+	"hullName":"Legion (XIV)",
+	"descriptionId":"legion",
+	"descriptionPrefix":"Được chế tạo theo thông số của Nhóm chiến đấu Domain thứ 14, nhóm đã lập nên Hegemony, con tàu này là ví dụ điển hình cho học thuyết 'quyết chiến' của Hải quân Domain, đặc biệt thể hiện qua một loạt cải tạo cấu trúc triệt để, thực hiện bằng công nghệ công nghiệp trước cuộc Sụp Đổ.",
+	#"tags":["XIV_bp"], # don't want it available for the Hegemony, it's "lost"
+	"tags":["hist3t"],
+	"tech":"XIV Battlegroup",
+	"fleetPoints":30,
+	"ordnancePoints":310,
+	"baseValueMult":1.75,
+	"spriteName":"graphics/ships/legion/legion_xiv.png",
+	"coversColor":[255,255,255,255],
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":["fourteenth"],
+	"builtInWeapons":{
+    },
+    "weaponSlotChanges":{
+	   "WS 000":{
+		  #"angle": 0,
+		  #"arc": 210,
+		  #"mount": "TURRET",
+		  #"size": "SMALL",
+		  "type": "MISSILE"
+	   },
+	   "WS 001":{
+		  #"angle": 0,
+		  #"arc": 210,
+		  #"mount": "TURRET",
+		  #"size": "SMALL",
+		  "type": "MISSILE"
+	   },
+	   "WS 002":{
+		  "type": "BALLISTIC",
+	   },
+	   "WS 003":{
+		  "type": "BALLISTIC",
+	   },
+	   "WS 004":{
+		  "type": "BALLISTIC",
+	   },
+	   "WS 005":{
+		  "type": "BALLISTIC",
+	   },
+	   "WS 007":{
+		  "type": "BALLISTIC",
+	   },
+    },
+}

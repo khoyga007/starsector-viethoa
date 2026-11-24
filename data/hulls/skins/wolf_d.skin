@@ -1,0 +1,17 @@
+{
+	"baseHullId":"wolf",
+	"skinHullId":"wolf_d",
+	"hullName":"Wolf (D)",
+	"descriptionId":"wolf",
+	"descriptionPrefix":"Những tàu lẽ ra đã bị cho ngừng hoạt động trong thời bình nay được sử dụng rộng rãi khắp Sector. Mã hiệu thân tàu của các loại tàu này thường được gắn chữ \"D\", nghĩa là \"hư hỏng\" hoặc \"khiếm khuyết\".",
+	"baseValueMult":.8,
+	"spriteName":"graphics/ships/wolf/wolf_d.png",
+	#"removeWeaponSlots":["WS 002", "WS 003"], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":["degraded_engines","faulty_grid"],
+	"tags":["hide_in_codex"],
+	"builtInWeapons":{
+    },
+}

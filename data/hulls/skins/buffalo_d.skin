@@ -1,0 +1,30 @@
+{
+	"baseHullId":"buffalo",
+	"skinHullId":"buffalo_d",
+	"hullName":"Buffalo (D)",
+	#"fleetPoints":7,
+	#"systemId":"",
+	"descriptionId":"buffalo",  # optional
+	"descriptionPrefix":"Những tàu lẽ ra đã bị cho ngừng hoạt động trong thời bình nay được sử dụng rộng rãi khắp Sector. Mã hiệu thân tàu của các loại tàu này thường được gắn chữ \"D\", nghĩa là \"hư hỏng\" hoặc \"khiếm khuyết\".",
+	"spriteName":"graphics/ships/buffalo/buffalo_substandard.png",
+	"baseValueMult":.67,
+	#"removeHints":[],
+	#"addHints":[],
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":["degraded_engines"],
+	"tags":["hide_in_codex"],
+	"builtInWeapons":{
+    },
+    #"weaponSlotChanges":{
+	#	"WS 001":{
+	#		#"angle": 0,
+    #        #"arc": 210,
+    #        #"mount": "TURRET",
+    #        #"size": "SMALL",
+    #        "type": "BALLISTIC"
+	#	}	
+	#},
+}

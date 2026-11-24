@@ -1,0 +1,17 @@
+{
+	"baseHullId":"falcon",
+	"skinHullId":"falcon_d",
+	"hullName":"Falcon (D)",
+	"descriptionId":"falcon",
+	"descriptionPrefix":"Những tàu lẽ ra đã bị cho ngừng hoạt động trong thời bình nay được sử dụng rộng rãi khắp Sector. Mã hiệu thân tàu của các loại tàu này thường được gắn chữ \"D\", nghĩa là \"hư hỏng\" hoặc \"khiếm khuyết\".",
+	"baseValueMult":.55,
+	"spriteName":"graphics/ships/falcon/falcon_damaged.png",
+	#"removeWeaponSlots":["WS 009", "WS 010"], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":["degraded_engines","faulty_grid"],
+	"tags":["hide_in_codex"],
+	"builtInWeapons":{
+    },
+}

@@ -1,0 +1,148 @@
+{
+	"codex":{
+		"damage_kinetic":{
+			"title":"Sát thương động năng",
+			"body":"Sát thương động năng rất hiệu quả với khiên, nhưng kém với giáp.",
+		},
+		"damage_highexplosive":{
+			"title":"Sát thương nổ mạnh",
+			"body":"Sát thương nổ mạnh rất hiệu quả với giáp, nhưng kém với khiên.",
+		},
+		"damage_fragmentation":{
+			"title":"Sát thương mảnh văng",
+			"body":"Sát thương mảnh văng rất kém với cả giáp lẫn khiên. Tuy nhiên, vũ khí gây loại sát thương này thường có DPS rất cao, khiến chúng tàn phá các mục tiêu ít giáp, không có khiên như tiêm kích hạng nhẹ và tên lửa.\n\nLoại sát thương này cũng có thể rất hiệu quả với tàu đã bị chiến đấu bóc hết giáp.",
+		}, 
+		"damage_energy":{
+			"title":"Sát thương năng lượng",
+			"body":"Sát thương năng lượng hiệu quả ngang nhau với khiên và giáp.",
+		},
+		"damage_other":{
+			"title":"Sát thương khác",
+			"body":"Vũ khí này đặc biệt. Tuy nhiên, nếu bạn đang thấy nội dung này thì rất có thể đây là lỗi.",
+		}, 
+	},
+	"warroom":{
+		#"fleetPoints":{
+		#	"title":"Deployment points",
+		#	"body":"You need available deployment points to deploy your reserves into battle. Retreating or losing ships gives you back the points used to deploy them.",
+		#},
+		#"commandPoints":{
+		#	"title":"Command Points",
+		#	"body":"You need command points to create assignments and give direct orders to your fleet.\n\nOnce you run out, you won't be able to give any more orders, but can still order your fleet to engage the enemy at will by cancelling all existing assignments.\n\nYou gain a few command points every time your forces capture an objective.",
+		#},
+		"pause":{
+			"title":"Tạm dừng",
+			"body":"Tạm dừng trò chơi.",
+		},
+		"play":{
+			"title":"Tiếp tục",
+			"body":"Tiếp tục trò chơi.",
+		},
+		"combatTime":"Thời gian đã trôi qua kể từ khi hai hạm đội chạm trán.\n\nThời gian hoạt động đỉnh của quân tiếp viện bị trừ đi một nửa thời gian giao chiến.",
+	},
+	
+	"fleetScreen":{
+		"tooltipCaptain":{
+			"title":"Chỉ định thuyền trưởng",
+			"body":"Chỉ định một thuyền trưởng (bạn hoặc một sĩ quan) cho tàu này. Tàu sẽ hưởng lợi từ kỹ năng của thuyền trưởng.",
+		},
+		"tooltipAdmin":{
+			"title":"Chỉ định quản trị viên",
+			"body":"Chỉ định một quản trị viên (hoặc chính bạn) để cai quản thuộc địa này. Thuộc địa sẽ hưởng lợi từ kỹ năng của quản trị viên đó.",
+		},
+		"tooltipAdminNonPlayer":{
+			"title":"Quản trị viên",
+			"body":"Thuộc địa này không do quản trị viên nào đáng chú ý cai quản.",
+		},
+		"tooltipBuy":{
+			"title":"Mua",
+			"body":"Mua %s này với giá %s credit.",
+		},
+		"tooltipSell":{
+			"title":"Bán",
+			"body":"Bán %s này lấy %s credit.",
+		},
+		"tooltipTake":{
+			"title":"Lấy",
+			"body":"Lấy %s này.",
+		},
+		"tooltipGive":{
+			"title":"Cất kho",
+			"body":"Chuyển %s này khỏi hạm đội của bạn. Độ sẵn sàng chiến đấu của nó sẽ không đổi khi đang được cất kho.",
+		},
+		"tooltipMothball":{
+			"title":"Niêm cất",
+			"body":"Các %s đã niêm cất không thể tham chiến hay được sửa chữa, và không cung cấp sức chứa nhiên liệu, hàng hoá hay nhân sự.\n\nNiêm cất một tàu sẽ đưa độ sẵn sàng chiến đấu của nó về 0; khôi phục lại sẽ cần thời gian và tiếp tế.",
+		},
+		"tooltipUnmothball":{
+			"title":"Niêm cất",
+			"body":"Các %s đã niêm cất không thể tham chiến hay được sửa chữa, và không cung cấp sức chứa nhiên liệu, hàng hoá hay nhân sự.\n\nKhôi phục độ sẵn sàng chiến đấu của tàu này sau khi bỏ niêm cất sẽ tiêu tốn %s tiếp tế trong %s ngày.",
+		},
+		"tooltipScuttle":{
+			"title":"Phá dỡ",
+			"body":"Tháo lấy mọi thứ hữu ích khỏi %s này, thu được %d tiếp tế, %d nhiên liệu và %d máy móc hạng nặng.",
+		},
+		"tooltipSuspendRepairs":{
+			"title":"Tạm dừng sửa chữa & phục hồi",
+			"body":"Ngăn %s này thực hiện sửa chữa hoặc phục hồi độ sẵn sàng chiến đấu. Sửa chữa đầy đủ và phục hồi CR sẽ tiêu tốn khoảng %s tiếp tế trong %s ngày nếu được tiếp tục.",
+		},
+		"tooltipSuspendRepairsNotNeeded":{
+			"title":"Tạm dừng sửa chữa & phục hồi",
+			"body":"Ngăn %s này thực hiện sửa chữa hoặc phục hồi độ sẵn sàng chiến đấu. %s này hiện không cần sửa chữa hay phục hồi CR.",
+		},
+		"tooltipRefit":{
+			"title":"Trang bị lại",
+			"body":"Thay đổi vũ khí và hullmod được lắp trên tàu này.",
+		},
+		"tooltipLogisticalPriority":{
+			"title":"Ưu tiên hậu cần",
+			"body":"Các %s có ưu tiên hậu cần sẽ được chọn trước thủy thủ đoàn và tiếp tế có sẵn để sửa chữa.",
+		},
+		"tooltipCrewElite":{
+			"title":"Tinh nhuệ",
+			"body":"Biên chế %s này bằng nhân sự giỏi nhất hiện có.",
+		},
+		"tooltipCrewVeteran":{
+			"title":"Kỳ cựu",
+			"body":"Biên chế %s này chỉ bằng thủy thủ đoàn kỳ cựu trở xuống, nếu có thể.", 
+		},
+		"tooltipCrewRegular":{
+			"title":"Chính quy",
+			"body":"Biên chế %s này chỉ bằng thủy thủ đoàn chính quy trở xuống, nếu có thể.",
+		},
+		"tooltipCrewGreen":{
+			"title":"Tân binh",
+			"body":"Biên chế %s này chỉ bằng thủy thủ đoàn tân binh, nếu có thể.",
+		},
+		"tooltipCrewBar":{
+			"title":"",
+			"body":"Tỷ lệ thủy thủ đoàn trên %s này.",
+		},
+	},
+	"logistics":{
+		"marines":"Số lính thủy đánh bộ trong hạm đội.",
+		"crew":"Số thủy thủ đoàn trong hạm đội, và số cần thiết để đáp ứng yêu cầu tối thiểu trên mọi tàu trong hạm đội.",
+		"supplies":"Tiếp tế có sẵn và lượng tiếp tế tiêu thụ mỗi ngày.",
+		"credits":"Credit có sẵn.",
+	},
+	"misc":{
+		"jumpPointNormal":"Điểm nhảy có thể dùng để di chuyển giữa siêu không gian và không gian thường. Một số điểm nhảy còn dẫn đến các đích đến khác.",
+		"jumpPointStar":"Giếng trọng lực của một ngôi sao đủ sâu để cung cấp lối thoát một chiều khỏi siêu không gian. Tuy nhiên, việc sử dụng nó cực kỳ khó khăn và nguy hiểm.",
+		"jumpPointGasGiant":"Giếng trọng lực của một hành tinh khí khổng lồ thường đủ sâu để cung cấp lối thoát một chiều khỏi siêu không gian.",
+	},
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

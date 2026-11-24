@@ -1,0 +1,94 @@
+id,name,cost mult,build time,income,upkeep,downgrade,upgrade,tags,data,image,plugin,desc,order,disruptDanger
+population,"Dân số & hạ tầng",,,10,3,,,"population, unraidable, no_saturation_bombardment",,graphics/icons/industry/population.png,com.fs.starfarer.api.impl.campaign.econ.impl.PopulationAndInfrastructure,"Hạ tầng cơ bản cần thiết để nuôi sống một dân số nhất định, từ các mô-đun sinh hoạt quỹ đạo xập xệ đến siêu đô thị và mọi thứ ở giữa.",100,
+farming,"Nông nghiệp",15,60,,1,,,"farming, industry, rural",,graphics/icons/industry/farming.png,com.fs.starfarer.api.impl.campaign.econ.impl.Farming,"Nông nghiệp là một nghề và một công nghệ lâu đời ngang với chính nền văn minh. Suốt hàng nghìn chu kỳ, loài người đã khai thác sức mạnh của các cỗ máy sinh học tự nhiên, đã được cải tạo và nhân tạo để nuôi sống mình. Vẫn luôn như vậy, và sẽ còn như vậy chừng nào con người vẫn là con người.",200,LOW
+aquaculture,"Nuôi trồng thủy sản",50,60,,3,,,"farming, industry, rural",,graphics/icons/industry/aquaculture.png,com.fs.starfarer.api.impl.campaign.econ.impl.Farming,"Canh tác trên một thế giới nước đòi hỏi khoản đầu tư ban đầu lớn để tạo giống các loài phù hợp bằng công nghệ sinh học, nhưng khi quy trình đã vận hành, các trang trại tảo và ngư trường có thể do dân cư điều hành mà không cần nhiều đào tạo chuyên biệt hay thiết bị.",210,MEDIUM
+mining,"Khai khoáng",20,60,,2,,,"mining, industry, industrial",,graphics/icons/industry/mining.png,com.fs.starfarer.api.impl.campaign.econ.impl.Mining,"Quặng kim loại và á kim, chất hữu cơ và chất bay hơi đều cần thiết bị hạng nặng, hạ tầng chuyên dụng và lực lượng lao động lành nghề để khai thác. Công việc khắc nghiệt thu hút một kiểu người nhất định, và một chính quyền không sẵn lòng nhắm mắt làm ngơ thỉnh thoảng có thể thấy mình thiếu nhân lực sẵn sàng.",300,MEDIUM
+techmining,"Khai thác công nghệ",30,45,,2,,,"techmining, industry, industrial",,graphics/icons/industry/techmining.png,com.fs.starfarer.api.impl.campaign.econ.impl.TechMining,"Khai thác công nghệ là cái nghề tạp nham chuyên thu hồi các hiện vật giá trị từ tàn tích Domain. Cần công cụ đặc biệt để đối phó với các hiểm họa riêng và con mắt nhà nghề để biết nơi tìm một mẻ hàng hời. Những người khai thác công nghệ lâu năm nhất là một đám kỳ quặc, nắm chặt bùa may mắn và từ chối làm việc nếu thiếu nghi thức của họ.",400,MEDIUM
+refining,"Tinh chế",45,90,,3,,,"refining, industry, industrial",,graphics/icons/industry/refining.png,com.fs.starfarer.api.impl.campaign.econ.impl.Refining,"Các nhà máy luyện ở đây biến quặng và quặng siêu plutoni lần lượt thành kim loại và siêu plutoni. Robot điều khiển từ xa thường được dùng cho những việc nguy hiểm nhất.",500,MEDIUM
+spaceport,"Cảng vũ trụ",10,15,,3,,megaport,"spaceport, important, structure",,graphics/icons/industry/spaceport.png,com.fs.starfarer.api.impl.campaign.econ.impl.Spaceport,"Cơ sở bốc dỡ hàng hoá và sửa chữa tàu vũ trụ cơ bản. Một thuộc địa không có cảng vũ trụ gần như không thể tiếp cận được đối với thương mại liên sao.",150,HIGH
+megaport,"Siêu cảng",60,150,,4,spaceport,,"spaceport, structure",,graphics/icons/industry/megaport.png,com.fs.starfarer.api.impl.campaign.econ.impl.Spaceport,"Một cảng vũ trụ rộng lớn, nơi các vì sao chạm được xuống đất. Các giàn hạ cánh được sắp đặt có trật tự và bồn nhiên liệu bọc giáp được nối với nhau bằng đường tiếp cận và tàu điện chở hàng cự ly ngắn, phục vụ một vùng kho bãi và trung tâm logistics trải dài, khiến thuộc địa dễ tiếp cận hơn rất nhiều.",151,EXTREME
+lightindustry,"Công nghiệp nhẹ",45,90,,8,,,"lightindustry, industry, rural",,graphics/icons/industry/light_industry.png,com.fs.starfarer.api.impl.campaign.econ.impl.LightIndustry,"Sản xuất hàng gia dụng và hàng xa xỉ. Là một trong số ít ngành công nghiệp tương đối không bị ảnh hưởng bởi cuộc Sụp Đổ nhờ tính chất công nghệ thấp của nó.",1400,MEDIUM
+heavyindustry,"Công nghiệp nặng",100,120,,12,,orbitalworks,"heavyindustry, uses_blueprints, industry, industrial",,graphics/icons/industry/heavy_industry.png,com.fs.starfarer.api.impl.campaign.econ.impl.HeavyIndustry,"Hạ tầng sản xuất tập trung để chế tạo thiết bị công nghiệp hạng nặng, tiếp tế và vũ khí. Cũng có khả năng đóng ra những tàu vũ trụ gần như không đủ điều kiện bay; có thể lắp một nanoforge để nâng chất lượng sản xuất.",1600,HIGH
+orbitalworks,"Xưởng quỹ đạo",60,150,,12,heavyindustry,,"heavyindustry, uses_blueprints, industry, industrial",,graphics/icons/industry/orbital_works.png,com.fs.starfarer.api.impl.campaign.econ.impl.HeavyIndustry,"Hạ tầng sản xuất tập trung để chế tạo thiết bị công nghiệp hạng nặng, tiếp tế và vũ khí. Cũng có khả năng đóng ra những tàu vũ trụ chỉ vừa đủ sức bay trong không gian; có thể lắp một nanoforge để nâng chất lượng sản xuất.
+
+Được nâng cấp với một bộ phận quỹ đạo, giúp việc đóng tàu thuận lợi hơn và giảm lỗi sản xuất.",1700,HIGH
+fuelprod,"Sản xuất nhiên liệu",90,120,,10,,,"fuelprod, industry, industrial",,graphics/icons/industry/fuel_production.png,com.fs.starfarer.api.impl.campaign.econ.impl.FuelProduction,"Cơ sở này sản xuất nhiên liệu tàu vũ trụ, nguồn sống của nền văn minh liên sao. Thiếu các linh kiện công nghệ Domain, việc sản xuất nhiên liệu là một quy trình tốn công và chậm chạp.",1800,HIGH
+#advfuelprod,Advanced Fuel Production,120,60,,5,fuelprod,,fuelprod,,graphics/icons/industry/advanced_fuel_production.png,com.fs.starfarer.api.impl.campaign.econ.impl.FuelProduction,"A massive Domain-tech facility produces starship fuel, the life-blood of interstellar civilization.",1900,
+commerce,"Thương mại",90,90,,3,,,"industry, urban",,graphics/icons/industry/commerce.png,com.fs.starfarer.api.impl.campaign.econ.impl.TradeCenter,"Quy định, khoản trợ cấp và hạ tầng nhằm khuyến khích thương mại độc lập phát đạt. Làm giảm đáng kể mức độ kiểm soát trực tiếp mà chính quyền có đối với thuộc địa.",1950,MEDIUM
+station_base,"Trạm quỹ đạo",,,,,,,"station, parent_item, important, structure",station,graphics/icons/industry/station_category.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"Một trạm không gian có khả năng hỗ trợ hạm đội phe mình gần $marketName, và phải bị hạ trước khi có thể tiến hành oanh tạc.
+
+Có nhiều biến thể, khác biệt chủ yếu nằm ở cách tiếp cận chiến thuật hơn là sức mạnh tổng thể.",2000,
+orbitalstation,"Trạm quỹ đạo - công nghệ thấp",50,90,,3,,battlestation,"station, sub_item, unraidable, structure","{
+radius:55,
+variant:station1_Standard,
+fleetName:Orbital Station,
+}",graphics/icons/industry/orbital_station.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"Một trạm không gian công nghệ thấp, có giáp nặng và hoả lực trung bình.
+
+Phải bị hạ trước khi có thể tiến hành oanh tạc.",2010,
+battlestation,"Trạm chiến đấu - công nghệ thấp",100,120,,4,orbitalstation,starfortress,"station, battlestation, unraidable, structure","{
+radius:65,
+variant:station2_Standard,
+fleetName:Battlestation,
+}",graphics/icons/industry/battlestation.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"Một trạm không gian, được tăng cường bằng một pháo đài nặng và các thành luỹ phòng thủ điểm.
+
+Phải bị hạ trước khi có thể tiến hành oanh tạc.",2020,
+starfortress,"Pháo đài sao - công nghệ thấp",200,180,,5,battlestation,,"station, starfortress, unraidable, structure","{
+radius:70,
+variant:station3_Standard,
+fleetName:Star Fortress
+}",graphics/icons/industry/star_fortress.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"Một trạm chiến đấu được gia cố thêm giáp, có các drone phòng thủ lớp Merlon và một bãi mìn rộng lớn.
+
+Phải bị hạ trước khi có thể tiến hành oanh tạc.",2030,
+orbitalstation_mid,"Trạm quỹ đạo - công nghệ trung",50,90,,3,,battlestation_mid,"station, sub_item, unraidable, structure","{
+radius:55,
+variant:station1_midline_Standard,
+fleetName:Orbital Station,
+}",graphics/icons/industry/orbital_station.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"Một trạm không gian công nghệ trung, có hoả lực nặng ở một bên và tự quay quanh trục nhanh.
+
+Phải bị hạ trước khi có thể tiến hành oanh tạc.",2040,
+battlestation_mid,"Trạm chiến đấu - công nghệ trung",100,120,,4,orbitalstation_mid,starfortress_mid,"station, battlestation, unraidable, structure","{
+radius:65,
+variant:station2_midline_Standard,
+fleetName:Battlestation,
+}",graphics/icons/industry/battlestation.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"Một trạm không gian, được tăng cường bằng các mô-đun hỗ trợ tên lửa.
+
+Phải bị hạ trước khi có thể tiến hành oanh tạc.",2050,
+starfortress_mid,"Pháo đài sao - công nghệ trung",200,180,,5,battlestation_mid,,"station, starfortress, unraidable, structure","{
+radius:70,
+variant:station3_midline_Standard,
+fleetName:Star Fortress
+}",graphics/icons/industry/star_fortress.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"Một trạm chiến đấu được gia cố thêm giáp, có các drone phòng thủ lớp Ravelin và một bãi mìn rộng lớn.
+
+Phải bị hạ trước khi có thể tiến hành oanh tạc.",2060,
+orbitalstation_high,"Trạm quỹ đạo - công nghệ cao",50,90,,3,,battlestation_high,"station, sub_item, unraidable, structure","{
+radius:55,
+variant:station1_hightech_Standard,
+fleetName:Orbital Station,
+}",graphics/icons/industry/orbital_station.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"Một trạm không gian công nghệ cao, có khiên xoay hạng nặng, biên chế tiêm kích và hoả lực trung bình.
+
+Phải bị hạ trước khi có thể tiến hành oanh tạc.",2070,
+battlestation_high,"Trạm chiến đấu - công nghệ cao",100,120,,4,orbitalstation_high,starfortress_high,"station, battlestation, unraidable, structure","{
+radius:65,
+variant:station2_hightech_Standard,
+fleetName:Battlestation,
+}",graphics/icons/industry/battlestation.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"Một trạm không gian, được tăng cường bằng một thành luỹ phòng thủ có hoả lực nặng.
+
+Phải bị hạ trước khi có thể tiến hành oanh tạc.",2080,
+starfortress_high,"Pháo đài sao - công nghệ cao",200,180,,5,battlestation_high,,"station, starfortress, unraidable, structure","{
+radius:70,
+variant:station3_hightech_Standard,
+fleetName:Star Fortress
+}",graphics/icons/industry/star_fortress.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"Một trạm chiến đấu được gia cố thêm giáp, có các drone phòng thủ lớp Gargoyle và bộ dịch chuyển mìn có định hướng tầm xa.
+
+Phải bị hạ trước khi có thể tiến hành oanh tạc.",2090,
+grounddefenses,"Phòng thủ mặt đất",30,60,,2,,heavybatteries,"grounddefenses, unraidable, tactical_bombardment, structure",,graphics/icons/industry/ground_defenses.png,com.fs.starfarer.api.impl.campaign.econ.impl.GroundDefenses,"Một mạng lưới phân tán, bán tự chủ gồm các cụm vũ khí nhỏ, ẩn kín, khiến việc tấn công trực diện xuống mặt đất, thậm chí các cuộc đột kích đơn giản, trở nên cực kỳ tốn kém cho kẻ tấn công. Chỉ có oanh tạc quỹ đạo áp đảo hoặc màn chắn chủ động chênh lệch quá lớn mới có thể áp chế các hệ thống phòng thủ này.",2200,
+heavybatteries,"Dàn pháo hạng nặng",60,90,,3,grounddefenses,,"grounddefenses, unraidable, tactical_bombardment, structure",,graphics/icons/industry/heavy_batteries.png,com.fs.starfarer.api.impl.campaign.econ.impl.GroundDefenses,"Các dàn pháo bọc giáp dưới bề mặt bổ sung cho một mạng lưới phân tán gồm các cụm vũ khí nhỏ, ẩn kín. Các dàn pháo mặt đất có hoả lực thực sự kinh hoàng, nhưng nó chỉ thể hiện ở chỗ làm cho các hoạt động trên mặt đất khó khăn hơn, vì không thuyền trưởng tàu vũ trụ nào đủ dại dột để tiến vào vùng bắn của chúng.",2300,
+patrolhq,"Trụ sở tuần tra",60,60,,8,,militarybase,"patrol, unraidable, tactical_bombardment, structure",,graphics/icons/industry/patrol_hq.png,com.fs.starfarer.api.impl.campaign.econ.impl.MilitaryBase,"Nhà chứa tàu, khu bảo dưỡng, trung tâm chỉ huy và điều khiển, doanh trại và cơ sở hậu cần cần thiết để triển khai lực lượng khắp một hệ sao. Khi đã thiết lập, các đội tuần tra có tổ chức quân sự sẽ săn hải tặc và bảo vệ các đoàn tàu vận tải phe mình.",2400,
+militarybase,"Căn cứ quân sự",90,120,,10,patrolhq,highcommand,"military, unraidable, tactical_bombardment, industry",,graphics/icons/industry/military_base.png,com.fs.starfarer.api.impl.campaign.econ.impl.MilitaryBase,"Các cơ sở này cho phép triển khai lực lượng giữa các hệ sao. Bất kỳ hoạt động quân sự nào như vậy đều là một chiến dịch hậu cần khổng lồ, đòi hỏi phối hợp hàng chục, thậm chí hàng trăm tàu vũ trụ và hàng nghìn sĩ quan, thủy thủ đoàn và binh lính.",2500,
+highcommand,"Bộ tư lệnh",30,120,,14,militarybase,,"command, unraidable, tactical_bombardment, industry",,graphics/icons/industry/high_command.png,com.fs.starfarer.api.impl.campaign.econ.impl.MilitaryBase,"Một đế chế liên sao chỉ khả thi nhờ một đội ngũ sĩ quan và quan chức xuất chúng, được trao quyền kiểm soát tài nguyên của cả hệ sao. Một bộ tư lệnh đã thành lập cho phép các hoạt động quân sự được tổ chức và thực hiện trên khắp Sector.",2600,
+lionsguard,"Trụ sở Lion's Guard",90,60,,6,,,"military, unraidable, tactical_bombardment, structure, codex_unlockable",,graphics/icons/industry/lions_guard.png,com.fs.starfarer.api.impl.campaign.econ.impl.LionsGuardHQ,"Trụ sở của đội cận vệ đáng sợ của Phillip ""The Lion of Sindria"" Andrada. Với huấn luyện xuất sắc và quyền tiếp cận những trang bị tốt nhất mà credits có thể mua được, lòng trung thành cuồng tín của Guard được duy trì bằng một hệ thống đặc quyền và ưu đãi, vừa nâng họ lên vừa tách họ khỏi quân đội chính quy của Diktat.",2650,
+planetaryshield,"Khiên hành tinh",150,90,,3,,,"grounddefenses, structure, codex_unlockable",,graphics/icons/industry/planetary_shield.png,com.fs.starfarer.api.impl.campaign.econ.impl.PlanetaryShield,"Một lớp vỏ plasma tích điện, được gieo các hạt ảo kỳ lạ, tạo ra hiệu ứng làm gián đoạn hiệu quả chiến đấu của các đợt oanh tạc tầm xa và cả sự xâm nhập của tàu nhỏ. Khiên hành tinh có thể được một nguồn trung tâm liên tục nạp năng lượng và điều khiển, và là một trở ngại đáng gờm đối với mọi hình thức tấn công mặt đất.",2700,EXTREME
+waystation,"Trạm trung chuyển",20,60,,2,,,"waystation, structure",,graphics/icons/industry/waystation.png,com.fs.starfarer.api.impl.campaign.econ.impl.Waystation,"Một kho tiếp tế và bảo dưỡng cho các hạm đội liên sao. Tăng khả năng tiếp cận của thuộc địa.",155,MEDIUM
+cryosanctum,"Hầm ngủ đông",150,90,,5,,,"cryosanctum, structure, codex_unlockable",,graphics/icons/industry/cryosanctum.png,com.fs.starfarer.api.impl.campaign.econ.impl.Cryosanctum,"Một căn hầm khổng lồ tựa lăng mộ, được xây để chứa những người chọn mạo hiểm ngủ đông, vượt qua thời loạn này và tỉnh dậy trong một thời đại có lẽ văn minh hơn. Bản thân các ngăn ngủ đông nhỏ bé không đáng kể so với hạ tầng hỗ trợ dư thừa gấp nhiều lần, hệ thống an ninh tự động khổng lồ và dàn pháo chống hạm, tất cả nằm trong một mê cung pháo đài phân nhánh dưới bề mặt.",3000,EXTREME
+,,,,,,,,,,,,,,
+cryorevival,"Cơ sở hồi sinh ngủ đông",60,60,,5,,,"cryorevival, structure, codex_unlockable",,graphics/icons/industry/cryorevival.png,com.fs.starfarer.api.impl.campaign.econ.impl.Cryorevival,"Các cơ sở cần thiết để hồi sinh hàng loạt và hoà nhập những hành khách của một tàu ngủ đông thời Domain. Làm tăng mạnh tốc độ tăng trưởng dân số.",3200,MEDIUM

@@ -1,0 +1,157 @@
+{
+	"ranks":{
+		"factionLeader":{"name":"Tổng chỉ huy"},
+		"houseLeader":{"name":"Gia trưởng"},
+		"houseLeaderMale":{"name":"Gia trưởng"},
+		"houseLeaderFemale":{"name":"Gia mẫu"},
+	
+		"spaceSailor":{"name":"Dân vũ trụ"},
+		"spaceChief":{"name":"Thượng sĩ"},
+		"spaceEnsign":{"name":"Thiếu úy"},
+		"spaceLieutenant":{"name":"Trung úy"},
+		"spaceCommander":{"name":"Chỉ huy"},
+		"spaceCaptain":{"name":"Thuyền trưởng"},
+		"spaceAdmiral":{"name":"Đô đốc"},
+		"spaceMarshal":{"name":"Thống chế vũ trụ"},
+		
+		"groundPrivate":{"name":"Binh nhì"},
+		"groundSergeant":{"name":"Trung sĩ"},
+		"groundLieutenant":{"name":"Trung úy"},
+		"groundCaptain":{"name":"Thuyền trưởng"},
+		"groundMajor":{"name":"Thiếu tá"},
+		"groundColonel":{"name":"Đại tá"},
+		"groundGeneral":{"name":"Tướng"},
+		
+		"knightCaptain":{"name":"Hiệp sĩ đội trưởng"},
+		
+		"chiefHighInspector":{"name":"Thanh tra trưởng cấp cao"},
+		"deputyStarMarshal":{"name":"Phó thống chế vũ trụ"},
+		"guardHighDeputyExecutor":{"name":"Phó Executor cấp cao của Guard"},
+		
+		"citizen":{"name":"Công dân"},
+		"executive":{"name":"Giám đốc điều hành"},
+		"seniorExecutive":{"name":"Giám đốc điều hành cấp cao"},
+		"agent":{"name":"Đặc vụ"},
+		"specialAgent":{"name":"Đặc vụ đặc biệt"},
+		"artificialIntelligence":{"name":"Trí tuệ nhân tạo"},
+		
+		"pilot":{"name":"Phi công"},
+		"unknown":{name:"Không rõ"},
+		"criminal":{name:"Tội phạm"},
+		"fugitive":{name:"Kẻ đào tẩu"},
+		
+		"brother":{name:"Huynh"},
+		"sister":{name:"Tỷ"},
+		"father":{name:"Cha"},
+		"mother":{name:"Mẹ"},
+		"elder":{name:"Trưởng lão"},
+		"aristocrat":{name:"Quý tộc"},
+		"terrorist":{name:"Kẻ khủng bố"},
+		"freedomFighter":{name:"Chiến sĩ tự do"},
+		"clone":{name:"Nhân bản"},
+		
+	},
+	
+	"posts":{
+		"factionLeader":{"name":"Tổng chỉ huy"},
+	
+		"patrolCommander":{"name":"Chỉ huy tuần tra"},
+		"fleetCommander":{"name":"Chỉ huy hạm đội"},
+		
+		"baseCommander":{"name":"Chỉ huy căn cứ"},
+		"stationCommander":{"name":"Chỉ huy trạm"},
+		"outpostCommander":{"name":"Chỉ huy tiền đồn"},
+		"portmaster":{"name":"Cảng trưởng"},
+		"personnelOfficer":{"name":"Sĩ quan nhân sự"},
+		
+		"intelligenceDirector":{"name":"Giám đốc Tình báo"},
+		"guardLeader":{"name":"Giám đốc Lực lượng Đặc biệt"},
+		
+		"supplyOfficer":{"name":"Trưởng kho"},
+		"supplyManager":{"name":"Quản lý tiếp tế"},
+		"medicalSupplier":{"name":"Nhà cung cấp y tế"},
+		
+		"administrator":{"name":"Quản trị viên"},
+		"militaryAdministrator":{"name":"Thống đốc quân sự"},
+		"freeAdmin":{"name":"Quản trị viên tự do"},
+		
+		"guildMaster":{"name":"Trưởng hội"},
+		"communeLeader":{"name":"Trưởng công xã"},
+		"executive":{"name":"Giám đốc điều hành"},
+		"seniorExecutive":{"name":"Giám đốc điều hành cấp cao"},
+		"minorCriminal":{"name":"Tội phạm vặt"},
+		"criminal":{"name":"Tội phạm"},
+		"spacer":{"name":"Dân vũ trụ"},
+		
+		"genericMilitary":{"name":"Chỉ huy"},
+		"marineSquadLeader":{"name":"Trung sĩ"},
+		
+		"trader":{"name":"Thương nhân"},
+		"merchant":{"name":"Thương gia"},
+		"investor":{"name":"Nhà đầu tư"},
+		"commodities_agent":{"name":"Đặc vụ hàng hóa"},
+		"entrepreneur":{"name":"Doanh nhân"},
+		"nanoforge_engineer":{"name":"Kỹ sư nanoforge"},
+		
+		"shady":{"name":"Kẻ mờ ám"},
+		"gangster":{"name":"Côn đồ"},
+		"smuggler":{"name":"Kẻ buôn lậu"},
+		"fence":{"name":"Kẻ tiêu thụ đồ trộm"},
+		"armsDealer":{"name":"Kẻ buôn vũ khí"},
+		"underworldBoss":{"name":"Trùm thế giới ngầm"},
+		
+		"citizen":{"name":"Công dân"},
+		"boss":{"name":"Trùm"},
+		"crewBoss":{"name":"Trùm thủy thủ đoàn"},
+		
+		"mercenary":{"name":"Sĩ quan lính đánh thuê"},
+		"officer":{"name":"Sĩ quan"},
+		"officer_for_hire":{"name":"Sĩ quan (sẵn sàng được thuê)"}, 
+		
+		"investigator":{"name":"Điều tra viên trưởng"},
+		"agent":{"name":"Đặc vụ"},
+		"specialAgent":{"name":"Đặc vụ đặc biệt"},
+		
+		"provost":{name:"Viện trưởng"},
+		"academician":{name:"Viện sĩ"},
+		"associate_academician":{name:"Phó viện sĩ"},
+		"assistant_academician":{name:"Trợ lý viện sĩ"},
+		
+		"securityChief":{name:"Trưởng an ninh"},
+		"doctor":{name:"Bác sĩ"},
+		"hacker":{name:"Tin tặc"},
+		"hermit":{name:"Ẩn sĩ"},
+		"pensioner":{name:"Người hưu trí"},
+		"activist":{name:"Nhà hoạt động"},
+		"scientist":{name:"Nhà khoa học"},
+		"terrorist":{name:"Kẻ khủng bố"},
+		"warlord":{name:"Lãnh chúa"},
+		"unknown":{name:"Không rõ"},
+		"aristocrat":{name:"Quý tộc"},
+		
+		"curate":{name:"Giáo sĩ"},
+		"synodSubcurate":{name:"Phó giáo sĩ Synod"},
+		"subcurate":{name:"Phó giáo sĩ"},
+		"archcurate":{name:"Tổng giáo sĩ"},
+		"heretic":{name:"Kẻ dị giáo"},
+		"shrinePriest":{name:"Giáo sĩ Sacraria"},
+		"excubitorOrbis":{"name":"Excubitor Orbis"},
+		"initiate":{"name":"Tập sự"},
+		"novice":{"name":"Tập sinh"},
+		"pilgrim":{"name":"Người hành hương"},
+		
+		"exile":{"name":"Kẻ lưu đày"},
+		
+		"gammaCore":{"name":"Lõi Gamma"},
+		"betaCore":{"name":"Lõi Beta"},
+		"alphaCore":{"name":"Lõi Alpha"},
+		
+	},
+}
+
+
+
+
+
+
+

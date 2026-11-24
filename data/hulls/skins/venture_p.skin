@@ -1,0 +1,41 @@
+{
+	"baseHullId":"venture",
+	"skinHullId":"venture_p",
+	"hullName":"Venture Mk.II",
+	"hullDesignation":"Cruiser",
+	"fleetPoints":12,
+	"ordnancePoints":115,
+	#"systemId":"",
+	"descriptionPrefix":"Một loạt cải biến đầy tham vọng đã được thực hiện trên chiếc Venture này tại một xưởng đóng tàu tối tăm ở rìa ngoài. Khoang hangar và khoang quặng đã được thay bằng một bệ cố định có thể lắp một bệ phóng tên lửa khổng lồ, kho đạn dược và một bộ nạp đạn tự động đa dụng phần lớn đáng tin cậy. Việc bệ phóng tên lửa này hướng về phía sau đã khơi nguồn vô số biệt danh đầy màu sắc cho biến thể thân tàu này, từ cả thủy thủ đoàn lẫn kẻ thù.",
+	"tags":["pirate_bp"],
+	"tech":"Pirate",
+	"builtInWings": [],
+	"fighterBays":0,
+	"spriteName":"graphics/ships/venture/venture_p.png",
+	"baseValueMult":1,
+	"removeHints":[CIVILIAN],
+	#"addHints":[],
+	"removeWeaponSlots":["WS 008"], 	# ids
+	"removeEngineSlots":[], 			# indices, as engine slots have no id in the .ship file
+	#"removeBuiltInMods":["civgrade"], 	# hullmod ids
+	#"removeBuiltInWeapons":[], 			# weapon slot ids
+	#"builtInMods":["ill_advised", "comp_storage"],
+	"builtInMods":["comp_storage"],
+	"builtInWeapons":{
+    },
+    "weaponSlotChanges":{
+		"WS 005":{
+			"type": "BALLISTIC"
+		},
+		"WS 006":{
+			"type": "BALLISTIC"
+		},
+		"WS 009":{
+			#"angle": 0,
+            		#"arc": 210,
+            "mount": "HARDPOINT",
+            "size": "LARGE",
+            "type": "MISSILE"
+		}	
+	},
+}

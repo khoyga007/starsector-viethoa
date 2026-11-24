@@ -1,0 +1,19 @@
+{
+	"baseHullId":"buffalo",
+	"skinHullId":"buffalo_hegemony",
+	"hullName":"Buffalo (A)",
+	"baseValueMult":1.5,
+	#"ordnancePoints":28,
+	"descriptionId":"buffalo",  # optional
+	"descriptionPrefix":"Con tàu này nằm trong danh sách phụ trợ của Hegemony, vì vậy các hệ thống của nó đã được nâng cấp theo tiêu chuẩn quân sự và áp dụng lịch bảo dưỡng nghiêm ngặt, với kỳ vọng nó có thể được huy động vào nhiệm vụ quân sự khi có tình huống khẩn cấp.",
+	"tags":["heg_aux_bp"],
+	"tech":"Hegemony",
+	"spriteName":"graphics/ships/buffalo/buffalo_hegemony.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	#"removeBuiltInMods":["civgrade"], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":["militarized_subsystems"],
+	"builtInWeapons":{
+    },
+}

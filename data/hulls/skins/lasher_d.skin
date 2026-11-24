@@ -1,0 +1,17 @@
+{
+	"baseHullId":"lasher",
+	"skinHullId":"lasher_d",
+	"hullName":"Lasher (D)",
+	"descriptionId":"lasher",
+	"descriptionPrefix":"Những tàu lẽ ra đã bị cho ngừng hoạt động trong thời bình nay được sử dụng rộng rãi khắp Sector. Mã hiệu thân tàu của các loại tàu này thường được gắn chữ \"D\", nghĩa là \"hư hỏng\" hoặc \"khiếm khuyết\".",
+	"baseValueMult":.7,
+	"spriteName":"graphics/ships/lasher/lasher_substandard.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[2, 4], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":["degraded_engines","faulty_grid"],
+	"tags":["hide_in_codex"],
+	"builtInWeapons":{
+    },
+}

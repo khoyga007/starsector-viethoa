@@ -1,266 +1,290 @@
 {
- "comm_relay": {
-  "defaultName": "Chuyển tiếp liên lạc",
-  "nameInText": "chuyển tiếp liên lạc",
-  "shortName": "chuyển tiếp"
- },
- "nav_buoy": {
-  "defaultName": "Phao điều hướng",
-  "nameInText": "phao điều hướng",
-  "shortName": "phao"
- },
- "sensor_array": {
-  "defaultName": "Mảng cảm biến",
-  "nameInText": "mảng cảm biến",
-  "shortName": "mảng"
- },
- "comm_relay_makeshift": {
-  "defaultName": "Chuyển tiếp liên lạc tạm"
- },
- "nav_buoy_makeshift": {
-  "defaultName": "Phao điều hướng tạm"
- },
- "sensor_array_makeshift": {
-  "defaultName": "Mảng cảm biến tạm"
- },
- "stable_location": {
-  "defaultName": "Vị trí ổn định",
-  "nameInText": "vị trí ổn định",
-  "shortName": "vị trí ổn định"
- },
- "mission_location": {
-  "defaultName": "Vị trí mục tiêu",
-  "nameInText": "vị trí mục tiêu",
-  "shortName": "vị trí mục tiêu"
- },
- "cargo_pod_special": {
-  "defaultName": "Khoang hàng",
-  "nameInText": "khoang hàng",
-  "shortName": "khoang hàng"
- },
- "generic_probe": {
-  "defaultName": "Thiết bị thăm dò",
-  "nameInText": "thiết bị thăm dò",
-  "shortName": "thiết bị"
- },
- "derelict_vambrace": {
-  "defaultName": "Công trình bỏ hoang",
-  "nameInText": "công trình bỏ hoang",
-  "shortName": "công trình bỏ hoang"
- },
- "generic_probe_active": {
-  "defaultName": "Thiết bị thăm dò",
-  "nameInText": "thiết bị thăm dò",
-  "shortName": "thiết bị"
- },
- "test_station": {
-  "defaultName": "Trạm phụ"
- },
- "inactive_gate": {
-  "defaultName": "Gate không hoạt động",
-  "nameInText": "gate không hoạt động"
- },
- "station_jangala_type": {
-  "defaultName": "Trạm phụ"
- },
- "station_sporeship_derelict": {
-  "defaultName": "Trạm tàu bào tử bỏ hoang"
- },
- "stellar_mirror": {
-  "defaultName": "Gương sao"
- },
- "stellar_shade": {
-  "defaultName": "Màn chắn sao"
- },
- "station_side00": {
-  "defaultName": "Trạm phụ"
- },
- "station_galatia": {
-  "defaultName": "Trạm Galatia Academy"
- },
- "station_side02": {
-  "defaultName": "Trạm phụ"
- },
- "station_side03": {
-  "defaultName": "Trạm phụ"
- },
- "station_side04": {
-  "defaultName": "Trạm phụ"
- },
- "station_side05": {
-  "defaultName": "Trạm phụ"
- },
- "station_mining00": {
-  "defaultName": "Trạm phụ"
- },
- "station_side07": {
-  "defaultName": "Trạm phụ"
- },
- "station_side06": {
-  "defaultName": "Trạm phụ"
- },
- "orbital_dockyard": {
-  "defaultName": "Ụ tàu quỹ đạo"
- },
- "station_pirate_type": {
-  "defaultName": "Trạm phụ"
- },
- "station_built_from_industry": {
-  "defaultName": "Trạm quỹ đạo"
- },
- "orbital_junk": {
-  "defaultName": "Khu sinh cư"
- },
- "derelict_probe": {
-  "defaultName": "Thiết bị thăm dò thời Domain",
-  "nameInText": "thiết bị thăm dò thời Domain",
-  "shortName": "thiết bị"
- },
- "derelict_survey_ship": {
-  "defaultName": "Tàu khảo sát thời Domain",
-  "nameInText": "tàu khảo sát thời Domain",
-  "shortName": "tàu khảo sát"
- },
- "derelict_mothership": {
-  "defaultName": "Tàu mẹ thời Domain",
-  "nameInText": "tàu mẹ thời Domain",
-  "shortName": "tàu mẹ"
- },
- "derelict_cryosleeper": {
-  "defaultName": "Cryosleeper thời Domain",
-  "nameInText": "cryosleeper thời Domain"
- },
- "derelict_gatehauler": {
-  "defaultName": "Gate Hauler thời Domain",
-  "nameInText": "Gate Hauler thời Domain"
- },
- "debris_field_shared": {
-  "defaultName": "Trường mảnh vỡ",
-  "nameInText": "trường mảnh vỡ",
-  "shortName": "mảnh vỡ"
- },
- "wreck": {
-  "defaultName": "Tàu bỏ hoang",
-  "nameInText": "tàu bỏ hoang",
-  "shortName": "tàu"
- },
- "hidden_cache": {
-  "defaultName": "Kho ẩn",
-  "nameInText": "kho ẩn",
-  "shortName": "kho ẩn"
- },
- "asteroid_base": {
-  "defaultName": "Căn cứ tiểu hành tinh",
-  "nameInText": "căn cứ tiểu hành tinh",
-  "shortName": "căn cứ tiểu hành tinh"
- },
- "supply_cache": {
-  "defaultName": "Kho tiếp tế",
-  "nameInText": "kho tiếp tế",
-  "shortName": "kho tiếp tế"
- },
- "weapons_cache": {
-  "defaultName": "Kho vũ khí",
-  "nameInText": "kho vũ khí",
-  "shortName": "kho vũ khí"
- },
- "equipment_cache": {
-  "defaultName": "Kho thiết bị",
-  "nameInText": "kho thiết bị",
-  "shortName": "kho thiết bị"
- },
- "large_cache": {
-  "defaultName": "Kho",
-  "nameInText": "kho",
-  "shortName": "kho"
- },
- "technology_cache": {
-  "defaultName": "Kho công nghệ",
-  "nameInText": "kho công nghệ",
-  "shortName": "kho công nghệ"
- },
- "alpha_site_weapons_cache": {
-  "defaultName": "Kho được che chắn dày",
-  "nameInText": "kho được che chắn",
-  "shortName": "kho"
- },
- "supply_cache_small": {
-  "defaultName": "Kho tiếp tế nhỏ",
-  "nameInText": "kho tiếp tế nhỏ",
-  "shortName": "kho tiếp tế"
- },
- "weapons_cache_small": {
-  "defaultName": "Kho vũ khí nhỏ",
-  "nameInText": "kho vũ khí nhỏ",
-  "shortName": "kho vũ khí"
- },
- "equipment_cache_small": {
-  "defaultName": "Kho thiết bị nhỏ",
-  "nameInText": "kho thiết bị nhỏ",
-  "shortName": "kho thiết bị"
- },
- "station_mining": {
-  "defaultName": "Trạm khai khoáng",
-  "nameInText": "trạm khai khoáng",
-  "shortName": "trạm"
- },
- "station_research": {
-  "defaultName": "Trạm nghiên cứu",
-  "nameInText": "trạm nghiên cứu",
-  "shortName": "trạm"
- },
- "orbital_habitat": {
-  "defaultName": "Khu sinh cư quỹ đạo",
-  "nameInText": "khu sinh cư quỹ đạo",
-  "shortName": "khu sinh cư quỹ đạo"
- },
- "cargo_pods": {
-  "defaultName": "Các khoang hàng",
-  "nameInText": "các khoang hàng",
-  "shortName": "các khoang hàng"
- },
- "warning_beacon": {
-  "defaultName": "Đèn hiệu cảnh báo"
- },
- "fusion_lamp": {
-  "defaultName": "Đèn nhiệt hạch"
- },
- "explosion": {
-  "defaultName": "Vụ nổ"
- },
- "station_lowtech1": {
-  "defaultName": "Trạm quỹ đạo"
- },
- "station_lowtech2": {
-  "defaultName": "Trạm chiến đấu"
- },
- "station_lowtech3": {
-  "defaultName": "Pháo đài sao"
- },
- "station_midline1": {
-  "defaultName": "Trạm quỹ đạo"
- },
- "station_midline2": {
-  "defaultName": "Trạm chiến đấu"
- },
- "station_midline3": {
-  "defaultName": "Pháo đài sao"
- },
- "station_hightech1": {
-  "defaultName": "Trạm quỹ đạo"
- },
- "station_hightech2": {
-  "defaultName": "Trạm chiến đấu"
- },
- "station_hightech3": {
-  "defaultName": "Pháo đài sao"
- },
- "sensor_ghost": {
-  "defaultName": "Thực thể không xác định",
-  "nameInText": "bóng ma cảm biến",
-  "shortName": "bóng ma cảm biến"
- },
- "abyssal_light": {
-  "defaultName": "Ánh sáng vực thẳm"
- }
+	"comm_relay": {
+		"defaultName": "Chuyển tiếp liên lạc",
+		"nameInText": "chuyển tiếp liên lạc",
+		"shortName": "chuyển tiếp"
+	},
+	"nav_buoy": {
+		"defaultName": "Phao điều hướng",
+		"nameInText": "phao điều hướng",
+		"shortName": "phao"
+	},
+	"sensor_array": {
+		"defaultName": "Mảng cảm biến",
+		"nameInText": "mảng cảm biến",
+		"shortName": "mảng"
+	},
+	"comm_relay_makeshift": {
+		"defaultName": "Chuyển tiếp liên lạc tạm"
+	},
+	"nav_buoy_makeshift": {
+		"defaultName": "Phao điều hướng tạm"
+	},
+	"sensor_array_makeshift": {
+		"defaultName": "Mảng cảm biến tạm"
+	},
+	"stable_location": {
+		"defaultName": "Vị trí ổn định",
+		"nameInText": "vị trí ổn định",
+		"shortName": "vị trí ổn định"
+	},
+	"mission_location": {
+		"defaultName": "Vị trí mục tiêu",
+		"nameInText": "vị trí mục tiêu",
+		"shortName": "vị trí mục tiêu"
+	},
+	"cargo_pod_special": {
+		"defaultName": "Khoang hàng",
+		"nameInText": "khoang hàng",
+		"shortName": "khoang hàng"
+	},
+	"generic_probe": {
+		"defaultName": "Thiết bị thăm dò",
+		"nameInText": "thiết bị thăm dò",
+		"shortName": "thiết bị"
+	},
+	"derelict_vambrace": {
+		"defaultName": "Công trình bỏ hoang",
+		"nameInText": "công trình bỏ hoang",
+		"shortName": "công trình bỏ hoang"
+	},
+	"generic_probe_active": {
+		"defaultName": "Thiết bị thăm dò",
+		"nameInText": "thiết bị thăm dò",
+		"shortName": "thiết bị"
+	},
+	"test_station": {
+		"defaultName": "Trạm phụ"
+	},
+	"inactive_gate": {
+		"defaultName": "Gate không hoạt động",
+		"nameInText": "gate không hoạt động"
+	},
+	"station_jangala_type": {
+		"defaultName": "Trạm phụ"
+	},
+	"station_sporeship_derelict": {
+		"defaultName": "Trạm tàu bào tử bỏ hoang"
+	},
+	"stellar_mirror": {
+		"defaultName": "Gương sao"
+	},
+	"stellar_shade": {
+		"defaultName": "Màn chắn sao"
+	},
+	"station_side00": {
+		"defaultName": "Trạm phụ"
+	},
+	"station_galatia": {
+		"defaultName": "Trạm Galatia Academy"
+	},
+	"station_side02": {
+		"defaultName": "Trạm phụ"
+	},
+	"station_side03": {
+		"defaultName": "Trạm phụ"
+	},
+	"station_side04": {
+		"defaultName": "Trạm phụ"
+	},
+	"station_side05": {
+		"defaultName": "Trạm phụ"
+	},
+	"station_mining00": {
+		"defaultName": "Trạm phụ"
+	},
+	"station_side07": {
+		"defaultName": "Trạm phụ"
+	},
+	"station_side06": {
+		"defaultName": "Trạm phụ"
+	},
+	"orbital_dockyard": {
+		"defaultName": "Ụ tàu quỹ đạo"
+	},
+	"station_pirate_type": {
+		"defaultName": "Trạm phụ"
+	},
+	"station_built_from_industry": {
+		"defaultName": "Trạm quỹ đạo"
+	},
+	"orbital_junk": {
+		"defaultName": "Khu sinh cư"
+	},
+	"derelict_probe": {
+		"defaultName": "Thiết bị thăm dò thời Domain",
+		"nameInText": "thiết bị thăm dò thời Domain",
+		"shortName": "thiết bị"
+	},
+	"derelict_survey_ship": {
+		"defaultName": "Tàu khảo sát thời Domain",
+		"nameInText": "tàu khảo sát thời Domain",
+		"shortName": "tàu khảo sát"
+	},
+	"derelict_mothership": {
+		"defaultName": "Tàu mẹ thời Domain",
+		"nameInText": "tàu mẹ thời Domain",
+		"shortName": "tàu mẹ"
+	},
+	"derelict_cryosleeper": {
+		"defaultName": "Cryosleeper thời Domain",
+		"nameInText": "cryosleeper thời Domain"
+	},
+	"derelict_gatehauler": {
+		"defaultName": "Gate Hauler thời Domain",
+		"nameInText": "Gate Hauler thời Domain"
+	},
+	"debris_field_shared": {
+		"defaultName": "Trường mảnh vỡ",
+		"nameInText": "trường mảnh vỡ",
+		"shortName": "mảnh vỡ"
+	},
+	"wreck": {
+		"defaultName": "Tàu bỏ hoang",
+		"nameInText": "tàu bỏ hoang",
+		"shortName": "tàu"
+	},
+	"hidden_cache": {
+		"defaultName": "Kho ẩn",
+		"nameInText": "kho ẩn",
+		"shortName": "kho ẩn"
+	},
+	"asteroid_base": {
+		"defaultName": "Căn cứ tiểu hành tinh",
+		"nameInText": "căn cứ tiểu hành tinh",
+		"shortName": "căn cứ tiểu hành tinh"
+	},
+	"supply_cache": {
+		"defaultName": "Kho tiếp tế",
+		"nameInText": "kho tiếp tế",
+		"shortName": "kho tiếp tế"
+	},
+	"weapons_cache": {
+		"defaultName": "Kho vũ khí",
+		"nameInText": "kho vũ khí",
+		"shortName": "kho vũ khí"
+	},
+	"equipment_cache": {
+		"defaultName": "Kho thiết bị",
+		"nameInText": "kho thiết bị",
+		"shortName": "kho thiết bị"
+	},
+	"large_cache": {
+		"defaultName": "Kho",
+		"nameInText": "kho",
+		"shortName": "kho"
+	},
+	"technology_cache": {
+		"defaultName": "Kho công nghệ",
+		"nameInText": "kho công nghệ",
+		"shortName": "kho công nghệ"
+	},
+	"alpha_site_weapons_cache": {
+		"defaultName": "Kho được che chắn dày",
+		"nameInText": "kho được che chắn",
+		"shortName": "kho"
+	},
+	"supply_cache_small": {
+		"defaultName": "Kho tiếp tế nhỏ",
+		"nameInText": "kho tiếp tế nhỏ",
+		"shortName": "kho tiếp tế"
+	},
+	"weapons_cache_small": {
+		"defaultName": "Kho vũ khí nhỏ",
+		"nameInText": "kho vũ khí nhỏ",
+		"shortName": "kho vũ khí"
+	},
+	"equipment_cache_small": {
+		"defaultName": "Kho thiết bị nhỏ",
+		"nameInText": "kho thiết bị nhỏ",
+		"shortName": "kho thiết bị"
+	},
+	"station_mining": {
+		"defaultName": "Trạm khai khoáng",
+		"nameInText": "trạm khai khoáng",
+		"shortName": "trạm"
+	},
+	"station_research": {
+		"defaultName": "Trạm nghiên cứu",
+		"nameInText": "trạm nghiên cứu",
+		"shortName": "trạm"
+	},
+	"orbital_habitat": {
+		"defaultName": "Khu sinh cư quỹ đạo",
+		"nameInText": "khu sinh cư quỹ đạo",
+		"shortName": "khu sinh cư quỹ đạo"
+	},
+	"cargo_pods": {
+		"defaultName": "Các khoang hàng",
+		"nameInText": "các khoang hàng",
+		"shortName": "các khoang hàng"
+	},
+	"warning_beacon": {
+		"defaultName": "Đèn hiệu cảnh báo"
+	},
+	"fusion_lamp": {
+		"defaultName": "Đèn nhiệt hạch"
+	},
+	"explosion": {
+		"defaultName": "Vụ nổ"
+	},
+	"station_lowtech1": {
+		"defaultName": "Trạm quỹ đạo"
+	},
+	"station_lowtech2": {
+		"defaultName": "Trạm chiến đấu"
+	},
+	"station_lowtech3": {
+		"defaultName": "Pháo đài sao"
+	},
+	"station_midline1": {
+		"defaultName": "Trạm quỹ đạo"
+	},
+	"station_midline2": {
+		"defaultName": "Trạm chiến đấu"
+	},
+	"station_midline3": {
+		"defaultName": "Pháo đài sao"
+	},
+	"station_hightech1": {
+		"defaultName": "Trạm quỹ đạo"
+	},
+	"station_hightech2": {
+		"defaultName": "Trạm chiến đấu"
+	},
+	"station_hightech3": {
+		"defaultName": "Pháo đài sao"
+	},
+	"sensor_ghost": {
+		"defaultName": "Thực thể không xác định",
+		"nameInText": "bóng ma cảm biến",
+		"shortName": "bóng ma cảm biến"
+	},
+	"abyssal_light": {
+		"defaultName": "Ánh sáng vực thẳm"
+	},
+	"atlantic_label": {
+		"defaultName": "Đám mây Atlantian"
+	},
+	"persean_label": {
+		"defaultName": "Các Thế giới League"
+	},
+	"luddic_label": {
+		"defaultName": "Con đường Hành hương"
+	},
+	"zin_label": {
+		"defaultName": "Vùng Hoang tàn Zin"
+	},
+	"opabyss_label": {
+		"defaultName": "Vực thẳm Orion-Perseus"
+	},
+	"telmun_label": {
+		"defaultName": "Đám mây phân tử Telmun"
+	},
+	"cathedral_label": {
+		"defaultName": "Tinh vân Cathedral"
+	},
+	"core_label": {
+		"defaultName": "Các Thế giới Lõi"
+	}
 }

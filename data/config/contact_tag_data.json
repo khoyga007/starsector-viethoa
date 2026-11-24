@@ -1,0 +1,14 @@
+{
+	"military": {
+		"name": "Quân sự"
+	},
+	"trade": {
+		"name": "Thương mại"
+	},
+	"underworld": {
+		"name": "Thế giới ngầm"
+	},
+	"science": {
+		"name": "Khoa học"
+	}
+}

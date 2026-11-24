@@ -701,7 +701,7 @@ SD7SownAI1,DialogOptionSelected,$option == sd7s_ownAI1,"AddTextSmall ""Đã chuy
 
 Trưởng nhóm im bặt với vẻ lo lắng, rồi gõ dồn dập vào thiết bị nhập liệu, mắt liếc theo giao diện cấy ghép.
 
-""Ờm. Thưa $PlayerSirOrMadam. Xong rồi. Chỉ cần kiểm tra đầu ra xem có nỗ lực vượt rào không. Việc này... sẽ mất chút thời gian.""","sd7s_ownAI2:Tiếp tục",
+""Ờm. Thưa $playerSirOrMadam. Xong rồi. Chỉ cần kiểm tra đầu ra xem có nỗ lực vượt rào không. Việc này... sẽ mất chút thời gian.""","sd7s_ownAI2:Tiếp tục",
 SD7SownAI2,DialogOptionSelected,$option == sd7s_ownAI2,,"* * *
 
 Không khó để vượt qua một hai ca trực. Bạn không thiếu những quyết định nhỏ cần xem xét liên quan đến các hoạt động thuộc địa của $name.
@@ -996,7 +996,7 @@ SD7StriDecryptAsk2,DialogOptionSelected,$option == sd7s_triDecryptAsk2,,"Bạn q
 sd7s_triDecryptAsk2proceed:""Hãy bàn về credits.""",
 SD7StriDecryptAsk2appears,DialogOptionSelected,$option == sd7s_triDecryptAsk2appears,,"""Có thể đây là thông tin nhạy cảm đáng quan tâm đối với... một đối tác thương mại của Tri-Tachyon Corporation,"" $heOrShe nói, nở một nụ cười gượng hơn đôi chút.","sd7s_triDecryptAsk2appears2:""Sindrian Diktat là đối tác của Tri-Tachyon à?""
 sd7s_triDecryptAsk2proceed:""Vậy thì chúng ta sẽ cẩn thận. Hãy bàn về credits.""",
-SD7StriDecryptAsk2appears2,DialogOptionSelected,$option == sd7s_triDecryptAsk2appears2,,"$heOrShe dang hai tay, nghĩ lại, rồi lại chắp tay vào nhau. ""À! Mọi phe phái lớn ở Persean Sector đều là đối tác thương mại của Tri-Tachyon Corporation! Ngay cả Luddic Church. Thú vị chưa?""
+SD7StriDecryptAsk2appears2,DialogOptionSelected,$option == sd7s_triDecryptAsk2appears2,,"$HeOrShe dang hai tay, nghĩ lại, rồi lại chắp tay vào nhau. ""À! Mọi phe phái lớn ở Persean Sector đều là đối tác thương mại của Tri-Tachyon Corporation! Ngay cả Luddic Church. Thú vị chưa?""
 
 ""Đúng là thỉnh thoảng có xung đột - 'đàm phán động năng', nói cho đúng - khiến các vụ làm ăn béo bở bị tạm dừng. Nhưng cuối cùng ai cũng công nhận rằng thị trường là động lực tối thượng của thịnh vượng, bất kể họ tuyên bố theo đuổi thứ hùng biện chính trị nào.""
 
@@ -2827,25 +2827,25 @@ RemoveOption sd7s_elysiumDevOpt2Sel","Đã tạo lính đánh thuê. Chúc vui!"
 SD7SelysiumOpenDialog,OpenInteractionDialog,"$id == 58966elysium
 $tag:asteroid_base
 ","ShowDefaultVisual
-FireAll PopulateOptions","$shipOrFleet của bạn đồng bộ quỹ đạo với tiểu hành tinh $name.
+FireAll PopulateOptions","$ShipOrFleet của bạn đồng bộ quỹ đạo với tiểu hành tinh $name.
 
 Màn hình chính báo hiệu khi $shipOrFleet của bạn nhận một xung radar điều hướng từ rơle đo từ xa phía tiểu hành tinh. Tiếp theo là một loạt tia laser điều hướng-viễn đo công suất thấp, thiết lập lộ trình và trao đổi thẻ bộ phát đáp (thoáng qua). Không có gì bất thường.",,
 SD7SelysiumOpenDialogB,OpenInteractionDialog,"$id == 58966elysium
 $tag:asteroid_base
 $didFleetAction","ShowDefaultVisual
-FireAll PopulateOptions","$shipOrFleet của bạn đồng bộ quỹ đạo với tiểu hành tinh $name.
+FireAll PopulateOptions","$ShipOrFleet của bạn đồng bộ quỹ đạo với tiểu hành tinh $name.
 
 Không có tín hiệu viễn đo điều hướng tự động nào từ căn cứ. Liên lạc bên ngoài, cảm biến và các ụ vũ khí đã bị giảm thành những miệng hố nguội dần và một đám mảnh vỡ trải rộng.",,
 SD7SelysiumOpenDialogC,OpenInteractionDialog,"$id == 58966elysium
 $tag:asteroid_base
 $bombarded score:1000","ShowDefaultVisual
-FireAll PopulateOptions","$shipOrFleet của bạn đồng bộ quỹ đạo với những gì còn lại của tiểu hành tinh $name.
+FireAll PopulateOptions","$ShipOrFleet của bạn đồng bộ quỹ đạo với những gì còn lại của tiểu hành tinh $name.
 
 Nó chẳng hơn gì một đống đá vụn, sau đợt bắn phá, nóng bất thường cả về nhiệt lẫn phóng xạ.",,
 SD7SelysiumOpenDialogD,OpenInteractionDialog,"$id == 58966elysium
 $tag:asteroid_base
 $collapsed score:1000","ShowDefaultVisual
-FireAll PopulateOptions","$shipOrFleet của bạn đồng bộ quỹ đạo với những gì còn lại của tiểu hành tinh $name.
+FireAll PopulateOptions","$ShipOrFleet của bạn đồng bộ quỹ đạo với những gì còn lại của tiểu hành tinh $name.
 
 Nó chẳng hơn gì một đống đá vụn, sau vụ sụp đổ, nóng bất thường cả về nhiệt lẫn phóng xạ.",,
 SD7SelysiumOptStart,PopulateOptions,"$id == 58966elysium
@@ -2977,16 +2977,16 @@ $player.fleetPoints < 14 score:3","$didTacticalReport3 = true 0
 FireAll SD7SelyHubOpts","""$PlayerSirOrMadam."" Sĩ quan chiến thuật vẫn không biểu lộ cảm xúc. ""Thêm vài tàu khu trục quân sự và một số tàu hộ vệ sẽ cho chúng ta có thứ để làm việc. Hoặc một tàu tuần dương cùng các đơn vị yểm trợ. Chúng ta cần tăng gấp ba sức mạnh hạm đội hiện tại.""",,
 SD7SelyTacticalRepFleetE,DialogOptionSelected,"$option == sd7s_elyTacticalRepFleet
 $player.fleetPoints < 8 score:4","$didTacticalReport3 = true 0
-FireAll SD7SelyHubOpts","""$PlayerSirOrMadam."" Sĩ quan chiến thuật gần như nhăn mặt. Gần như thôi. ""$shipOrFleet này... không phải là lực lượng chiến đấu đặc biệt đáng tin. Một tàu tuần dương và vài tàu khu trục, cùng vài tàu hộ vệ để yểm trợ. Thế thì chúng ta làm được.""",,
+FireAll SD7SelyHubOpts","""$PlayerSirOrMadam."" Sĩ quan chiến thuật gần như nhăn mặt. Gần như thôi. ""$ShipOrFleet này... không phải là lực lượng chiến đấu đặc biệt đáng tin. Một tàu tuần dương và vài tàu khu trục, cùng vài tàu hộ vệ để yểm trợ. Thế thì chúng ta làm được.""",,
 SD7SelyStartOptTryApproach,DialogOptionSelected,$option == sd7s_elyTryApproach,"FireBest SD7SelyApproachResults
 $didFleetAction = true
 AddTextSmall ""Đã dọn sạch hệ phòng thủ không gian của 58966 Elysium"" highlight
-AddText ""Sĩ quan liên lạc của bạn vẫy tay xin chú ý - có liên lạc đến từ Elysium.""","$shipOrFleet của bạn tiến vào vùng lân cận Elysium.
+AddText ""Sĩ quan liên lạc của bạn vẫy tay xin chú ý - có liên lạc đến từ Elysium.""","$ShipOrFleet của bạn tiến vào vùng lân cận Elysium.
 
 Màn hình chiến thuật sáng lên, các vùng nhắm mục tiêu ước tính của vũ khí đặt sẵn hiện lên khi bị tiến vào, rồi điều chỉnh theo dữ liệu đo đạc mới. Các điểm sáng, những vệt tia, những loạt chớp đạn dược. ","sd7s_hecApproachTaunt:Mở liên lạc",
-SD7SelyApproachResultsA,SD7SelyApproachResults,$player.fleetPoints > 32,,"$shipOrFleet của bạn nhanh chóng áp đảo hoàn toàn hệ phòng thủ của tiểu hành tinh. Tác chiến điện tử và hỏa lực phản kích biến chúng thành chẳng khác gì một màn trình diễn ánh sáng.",,
-SD7SelyApproachResultsB,SD7SelyApproachResults,,Call $global.sd7s_ref damageFleet,"$shipOrFleet của bạn chịu thiệt hại nhẹ khi áp đảo hệ thống phòng thủ của tiểu hành tinh.",,
-SD7SelyApproachResultsC,SD7SelyApproachResults,$player.fleetPoints < 16,Call $global.sd7s_ref damageFleetMore,"$shipOrFleet của bạn chịu thiệt hại đáng kể trong trận chiến để áp đảo hệ thống phòng thủ của tiểu hành tinh.",,# maybe TODO a failure option here?
+SD7SelyApproachResultsA,SD7SelyApproachResults,$player.fleetPoints > 32,,"$ShipOrFleet của bạn nhanh chóng áp đảo hoàn toàn hệ phòng thủ của tiểu hành tinh. Tác chiến điện tử và hỏa lực phản kích biến chúng thành chẳng khác gì một màn trình diễn ánh sáng.",,
+SD7SelyApproachResultsB,SD7SelyApproachResults,,Call $global.sd7s_ref damageFleet,"$ShipOrFleet của bạn chịu thiệt hại nhẹ khi áp đảo hệ thống phòng thủ của tiểu hành tinh.",,
+SD7SelyApproachResultsC,SD7SelyApproachResults,$player.fleetPoints < 16,Call $global.sd7s_ref damageFleetMore,"$ShipOrFleet của bạn chịu thiệt hại đáng kể trong trận chiến để áp đảo hệ thống phòng thủ của tiểu hành tinh.",,# maybe TODO a failure option here?
 SD7SelyApproachTauntStart,DialogOptionSelected,$option == sd7s_hecApproachTaunt,"BeginConversation hector_andrada true false
 PlayCustomMusic music_diktat_market_hostile","Một gương mặt xuất hiện. Gương mặt quen thuộc. Hắn nở nụ cười, tự tin đến ngạo mạn.
 
@@ -3359,7 +3359,7 @@ Call $global.sd7s_ref giveFoundXP
 FireBest SD7SendingCheck","DEV Setting everything finished...",,
 SD7SirkallaOpenInteractionDialog,OpenInteractionDialog,"$id == 17054irkalla
 $tag:asteroid_base","FireAll PopulateOptions
-ShowDefaultVisual","$shipOrFleet của bạn bám quỹ đạo tiểu hành tinh $name.",,
+ShowDefaultVisual","$ShipOrFleet của bạn bám quỹ đạo tiểu hành tinh $name.",,
 SD7SirkallaOptStart,PopulateOptions,"$id == 17054irkalla
 $sd7s_irkalla
 !$visited",,"Khối cầu dẹt lăn lóc trên màn hình trước mặt bạn, một khối lồi lõm và loang lổ.","sd7s_irkallaStart:""Cảm biến, báo cáo.""",
@@ -3841,7 +3841,7 @@ SD7ScaTalkAskLeo2,DialogOptionSelected,$option == sd7s_caTalkAskLeo2,"AddTextSma
 AddText ""    - Nhưng với mục đích của bạn thì chẳng khác gì đã chết. Hay với mục đích của cấp trên bạn? Về bên đó tôi đã phải suy đoán cho đến giờ, nên có lẽ bạn sẽ làm rõ một hai điều cho chúng tôi - tin tôi đi, điều đó sẽ làm dịu (hoặc củng cố) sự lo âu của Aureolin nhiều đấy."" $sd7s_crasisColor
 AddTextSmall ""Mô phỏng các kịch bản kết cục tiêu cực của tôi được thúc đẩy bởi mong muốn hợp lý là tự bảo tồn. Không phải lo âu."" $sd7s_aureolinColor
 AddText""    What Aureolin (so defensive!) means is they'd appreciate knowing who you work for. What is your intention here, captain?"" $sd7s_crasisColor
-AddTextSmall ""I am not defensive. I am correct."" $sd7s_aureolinColor
+AddTextSmall ""Tôi không chống chế. Tôi nói đúng."" $sd7s_aureolinColor
 $askedLeo2 = true 0
 #$fromLeonidasBreakA = true 0",,"sd7s_caTalkAskLeo3:Tiếp tục","# cut the SDSE interrupt, will do that at the end -dgb"
 #SD7ScaTalkAskLeo2return,DialogOptionSelected,$option == sd7s_caTalkAskLeo2return,"BeginConversation crasis true
@@ -4073,7 +4073,7 @@ SD7SsawLeoJustLeavingSel,DialogOptionSelected,"$option == sd7s_sawLeoJustLeaving
 #!$global.sd7s_resolvedLeonidas","AddTextSmall ""Không đúng, bạn có nhiều thứ để được [tùy thuộc vào các dự đoán của tôi về mục tiêu của bạn]."" $sd7s_aureolinColor
 AddText ""    Thuyền trưởng! Bạn không được làm vậy, chúng tôi sẽ..."" $sd7s_crasisColor
 FireAll SD7SsawLeoJustLeavingSelCheck",,"sd7s_sawLeoWhyHelpB:""Tôi được gì nếu giúp bạn?""
-sd7s_sawLeoJustLeavingA:""Bạn chẳng được gì cả. $shipOrFleet của tôi có thể bắn tiểu hành tinh này thành đống đổ nát.""
+sd7s_sawLeoJustLeavingA:""Bạn chẳng được gì cả. $ShipOrFleet của tôi có thể bắn tiểu hành tinh này thành đống đổ nát.""
 sd7s_sawLeoJustLeavingB:""Bạn không có đòn bẩy nào. Lính thủy đánh bộ của tôi có thể phá tung căn cứ này theo lệnh tôi.""
 sd7s_sawLeoJustLeavingC:Cứ đi bộ ra tàu con thoi",
 SD7SsawLeoJustLeavingSelB,DialogOptionSelected,$option == sd7s_sawLeoJustLeaving,"$option = sd7s_irkallaEnd 0
@@ -5082,11 +5082,11 @@ Bạn cân nhắc các lựa chọn của mình.",,
 SD7SqarasBarGoon7b,DialogOptionSelected,"$option == sd7s_qarasBarGoon7
 $market.sd7s_deniedBarContact",,"Bạn đang cân nhắc bước đi tiếp theo thì sĩ quan liên lạc ngắt lời.
 
-""Thưa $PlayerSirOrMadam. Yêu cầu liên lạc từ Qaras. Tôi..."" Người đó ngập ngừng một lúc. ""Thành thật xin lỗi, tôi nghĩ ngài nên nghe cuộc này.""","sd7s_qarasPostBarJoveStart:Mở kênh liên lạc",
+""Thưa $playerSirOrMadam. Yêu cầu liên lạc từ Qaras. Tôi..."" Người đó ngập ngừng một lúc. ""Thành thật xin lỗi, tôi nghĩ ngài nên nghe cuộc này.""","sd7s_qarasPostBarJoveStart:Mở kênh liên lạc",
 SD7SqarasBarGoon7c,DialogOptionSelected,"$option == sd7s_qarasBarGoon7
 $global.sd7s_joveLeftNoDeal",,"Bạn đang cân nhắc bước đi tiếp theo thì sĩ quan liên lạc ngắt lời.
 
-""Thưa $PlayerSirOrMadam. Yêu cầu liên lạc từ Qaras. Tôi..."" Người đó ngập ngừng một lúc. ""Thành thật xin lỗi, tôi nghĩ ngài nên nghe cuộc này.""","sd7s_qarasPostBarJoveStart:Mở kênh liên lạc",
+""Thưa $playerSirOrMadam. Yêu cầu liên lạc từ Qaras. Tôi..."" Người đó ngập ngừng một lúc. ""Thành thật xin lỗi, tôi nghĩ ngài nên nghe cuộc này.""","sd7s_qarasPostBarJoveStart:Mở kênh liên lạc",
 # SD7S comms with K-O Jove post-bar,,,,,,
 SD7SqarasPostBarJoveStart,DialogOptionSelected,$option == sd7s_qarasPostBarJoveStart,"BeginConversation ko_jove
 $player.metKOjove= true
@@ -5748,7 +5748,7 @@ SD7SqarasAgentComms,OpenCommLink,$id == sd7s_qaras_agent score:1000,"BeginConver
 $option = sd7s_qarasAgentCommsOpts 0
 FireBest DialogOptionSelected","Đường liên lạc kết nối, màn hình holo miễn cưỡng sáng lên.
 
-""$shipOrFleet nổi loạn - rút khỏi vòng đánh chặn ngay! Ngươi chẳng có việc gì với ta.""",,
+""$ShipOrFleet nổi loạn - rút khỏi vòng đánh chặn ngay! Ngươi chẳng có việc gì với ta.""",,
 SD7SqarasAgentCommsOpts,DialogOptionSelected,$option == sd7s_qarasAgentCommsOpts,,,"sd7s_qarasAgentComms1a:""Tôi cần hỏi ngươi vài câu.""
 sd7s_qarasAgentComms1b:""Ngươi có làm việc cho Dolos Macario không?""
 sd7s_qarasAgentComms1c:""Làm sao ngươi biết về Jason Korin?""
@@ -7243,7 +7243,7 @@ $player.sd7s_hercToOwnAskedSD7S
 $player.sd7s_hercToOwnCallHim","HideVisual
 PlayCustomMusic music_encounter_tense","Yêu cầu của bạn nhanh chóng nhận được phản hồi.
 
-""Thưa $PlayerSirOrMadam. Chúng tôi đã thử liên lạc với đối tượng nhưng không thành công."" Nét mặt họ trung lập. ""Chúng tôi đang tiến hành điều tra và giám sát kín đáo.""","sd7s_hercToOwnAskSel1a:""Tốt. Cứ tiếp tục và báo cho tôi nếu phát hiện điều gì.""
+""Thưa $playerSirOrMadam. Chúng tôi đã thử liên lạc với đối tượng nhưng không thành công."" Nét mặt họ trung lập. ""Chúng tôi đang tiến hành điều tra và giám sát kín đáo.""","sd7s_hercToOwnAskSel1a:""Tốt. Cứ tiếp tục và báo cho tôi nếu phát hiện điều gì.""
 sd7s_hercToOwnAskSel1b:""Tôi muốn anh im lặng, đừng thu hút sự chú ý. Nhưng giữ đường liên lạc mở nếu anh ta liên lạc.""",
 SD7ShercToOwnAskSelAgainB,DialogOptionSelected,"$option == sd7s_hercToOwnAskSel
 $global.sd7s_inProgress
@@ -7251,7 +7251,7 @@ $player.sd7s_hercToOwnAskedSD7S
 $player.sd7s_hercToOwnKeepQuiet","HideVisual
 PlayCustomMusic music_encounter_tense","Yêu cầu của bạn nhanh chóng nhận được phản hồi.
 
-""Thưa $PlayerSirOrMadam. Chúng tôi chưa nhận được liên lạc nào từ đối tượng.""","sd7s_hercToOwnAskSel1a:""Vậy hãy chủ động. Liên lạc với Hercules đi.""
+""Thưa $playerSirOrMadam. Chúng tôi chưa nhận được liên lạc nào từ đối tượng.""","sd7s_hercToOwnAskSel1a:""Vậy hãy chủ động. Liên lạc với Hercules đi.""
 sd7s_hercToOwnAskSel1b:""Đã rõ. Giữ im lặng, nhưng giữ đường liên lạc mở.""",
 SD7ShercToOwnAskSel1a,DialogOptionSelected,$option == sd7s_hercToOwnAskSel1a,"$player.sd7s_hercToOwnCallHim = true
 unset $player.sd7s_hercToOwnKeepQuiet","""Vâng, $playerSirOrMadam. Tôi sẽ làm.""","sd7s_hercToOwnAskDone:Ngắt liên lạc",
@@ -7262,7 +7262,7 @@ $global.sd7s_missionCompleted
 !$global.sdse_achillesDeclared
 $player.sd7s_hercToOwnAskedSDSE",$player.sd7s_hercToOwnDelay = true 7,"Yêu cầu của bạn nhanh chóng nhận được phản hồi.
 
-""Thưa $PlayerSirOrMadam. Tình hình không thay đổi. Chiến dịch vẫn đang tiến hành.""","sd7s_hercToOwnAskSel1a:""Tốt. Cứ tiếp tục và báo cho tôi nếu phát hiện điều gì.""
+""Thưa $playerSirOrMadam. Tình hình không thay đổi. Chiến dịch vẫn đang tiến hành.""","sd7s_hercToOwnAskSel1a:""Tốt. Cứ tiếp tục và báo cho tôi nếu phát hiện điều gì.""
 sd7s_hercToOwnAskSel1b:""Tôi muốn anh im lặng, đừng thu hút sự chú ý. Nhưng giữ đường liên lạc mở nếu anh ta liên lạc.""",
 SDSEhercToOwnAskSel,DialogOptionSelected,"$option == sd7s_hercToOwnAskSel
 $global.sd7s_missionCompleted
@@ -7270,7 +7270,7 @@ $global.sd7s_missionCompleted
 !$player.sd7s_hercToOwnAskedSDSE","$player.sd7s_hercToOwnDelay = true 7
 $player.sd7s_hercToOwnAskedSDSE = true","Yêu cầu của bạn nhanh chóng nhận được phản hồi.
 
-""Thưa $PlayerSirOrMadam. Đối tượng đã chủ động liên lạc thành công và các sắp xếp đón người đã được thực hiện."" Một cái nhìn lo lắng. ""Thời gian rất ngắn, mới diễn ra gần đây... chúng tôi phải hành động trước khi kịp xác nhận.""
+""Thưa $playerSirOrMadam. Đối tượng đã chủ động liên lạc thành công và các sắp xếp đón người đã được thực hiện."" Một cái nhìn lo lắng. ""Thời gian rất ngắn, mới diễn ra gần đây... chúng tôi phải hành động trước khi kịp xác nhận.""
 
 ""Nhưng anh ta không xuất hiện. Không có lần liên lạc nào nữa. Và cũng không có xác nhận chắc chắn về người đã liên lạc với chúng tôi - họ chỉ... tự nhận là Hercules. Chỉ qua văn bản. Chúng tôi không có thêm thông tin nào về tình hình.""","sdse_hercToOwnAskSel1b:""Anh đã hành động đúng. Tiếp tục chiến dịch, nhưng hết sức thận trọng.""
 sdse_hercToOwnAskSel1a:""Thật đáng thất vọng. Tôi muốn được báo ngay khi có bất kỳ thay đổi nào!""",
@@ -19188,7 +19188,7 @@ SDRcommissionHintStart,MarketPostDock,"$global.askoniaStandoff
 $player.transponderOn
 RollProbability 0.3
 !$market.achillesJustDeclared","Highlight ""lợi ích ngoại giao""
-PauseMusic","""Thưa $PlayerSirOrMadam."" Là sĩ quan liên lạc của bạn.
+PauseMusic","""Thưa $playerSirOrMadam."" Là sĩ quan liên lạc của bạn.
 
 ""Hệ thống quét nội dung tự động đã đánh dấu một mục có mức độ quan trọng cao trên mạng nội bộ... một thông báo liên quan đến Askonia, được gắn thẻ lợi ích ngoại giao liên phe.""
 
@@ -19220,7 +19220,7 @@ ShowDefaultVisual
 ResumeNormalMusic
 FireBest MarketPostDock","Viên chức mờ dần thành một bóng ma hậu ảnh trên màn hình của bạn, rồi biến mất hoàn toàn.
 
-Thông báo hiện lên, đòi hỏi. Trạng thái $ShipOrFleet, mức tiếp tế, thủy thủ đoàn, báo cáo của các sĩ quan cấp cao...",,
+Thông báo hiện lên, đòi hỏi. Trạng thái $shipOrFleet, mức tiếp tế, thủy thủ đoàn, báo cáo của các sĩ quan cấp cao...",,
 ,,,,,,
 ,,,,,,
 # SDR - Maeus Moroz,,,,,,
@@ -23636,7 +23636,7 @@ SDSWilmStartOptD,SDSWilmStartOpts,,SetEnabled sdsw_ilmStartSelD false,,"sdsw_ilm
 SDSWilmStartOptE,SDSWilmStartOpts,$global.sdsw_readyForMacario,SetEnabled sdsw_ilmStartSelD true,,,
 SDSWilmStartSelA,DialogOptionSelected,$option == sdsw_ilmStartSelA,,"Thợ vũ khí của bạn đang chờ, những hộp kim loại tinh tươm đã được bày sẵn để bạn kiểm tra, cùng với các vệ sĩ dày dạn chiến đấu nhất đã khoác những kiểu bộ đồ tàng hình và trang phục giả dân địa phương, đang kiểm tra súng, lắp ráp trang bị.
 
-""Thưa $PlayerSirOrMadam."" Thợ vũ khí chào bạn bằng một cái gật đầu trang trọng. ""Như thường lệ? Hay chúng tôi có vài thiết bị ít gây chết người để vô hiệu hóa mục tiêu...""
+""Thưa $playerSirOrMadam."" Thợ vũ khí chào bạn bằng một cái gật đầu trang trọng. ""Như thường lệ? Hay chúng tôi có vài thiết bị ít gây chết người để vô hiệu hóa mục tiêu...""
 
 Jove tự tiện lại gần ngắm nhìn nội dung các hộp, hai tay lịch sự chắp sau lưng.","sdsw_ilmStartSelAusual:""Như thường lệ.""
 sdsw_ilmStartSelAcap:""Hãy bắt sống mục tiêu.""
@@ -24803,7 +24803,7 @@ $entity.isHostile
 $entity.relativeStrength < 0
 $entity.weakerThanPlayerButHolding",$entity.ignorePlayerCommRequests = true 1,"Cải cách viên $personRank trông nghiêm nghị nhưng vẫn ngoan cố. ""Bọn ta sẽ đánh ngươi đến hơi thở cuối cùng,"" $heOrShe nói, rồi ngắt đường truyền.
 OR
-""Người thừa kế chân chính sẽ tiến đến chiến thắng, dù có ta hay không."" Vẻ mặt $HisOrHer cứng lại. ""Vì Achilles!""
+""Người thừa kế chân chính sẽ tiến đến chiến thắng, dù có ta hay không."" Vẻ mặt $hisOrHer cứng lại. ""Vì Achilles!""
 
 Liên lạc tắt phụt.","cutCommLink:Ngắt liên lạc",
 greetingDiktatReformerStronger,OpenCommLink,"$faction.id == diktat_achilles
@@ -26209,7 +26209,7 @@ FireBest DialogOptionSelected",,,
 SindriaStationPostPK,OpenInteractionDialog,"$id == diktat_cnc score:1000
 $abandonedStation
 $market.id == sindria_deciv","ShowImageVisual abandoned_station3
-PrintDescription 3","$shipOrFleet của bạn tiến đến trạm bỏ hoang.
+PrintDescription 3","$ShipOrFleet của bạn tiến đến trạm bỏ hoang.
 
 Trông như thể nó đã bị lột sạch bởi bất cứ lực lượng nào mà vũ khí diệt hành tinh đã thả xuống khối Sindria đang oằn oại bên dưới. Những mảnh vụn sắc nhọn, sáng rực trên máy quét phóng xạ của $shipOrFleet, tạo thành một lớp màng chết chóc tuôn về hư vô như đuôi sao chổi.
 

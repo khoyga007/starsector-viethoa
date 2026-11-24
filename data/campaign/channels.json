@@ -1,0 +1,29 @@
+{
+	"player_intel_always": {
+		"name": "Phân tích & Dự báo"
+	},
+	"player_intel": {
+		"name": "Phân tích & Dự báo"
+	},
+	"player_comm_sniffer": {
+		"name": "Trình nghe lén liên lạc"
+	},
+	"news": {
+		"name": "Bảng tin địa phương"
+	},
+	"hegemony_public": {
+		"name": "Đài Phát thanh Hegemony"
+	},
+	"hegemony_internal": {
+		"name": "Tình báo Hegemony"
+	},
+	"tritachyon_public": {
+		"name": "Mạng lưới Tri-Tachyon"
+	},
+	"tritachyon_internal": {
+		"name": "Tình báo Tri-Tachyon"
+	},
+	"sindrian_diktat_internal": {
+		"name": "An ninh Sindrian Diktat"
+	}
+}

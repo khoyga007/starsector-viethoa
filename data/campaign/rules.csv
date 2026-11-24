@@ -291,7 +291,7 @@ $player.sawAbyssalLight = true","Một ánh sáng lạnh lẽo tràn ngập màn
 
 Bạn thấy mình có thể đoán trước nhịp điệu ấy, được nhìn thấy nhiều hơn là nghe thấy, ánh sáng nhảy múa lấp đầy tầm nhìn của bạn...
 
-Một tiếng ho lịch sự của sĩ quan cảm biến kéo bạn trở về hiện tại. ""Thưa $PlayerSirOrMadam?""",,
+Một tiếng ho lịch sự của sĩ quan cảm biến kéo bạn trở về hiện tại. ""Thưa $playerSirOrMadam?""",,
 abyssalLightBeginAgain,OpenInteractionDialog,"$customType == abyssal_light score:1000
 $player.sawAbyssalLight","ShowDefaultVisual
 AddTextSmall ""    - Dùng Active Sensor Burst để tăng tầm cảm biến\n    - Dùng Interdiction Pulse để tăng mức burn\n    - Hiệu lực trong một số năm ánh sáng đã đi qua\n    - Mức tăng lớn hơn khi dùng gần Abyssal Light"" highlight
@@ -316,7 +316,7 @@ FireAll AbyssalLightOptions","""Chúng không được biết là nguy hiểm, �
 ""Nó có vẻ cực kỳ bất ổn. Chúng luôn như vậy, và rất khó quét đúng cách. Tôi nghĩ nếu chúng ta thử quét chủ động hoặc bắn một xung interdiction thì nó sẽ sụp đổ; luồng xả ra có thể giúp lập bản đồ địa hình siêu không gian cục bộ.""",,
 abyssalLightAskOps,DialogOptionSelected,$option == abyssalLight_askOps,$player.askedOpsChiefAboutAbyssalLight = true,"Sĩ quan tác chiến của bạn, vốn luôn điềm nhiên, gần như giật nảy mình.
 
-""Thưa $PlayerSirOrMadam. Không, thưa $playerSirOrMadam.""
+""Thưa $playerSirOrMadam. Không, thưa $playerSirOrMadam.""
 
 Bạn để im lặng kéo dài, cho viên sĩ quan hiểu rằng phủ nhận vẫn chưa đủ là câu trả lời.
 
@@ -437,7 +437,7 @@ FireAll shroudedSubstrateBeginOpts","""Cực kỳ,"" sĩ quan kỹ thuật đáp
 
 ""Nguy hiểm đấy,"" kỹ sư trưởng nói. ""Gần như quá dễ để chế tạo vũ khí từ 'substrate' này. Hãy tưởng tượng nếu Pathers—""
 
-""—Đúng rồi, lại một Mairaath khác,"" sĩ quan kỹ thuật ngắt lời. ""Như mọi công nghệ ứng dụng khác, đủ mạnh thì nó có thể... $playerSirOrMadam. Để trả lời câu hỏi của ngài: có, cực kỳ có giá trị.""",,
+""—Đúng rồi, lại một Mairaath khác,"" sĩ quan kỹ thuật ngắt lời. ""Như mọi công nghệ ứng dụng khác, đủ mạnh thì nó có thể... $PlayerSirOrMadam. Để trả lời câu hỏi của ngài: có, cực kỳ có giá trị.""",,
 shroudedSubstrateOptSelC,DialogOptionSelected,$option == shroudedSubstrate_optSelC,"$saidUseful = true 0
 FireAll shroudedSubstrateBeginOpts","""Rất,"" sĩ quan công nghệ của bạn lại trao đổi ánh nhìn với kỹ sư trưởng. ""Theo ý kiến chuyên môn của tôi.""
 
@@ -1096,7 +1096,7 @@ Một cái nhìn trầm ngâm, ""Tất nhiên, giả sử nó hoạt động, v�
 
 Sĩ quan điều hướng của bạn trông sững sờ khi nghĩ đến điều đó.",,
 StrandedInDeepSpace3c,DialogOptionSelected,$option == strandedInDeepSpace3c,"AddAbility fracture_jump
-$makeTranverseJumpCostMoreCROnce = true","""Thưa $PlayerSirOrMadam,"" tất cả đồng thanh đáp. Người thợ cũ lại cười lệch thêm lần nữa trước cái cau mày của các sĩ quan cấp cao.","defaultLeave:Quay lại giao diện chỉ huy",
+$makeTranverseJumpCostMoreCROnce = true","""Thưa $playerSirOrMadam,"" tất cả đồng thanh đáp. Người thợ cũ lại cười lệch thêm lần nữa trước cái cau mày của các sĩ quan cấp cao.","defaultLeave:Quay lại giao diện chỉ huy",
 ,,,,,,
 #dialogTopLevelMenuOptions,PopulateOptions,$menuState == fleetConvMain,,,"#demand:Demand...
 #offer:Offer...
@@ -1107,7 +1107,7 @@ limboWormholeCacheBegin,BeginSalvage,$limboWormholeCache score:1000,,"Khi các h
 
 Lúc đầu, có vẻ như nó trống rỗng. Một ngôi mộ khổng lồ, chưa từng được lấp đầy. Rồi radar gắn trên đầu dò bắt đầu dựng hình trên màn hình cầu tàu, trong khi đèn bộ đồ không gian chiếu các chùm sáng vào khoảng không, làm nổi lên những đám bụi và khí bị thổi bay bởi việc mở lại. Các xà dầm lấp lánh trong bóng tối, để lộ đối xứng xuyên tâm ba nhánh.
 
-""Thưa $PlayerSirOrMadam,"" sĩ quan kỹ thuật của bạn nói, ánh mắt không đặt vào camera bộ đồ hay màn hình cầu tàu mà vào các thông số kỹ thuật đang cuộn trên một màn hình đã quá đầy sơ đồ và tài liệu. ""Bạn phải xem cái này.""","limbo_wormholeCacheBegin2:Tiếp tục",
+""Thưa $playerSirOrMadam,"" sĩ quan kỹ thuật của bạn nói, ánh mắt không đặt vào camera bộ đồ hay màn hình cầu tàu mà vào các thông số kỹ thuật đang cuộn trên một màn hình đã quá đầy sơ đồ và tài liệu. ""Bạn phải xem cái này.""","limbo_wormholeCacheBegin2:Tiếp tục",
 limboWormholeCacheBegin2,DialogOptionSelected,$option == limbo_wormholeCacheBegin2,"$player.gotWormholeCalibrationData = true
 AddTextSmall ""Đã thu được dữ liệu hiệu chỉnh lỗ sâu cho vị trí ổn định gần đó"" highlight","Nó cũ. Rất cũ. Nhưng các truy vấn do giao diện kết nối của thợ trục vớt gửi đi đều trả về màu xanh. Phần lớn là vậy.
 
@@ -1174,7 +1174,7 @@ Bạn chỉ có thể kết luận rằng nỗ lực tự phục hồi cụ th�
 Dù sao đi nữa, cuộc tìm kiếm của bạn không tìm thấy thêm báu vật công nghệ nào - ngoài Gate chưa triển khai, tất nhiên rồi, được giữ chặt trong gương mặt nhiều chi của con tàu vĩ đại.","gh_explore4:Tiếp tục",
 gh_exploreSel4,DialogOptionSelected,$option == gh_explore4,,"Các chi tiết dồn lại, mỗi sĩ quan cấp cao thao tác trên màn hình chung khi các báo cáo được trình bày. Cuối cùng, kỹ sư trưởng xóa hình holo về một cái nhìn tổng quát được chiếu sáng giả, xoay chậm, của cả con tàu liên sao khổng lồ. Họ kìm một nụ cười thoáng qua khi hắng giọng.
 
-""Thưa $PlayerSirOrMadam."" Một khoảng dừng đầy mong đợi, một sự buông thả hiếm hoi của kỹ sư trưởng vốn thường ngày rất thực tế. ""Tôi rất vui được báo cáo rằng có thể tái kích hoạt Gate Hauler. Theo lệnh của ngài, nó có thể được nhắm đến một hệ thống đã biết trong Persean Sector.""
+""Thưa $playerSirOrMadam."" Một khoảng dừng đầy mong đợi, một sự buông thả hiếm hoi của kỹ sư trưởng vốn thường ngày rất thực tế. ""Tôi rất vui được báo cáo rằng có thể tái kích hoạt Gate Hauler. Theo lệnh của ngài, nó có thể được nhắm đến một hệ thống đã biết trong Persean Sector.""
 
 Nó chỉ cần siêu plutoni. Rất nhiều siêu plutoni. Không giống các động cơ tàu liên sao quen thuộc, Gate Hauler không dùng gói nhiên liệu phản vật chất AM tiêu chuẩn của Domain. Khi đạt đến khối lượng tới hạn siêu plutoni, Gate Hauler sẽ có thể vận hành ít nhất một nghìn chu kỳ với phạm vi về cơ bản không giới hạn trong ranh giới của Persean Sector.","gh_activateCheck:""Nói tôi biết cách bật lại thứ này. Tôi muốn có số liệu, kỹ sư trưởng.""
 gh_activateRisk:""Rủi ro của việc tái kích hoạt là gì?""
@@ -1609,7 +1609,7 @@ TTmarketWeirdMods6c,DialogOptionSelected,$option == TTmarket_weirdMods6c,,"$post
 
 $HeOrShe chạm vào TriPad của $hisOrHer.","TTmarket_weirdModsOutro1:Tiếp tục",
 TTmarketWeirdModsOutro,DialogOptionSelected,$option == TTmarket_weirdModsOutro1,"AddTextSmall ""   Giám đốc Thu mua Đặc biệt Zunya Glamor-Rotanev""
-AddTextSmall ""   Suite 1000, Skyarco II Executive Annex""
+AddTextSmall ""   Phòng 1000, Khu phụ Điều hành Skyarco II""
 AddTextSmall ""   Xanadu Geodivision""
 AddTextSmall ""   Eochu Bres, hệ Hybrasil""
 AddTextSmall ""   Persean Sector""
@@ -2064,7 +2064,7 @@ greetingDefaultHostileWeaker,OpenCommLink,"$entity.isHostile
 $entity.relativeStrength < 0",$ignorePlayerCommRequests = true 1,"""$ShipOrFleet thù địch, xin lưu ý: chúng tôi đã gửi tín hiệu cầu cứu tới một đội tuần tra gần đây, và họ sẽ tới sớm thôi.""","cutCommLink:Ngắt liên lạc",
 greetingDefaultHostileWeakerDefiant,OpenCommLink,"$entity.isHostile
 $entity.relativeStrength < 0
-$entity.weakerThanPlayerButHolding",$ignorePlayerCommRequests = true 1,"$personRank thù địch trông nghiêm nghị nhưng vẫn kiên quyết. ""Chúng ta sẽ chiến đấu với ngươi đến cùng,"" $heOrShe nói.
+$entity.weakerThanPlayerButHolding",$ignorePlayerCommRequests = true 1,"$PersonRank thù địch trông nghiêm nghị nhưng vẫn kiên quyết. ""Chúng ta sẽ chiến đấu với ngươi đến cùng,"" $heOrShe nói.
 OR
 ""Chết tiệt, chúng ta đang lâm vào thế khó."" $PersonRank $personName chợt nhận ra đường liên lạc vẫn mở và tắt nó đi.","cutCommLink:Ngắt liên lạc",
 greetingDefaultHostileStronger,OpenCommLink,"$entity.isHostile
@@ -2107,7 +2107,7 @@ OR
 greetingHegemonyHostileWeakerDefiant,OpenCommLink,"$faction.id == hegemony
 $entity.isHostile
 $entity.relativeStrength < 0
-$entity.weakerThanPlayerButHolding",$entity.ignorePlayerCommRequests = true 1,"$personRank của Hegemony trông nghiêm nghị nhưng vẫn ngoan cường. ""Ta sẽ chiến đấu với ngươi đến cùng,"" $heOrShe nói.
+$entity.weakerThanPlayerButHolding",$entity.ignorePlayerCommRequests = true 1,"$PersonRank của Hegemony trông nghiêm nghị nhưng vẫn ngoan cường. ""Ta sẽ chiến đấu với ngươi đến cùng,"" $heOrShe nói.
 OR
 ""Chúng ta chiến đấu và chết vì Domain; vì nhân loại."" Đường liên lạc đứt ngang.","cutCommLink:Ngắt liên lạc",
 greetingHegemonyHostileStronger,OpenCommLink,"$faction.id == hegemony
@@ -2142,7 +2142,7 @@ OR
 greetingTTHostileWeakerDefiant,OpenCommLink,"$faction.id == tritachyon
 $entity.isHostile
 $entity.relativeStrength < 0
-$entity.weakerThanPlayerButHolding",$entity.ignorePlayerCommRequests = true 1,"$personRank của Tri-Tachyon trông nghiêm nghị nhưng ngoan cường. ""Quy định của tập đoàn 313.33, mục A, ghi rõ rằng các tàu có khả năng chiến đấu phải tự vệ một cách quyết liệt mọi lúc,"" $heOrShe nói.","cutCommLink:Ngắt liên lạc",
+$entity.weakerThanPlayerButHolding",$entity.ignorePlayerCommRequests = true 1,"$PersonRank của Tri-Tachyon trông nghiêm nghị nhưng ngoan cường. ""Quy định của tập đoàn 313.33, mục A, ghi rõ rằng các tàu có khả năng chiến đấu phải tự vệ một cách quyết liệt mọi lúc,"" $heOrShe nói.","cutCommLink:Ngắt liên lạc",
 greetingTTHostileStronger,OpenCommLink,"$faction.id == tritachyon
 $entity.isHostile
 $entity.relativeStrength >= 0",$entity.ignorePlayerCommRequests = true 1,"""Chú ý. Tàu của ngươi đã được quét và xác định là thù địch với Tập đoàn Tri-Tachyon. Chuẩn bị bị hủy diệt.""
@@ -2267,7 +2267,7 @@ $personRank của Diktat nhìn đăm đăm vào một điểm mơ hồ nào đó
 greetingDiktatHostileWeakerDefiant,OpenCommLink,"$faction.id == sindrian_diktat
 $entity.isHostile
 $entity.relativeStrength < 0
-$entity.weakerThanPlayerButHolding",$entity.ignorePlayerCommRequests = true 1,"$personRank của Diktat trông nghiêm nghị nhưng ngoan cường. ""Ta sẽ chiến đấu với ngươi đến cùng,"" $heOrShe nói, rồi cắt đường truyền.
+$entity.weakerThanPlayerButHolding",$entity.ignorePlayerCommRequests = true 1,"$PersonRank của Diktat trông nghiêm nghị nhưng ngoan cường. ""Ta sẽ chiến đấu với ngươi đến cùng,"" $heOrShe nói, rồi cắt đường truyền.
 OR
 ""Đại nghiệp sẽ tiếp tục, dù có ta hay không."" Nét mặt cứng lại. ""Vì Lion!""
 
@@ -2291,7 +2291,7 @@ greetingDiktatNeutral,OpenCommLink,"$faction.id == sindrian_diktat
 $faction.neutralToPlayer","$menuState = fleetConvMain 0
 FireAll PopulateOptions","""Ngài đã được quét, hãy giữ khoảng cách. Can thiệp vào công việc quân sự sẽ bị coi là hành vi nổi loạn.""
 
-$personRank của Diktat chào cho có lệ. ""Chiến thắng thuộc về Diktat!"" $heOrShe nói, rồi ra hiệu cắt đường truyền.
+$PersonRank của Diktat chào cho có lệ. ""Chiến thắng thuộc về Diktat!"" $heOrShe nói, rồi ra hiệu cắt đường truyền.
 OR
 $personRank của Diktat trông sốt ruột. ""Có vấn đề gì không? Không à? Vậy thì đi tiếp đi, công dân.""
 OR
@@ -2439,7 +2439,7 @@ OR
 greetingPirateHostileWeakerDefiant,OpenCommLink,"$faction.id == pirates
 $entity.isHostile
 $entity.relativeStrength < 0
-$entity.weakerThanPlayerButHolding",$entity.ignorePlayerCommRequests = true 1,"$personRank hải tặc liếc bạn một cái giận dữ rồi tắt đường liên lạc.
+$entity.weakerThanPlayerButHolding",$entity.ignorePlayerCommRequests = true 1,"$PersonRank hải tặc liếc bạn một cái giận dữ rồi tắt đường liên lạc.
 OR
 $personName trừng mắt thách thức. ""Ngươi sẽ không bao giờ bắt sống được ta!""
 OR
@@ -2511,7 +2511,7 @@ greetingRogueMinerHostileWeakerDefiant,OpenCommLink,"$faction.id == pirates
 $entity.isHostile
 $entity.relativeStrength < 0
 $entity.weakerThanPlayerButHolding
-$entity.rogueMiner == true score:100",$entity.ignorePlayerCommRequests = true 1,"$personRank thợ mỏ ngoài vòng pháp luật làm một cử chỉ thô lỗ trước màn hình video rồi tắt đường liên lạc.
+$entity.rogueMiner == true score:100",$entity.ignorePlayerCommRequests = true 1,"$PersonRank thợ mỏ ngoài vòng pháp luật làm một cử chỉ thô lỗ trước màn hình video rồi tắt đường liên lạc.
 OR
 $personName trừng mắt thách thức và nhổ nước bọt. ""Chỉ là một tên ngu khác đến giết mạng vì lũ chủ của các ngươi trong bộ đồng phục lòe loẹt.""","cutCommLink:Ngắt liên lạc",
 greetingRogueMinerHostileStronger,OpenCommLink,"$faction.id == pirates
@@ -7051,7 +7051,7 @@ $market.lkeBuggedVIPs++","""Sedge đồng ý gặp ngài. Tôi không biết vì
 # LKE Chalcedon VIP friendly,,,,,,
 lkeChalcedonVIPstartPather,LKEChalcedonVIPStart,$player.mostLuddicEthosPather,,"""Con đường của chúng ta được ban phước,"" $heOrShe nói, ""cùng bước trên Path này, hỡi $playerBrotherOrSister.""
 
-$personPost mỉm cười, ""Vâng, chúng tôi có nghe về ngài. Những điều tốt đẹp; những điều thánh thiện.""","lke_ephiphanyVIPreasonStart:Tiếp tục",
+$PersonPost mỉm cười, ""Vâng, chúng tôi có nghe về ngài. Những điều tốt đẹp; những điều thánh thiện.""","lke_ephiphanyVIPreasonStart:Tiếp tục",
 lkeChalcedonVIPstartChurch,LKEChalcedonVIPStart,$player.fcm_faction == luddic_church,,"""Bình an được ban phước đến ngài,"" $heOrShe mở lời, giọng đầy hoài nghi. ""Tôi không khỏi thắc mắc điều gì đưa một người đi cùng Giáo hội đến giữa chúng tôi, những người ở xa Gilead đến thế."" $HeOrShe nở một nụ cười trấn an nhanh, ""Tôi không tìm đánh nhau đâu nhé; người ta nói tốt về ngài... một vài người thôi.""","lke_ephiphanyVIPreasonStart:Tiếp tục",
 lkeChalcedonVIPreasonStart,DialogOptionSelected,$option == lke_ephiphanyVIPreasonStart,"FireAll LKEEphiphanyVIPreasons
 FireAll LKEEphiphanyVIPoptions",,,
@@ -7146,13 +7146,13 @@ $market.lkeBuggedVIPs++","$PersonName khoanh tay lại, một nụ cười căng
 
 ""Ngài thực sự nghĩ gì về chúng tôi? Những kẻ cuồng tín dốt nát, sợ máy móc, bỏ chạy trước sức mạnh của ngài? Sự kiêu ngạo của ngài làm tôi kinh ngạc.""
 
-$personPost chạm vào thứ gì đó trên bảng điều khiển.
+$PersonPost chạm vào thứ gì đó trên bảng điều khiển.
 OR
 ""Ngài có thể không thấy, nhưng tôi đang cố giúp ngài.""
 
 Có gì đó căng lên trên nét mặt $hisOrHer. ""Nếu đôi mắt ngài không nhắm trước ánh sáng của Ludd, ngài có thể hiểu. Nhưng ngọn lửa giả của kiêu hãnh và quyền lực đang dẫn ngài lạc lối.""
 
-$personPost chạm vào thứ gì đó trên bảng điều khiển.","lke_chalcedonLookingRecMad1:Tiếp tục",
+$PersonPost chạm vào thứ gì đó trên bảng điều khiển.","lke_chalcedonLookingRecMad1:Tiếp tục",
 lkeChalcedonLookingRecMad1,DialogOptionSelected,$option == lke_chalcedonLookingRecMad1,"FireBest LKEChalcedonMakeFleetsHostile
 EndConversation DO_NOT_FIRE
 ShowDefaultVisual","""Thuyền trưởng,"" giọng sĩ quan liên lạc khẽ vang lên bên tai bạn, ""Chúng vừa gửi một tín hiệu mã hóa. Các hạm đội Pather gần đó sẽ được báo động về vị trí của chúng ta.""
@@ -7804,7 +7804,7 @@ Sau một lúc, $personName mở mắt ra.
 LKEpatherFleetServeFaithB1,DialogOptionSelected,$option == lke_patherFleetServeFaithB1,"$player.ethosRuthless++
 $player.ethosOrder++
 $option = lke_patherFleetEndFight 0
-FireBest DialogOptionSelected","Ánh mắt $HisOrHer trở nên cứng rắn. ""Quả như tôi lo sợ. Giáo hội giả mạo đã làm ngài hư hỏng. Đã có lời đồn rằng Kẻ Thù sẽ che giấu những dối trá của chúng trong bí tích, và giờ điều đó hiện ra trước mắt tôi.""
+FireBest DialogOptionSelected","Ánh mắt $hisOrHer trở nên cứng rắn. ""Quả như tôi lo sợ. Giáo hội giả mạo đã làm ngài hư hỏng. Đã có lời đồn rằng Kẻ Thù sẽ che giấu những dối trá của chúng trong bí tích, và giờ điều đó hiện ra trước mắt tôi.""
 
 ""Mong chân không thánh thiêng của Chúa thanh tẩy ngài,"" $heOrShe rít lên.",,
 LKEpatherFleetServePath,DialogOptionSelected,$option == lke_patherFleetServePath,,"""Ngài phải cầu nguyện về điều này, $playerBrotherOrSister,"" $heOrShe nói với vẻ quan tâm chân thành. ""Đó là một Path hẹp và đầy hiểm nguy mà chúng ta đi, bị các giáo lý sai lệch của Giáo hội đe dọa ở một phía, và bị lũ quỷ con của Domain ở phía kia.""
@@ -7990,7 +7990,7 @@ FireAll LKEmazalotAskPMChurchResps","""Ôi, chân không thánh thiêng,"" $heOr
 
 ""Giáo hội không nên... không phải việc của tôi để nói Giáo hội nên hay không nên làm gì, đặc biệt nếu một Đức Tổng giáo sĩ đã ra lệnh, nhưng... ngài chưa nói với ai trong MUA về sự dính líu của Giáo hội, đúng không?""
 
-Đôi mắt $HisOrHer rời khỏi màn hình, nhìn thấy một hình ảnh đáng tiếc nào đó. ""Tôi chỉ có thể tưởng tượng Quản trị viên Kato sẽ nói gì nếu ông ấy biết.""","
+Đôi mắt $hisOrHer rời khỏi màn hình, nhìn thấy một hình ảnh đáng tiếc nào đó. ""Tôi chỉ có thể tưởng tượng Quản trị viên Kato sẽ nói gì nếu ông ấy biết.""","
 
 ",
 LKEmazalotAskPMchurchResp1,LKEmazalotAskPMChurchResps,$player.mostLuddicEthosFaithful,,,"lke_mazalotPMquietly:""Tôi cũng mong được vừa tôn trọng Đức tin... vừa xử lý chuyện này một cách kín đáo. Có sự giúp đỡ của ngài.""",
@@ -12643,7 +12643,7 @@ BFFIpsRuseOpenMean,DialogOptionSelected,$option == bffi_psRuseOpenMean,$reasons 
 BFFIpsRuseOpenMean2,DialogOptionSelected,$option == bffi_psRuseOpenMean2,FireAll BFFIpsRuseMeanOpts,"""Sao tôi phải tin ngài - ngài, người đang đe dọa tôi thế này?""
 
 $HeOrShe rõ ràng không hài lòng với điều kiện của bạn. ""Ngài là nô lệ không chỉ của Mammon và Moloch, mà của cả Cơn Thịnh Nộ. Đau khổ là bánh mì hằng ngày của ngài.""",,
-BFFIpsRuseOpenMeanAlmost,BFFIpsRuseMeanOpts,$reasons == 2,,"Đôi mắt $HisOrHer đỏ hoe, hai tay $hisOrHer vặn xoắn vào nhau. Chỉ cần ép thêm một chút nữa là thuyết phục được $himOrHer...",,
+BFFIpsRuseOpenMeanAlmost,BFFIpsRuseMeanOpts,$reasons == 2,,"Đôi mắt $hisOrHer đỏ hoe, hai tay $hisOrHer vặn xoắn vào nhau. Chỉ cần ép thêm một chút nữa là thuyết phục được $himOrHer...",,
 BFFIpsRuseOpenMeanDone,BFFIpsRuseMeanOpts,"$reasons == 3
 !$saidAccept",$saidAccept = true,"""Dừng những lời đe dọa đi!"" $HeOrShe ôm đầu bằng hai tay. ""Ngài là một con quái vật từ Địa ngục, và chắc chắn tôi sẽ bị đày xuống đó vì đã làm thỏa thuận này... nhưng chuyện này đã kéo quá dài rồi. Tôi phải bảo vệ dân của mình.""
 
@@ -13773,7 +13773,7 @@ BFFIproblemCheckFundingLie,DialogOptionSelected,"$option == bffi_deliverProblemC
 $player.BFFImadeBornanewBackChurchFundingLie","$thereWasAProblem = true 0
 AdjustRepActivePerson -1","Người thư ký hắng giọng.
 
-""Excubitor Orbis,"" mắt cô liếc sang bạn và Bornanew. ""$playerSirOrMadam. Tập sinh.""
+""Excubitor Orbis,"" mắt cô liếc sang bạn và Bornanew. ""$PlayerSirOrMadam. Tập sinh.""
 
 ""Có một vấn đề liên quan đến Demarchon của Olinadu. Menes Yaribay? Ông ta khẳng định đã được hứa thanh toán cho việc, ừm, mua một di vật.""
 
@@ -13797,7 +13797,7 @@ BFFIproblemCheckRaided,DialogOptionSelected,"$option == bffi_deliverProblemCheck
 $player.bffi_raidedForRelic","AdjustRepActivePerson -1
 $thereWasAProblem = true 0","Người thư ký hắng giọng.
 
-""Excubitor Orbis,"" mắt cô liếc sang bạn và Bornanew. ""$playerSirOrMadam. Tập sinh.""
+""Excubitor Orbis,"" mắt cô liếc sang bạn và Bornanew. ""$PlayerSirOrMadam. Tập sinh.""
 
 ""Có một vấn đề liên quan đến Demarchon của Olinadu. Menes Yaribay? Ông ta đòi bồi thường cho một... sự cố. Ông ta khẳng định một vật có giá trị đã bị lấy trộm trong một vụ đột kích bạo lực vào khu nhà riêng của ông. Và, ừm, có một danh sách các nghi phạm tiềm năng...""
 
@@ -14131,7 +14131,7 @@ aiCores_turnInOptionSelGeneric,DialogOptionSelected,$option == aiCores_startTurn
 aiCores_turnInOptionSelLuddic,DialogOptionSelected,"$option == aiCores_startTurnIn
 $faction.id == luddic_church",FireAll PopulateCoresTurnInOptions,"""Ngài đã làm đúng khi mang những thứ này đến cho tôi. Tôi sẽ liên lạc với Hiệp sĩ chỉ huy để tiếp nhận những tà vật này, để chúng được thanh tẩy đúng cách.""",,
 aiCores_turnInOptionSelPath,DialogOptionSelected,"$option == aiCores_startTurnIn
-$faction.id == luddic_path",FireAll PopulateCoresTurnInOptions,"""Ngài mang đến những lõi quỷ, hạt giống của Moloch!"" Mắt $HisOrHer mở to.
+$faction.id == luddic_path",FireAll PopulateCoresTurnInOptions,"""Ngài mang đến những lõi quỷ, hạt giống của Moloch!"" Mắt $hisOrHer mở to.
 
 ""Phải, những tà vật này phải bị phá hủy trước khi chúng lan rộng thêm sự băng hoại! Con đường được ban phước đã dẫn ngài đến đây vì chúng tôi có công cụ và kiến thức để làm việc này đúng cách. Và tất nhiên,"" $heOrShe nở một nụ cười nhẹ, ""lòng sùng kính chính trực của ngài sẽ không phải không được đền đáp.""",,
 aiCores_turnInOptionSelHegemony,DialogOptionSelected,"$option == aiCores_startTurnIn
@@ -14555,7 +14555,7 @@ initial_remnantGhost,BeginFleetEncounter,"$fromGhost score:1000
 $faction.id == remnant","unset $fromGhost
 $fidpi_addContinue = true 0","Thân tàu đầy vết lõm và ở vài chỗ trông hơi vặn vẹo một cách khó nhận ra. Bất chấp hư hại nhìn thấy được, cảm biến phát hiện các nguồn năng lượng đang ngủ, bắt đầu hoạt động ngay khi thủy thủ đoàn trên cầu tàu hoàn tất đánh giá chiến thuật ban đầu.
 
-Sau một khoảnh khắc sửng sốt, sĩ quan liên lạc lên tiếng. ""Thưa $PlayerSirOrMadam, chúng ta nhận được tín hiệu đáp lại từ bộ phát đáp. Các mã đều là mã chuẩn Tri-Tachyon, nhưng theo bản cập nhật sổ đăng ký gần nhất thì chúng đã lỗi thời hơn một trăm chu kỳ.""",,
+Sau một khoảnh khắc sửng sốt, sĩ quan liên lạc lên tiếng. ""Thưa $playerSirOrMadam, chúng ta nhận được tín hiệu đáp lại từ bộ phát đáp. Các mã đều là mã chuẩn Tri-Tachyon, nhưng theo bản cập nhật sổ đăng ký gần nhất thì chúng đã lỗi thời hơn một trăm chu kỳ.""",,
 ,,,,,,
 # attempt to remove AI core from admin,,,,,,
 RACA_init,RemoveAICoreAdmin,,ShowPic ai_core_uninstall,"Bạn ra lệnh lặng lẽ ngắt kết nối lõi AI đang quản lý $marketName và đưa nó ra khỏi hầm điều khiển để cất vào kho lưu trữ an toàn.
@@ -15044,7 +15044,7 @@ oc_check,MarketPostDock,MarketCMD checkOfficerComplaints score:1000,"Highlight "
 unset $hasReassignmentComplaint","Kênh liên lạc của bạn rung lên giận dữ: đó là một tin nhắn ưu tiên từ một trong các sĩ quan hạm đội của bạn.","officerAnswer:Chấp nhận yêu cầu liên lạc",
 oc_officerAnswerSelFirstComplaint,DialogOptionSelected,"!$complainedRecently
 $option == officerAnswer","$complainedRecently = true 365
-ShowPersonVisual","""Thưa $PlayerSirOrMadam,"" $heOrShe mở lời với ánh mắt nghiêm nghị, ""Tôi xin kính cẩn hỏi liệu ngài có còn tin vào năng lực chỉ huy của tôi không.""
+ShowPersonVisual","""Thưa $playerSirOrMadam,"" $heOrShe mở lời với ánh mắt nghiêm nghị, ""Tôi xin kính cẩn hỏi liệu ngài có còn tin vào năng lực chỉ huy của tôi không.""
 
 ""Ngài đã thu hồi việc giao tôi chỉ huy $reassignedShipName cho một hành động hạm đội, rồi lại đặt tôi chỉ huy đúng con tàu đó. Điều này làm suy yếu uy quyền của tôi trước các sĩ quan cấp dưới cũng như thủy thủ đoàn.""
 OR
@@ -15058,7 +15058,7 @@ OR
 OR
 ""$PlayerSirOrMadam, cảm ơn ngài đã dành thời gian,"" $heOrShe mở lời.
 
-""Tôi xin kính cẩn khiếu nại về mệnh lệnh điều tôi khỏi $reassignedShipName trong một hành động chiến đấu quan trọng. Tôi đã bỏ rất nhiều công sức xây dựng mối quan hệ với các sĩ quan cấp dưới và thủy thủ đoàn, và việc có vẻ bỏ rơi họ... $playerSirOrMadam, điều đó tác động tiêu cực đến tinh thần và độ sẵn sàng, không đạt tiêu chuẩn nghề nghiệp của tôi.""","oc_offerApology:""Đã rõ. Tôi sẽ tránh những lần điều chuyển không cần thiết về sau.""
+""Tôi xin kính cẩn khiếu nại về mệnh lệnh điều tôi khỏi $reassignedShipName trong một hành động chiến đấu quan trọng. Tôi đã bỏ rất nhiều công sức xây dựng mối quan hệ với các sĩ quan cấp dưới và thủy thủ đoàn, và việc có vẻ bỏ rơi họ... $PlayerSirOrMadam, điều đó tác động tiêu cực đến tinh thần và độ sẵn sàng, không đạt tiêu chuẩn nghề nghiệp của tôi.""","oc_offerApology:""Đã rõ. Tôi sẽ tránh những lần điều chuyển không cần thiết về sau.""
 oc_savingOnCombaPay:""Nghe này, tôi chỉ muốn tiết kiệm chút tiền lương chiến đấu thôi.""",
 oc_officerAnswerSelComplainAgain,DialogOptionSelected,"$complainedRecently
 $option == officerAnswer","ShowPersonVisual
@@ -16223,7 +16223,7 @@ gaKAPatrolLie3,DialogOptionSelected,$option == gaKA_patrolLie3,,"Khuôn mặt c�
 ""$SirOrMadam,"" bạn nói thêm lần nữa.","gaKA_patrolLie4:Tiếp tục",
 gaKAPatrolLie4,DialogOptionSelected,$option == gaKA_patrolLie4,,"Có vẻ đã thành công. Tư thế của $rank hơi dịu xuống, gần như không nhận ra.
 
-""Đô đốc Rao lúc nào cũng đẩy giới hạn, phải không. Chuyện này cực kỳ bất thường, thuyền trưởng, và tôi sẽ báo cáo lại. Nhưng."" Cằm $HisOrHer hếch lên một chút. ""Các chuyên gia sẽ tiếp quản cuộc truy đuổi này. Truyền liên lạc cuối cùng và hướng đi mà ngươi quan sát được từ mục tiêu.""
+""Đô đốc Rao lúc nào cũng đẩy giới hạn, phải không. Chuyện này cực kỳ bất thường, thuyền trưởng, và tôi sẽ báo cáo lại. Nhưng."" Cằm $hisOrHer hếch lên một chút. ""Các chuyên gia sẽ tiếp quản cuộc truy đuổi này. Truyền liên lạc cuối cùng và hướng đi mà ngươi quan sát được từ mục tiêu.""
 
 Bạn cố tỏ ra thất vọng vừa đủ khi lặng lẽ ra lệnh cho sĩ quan điều hướng và liên lạc nghĩ ra một điều gì đó nghe hợp lý. Họ ứng biến nhanh đến đáng nể, và bạn nhìn $Rank $personLastName liếc vào bảng điều khiển của $hisOrHer, hài lòng.","gaKA_patrolLie5:""Chúc săn lùng thuận lợi. $SirOrMadam.""",
 gaKAPatrolLie5,DialogOptionSelected,$option == gaKA_patrolLie5,"MakeOtherFleetHostile gaKA false
@@ -16725,7 +16725,7 @@ FireAll PopulateOptions","""Coureuse?"" $HeOrShe nhìn bạn đầy hoài nghi. 
 gaFCFikenhildBotherAdmin,DialogOptionSelected,$option == gaFC_fikenhildBotherAdmin,"$askedAboutCoureuse = true
 $global.gaFC_beingConspicuous++
 AdjustRepActivePerson INHOSPITABLE -1
-FireAll gaFCfikenhildBotherVIPopts","""Tôi không có cộng sự nào tên như vậy."" Giọng $HeOrShe nghe khó chịu.
+FireAll gaFCfikenhildBotherVIPopts","""Tôi không có cộng sự nào tên như vậy."" Giọng $heOrShe nghe khó chịu.
 
 ""Tôi nhận cuộc gọi của ngài vì việc tạo thuận lợi cho thương mại liên sao với các nhà điều hành độc lập thuộc thẩm quyền của tôi. Nếu ngài chỉ đang tìm một ID liên lạc, tôi đề nghị ngài tra cứu ở một thiết bị tìm kiếm công cộng.""
 
@@ -16733,11 +16733,11 @@ FireAll gaFCfikenhildBotherVIPopts","""Tôi không có cộng sự nào tên nh�
 gaFCFikenhildBotherStatCom,DialogOptionSelected,$option == gaFC_fikenhildBotherStation,"$askedAboutCoureuse = true
 $global.gaFC_beingConspicuous++
 AdjustRepActivePerson INHOSPITABLE -1
-FireAll gaFCfikenhildBotherVIPopts","""Được rồi. Tôi không biết người đó là ai."" Giọng $HeOrShe nghe bực mình. ""Tôi không phải là danh bạ liên lạc.""
+FireAll gaFCfikenhildBotherVIPopts","""Được rồi. Tôi không biết người đó là ai."" Giọng $heOrShe nghe bực mình. ""Tôi không phải là danh bạ liên lạc.""
 
 ""Tôi có mặt ở đây để điều phối các tài sản dân sự và quân sự của Persean League nhằm bảo đảm an toàn và an ninh cho Fikenhild và hệ sao địa phương. Nếu ngài có việc cần bàn liên quan đến những vấn đề này, tôi sẵn lòng hỗ trợ ngài."" 
 
-Giọng $HeOrShe không tỏ ra đặc biệt vui vẻ, nhưng trực giác ngoại giao của bạn cho rằng tốt nhất là đừng chỉ ra điều đó.",,
+Giọng $heOrShe không tỏ ra đặc biệt vui vẻ, nhưng trực giác ngoại giao của bạn cho rằng tốt nhất là đừng chỉ ra điều đó.",,
 gaFCFikenhildBotherVIPoptA1,gaFCfikenhildBotherVIPopts,"$postId == administrator
 $player.isLeagueMember",,,"gaFC_fikenhildBotherVIPoptAsel1:""Tôi là demarchon của Persean League, $post, không phải một 'nhà điều hành' ngẫu nhiên nào đó.""",
 gaFCFikenhildBotherVIPoptB1,gaFCfikenhildBotherVIPopts,"$postId == administrator
@@ -18398,14 +18398,14 @@ gaFCArchonLetMeSeeHer,DialogOptionSelected,$option == gaFC_archonLetMeSeeHer,,""
 Archon $personLastName nghe có vẻ đã xuôi tay. ","gaFC_archonLetMeSeeHerGoad:""Lệnh từ Kazeron à? Tôi thấy rõ ai thực sự điều hành Laicaille.""
 gaFC_archonLetMeSeeHerAppeal:""Cô ấy là công dân tự do của Liên minh. Điều đó chẳng có nghĩa lý gì sao?""
 gaFC_archonLetMeSeeHerAvoid:""Được thôi. Xin lỗi vì đã dò hỏi.""",
-gaFCArchonLetMeSeeHerGoad,DialogOptionSelected,$option == gaFC_archonLetMeSeeHerGoad,,"""Không phải như vậy đâu,"" archon lắp bắp. ""Laicaille tự do và kiêu hãnh! Nhỏ thì có nhỏ, nhưng quan trọng về mặt chiến lược. Và chúng tôi không bị trói buộc vào thứ chính trị gens thiên vị họ hàng của Kazeron."" Mặt $HisOrHer bắt đầu đỏ lên, ""Họ không hiểu! Ở đây ngoài kia chúng tôi phải lao động mới có cái ăn. Chúng tôi đối mặt rủi ro mà đám ngu ngốc đó không thể tưởng tượng nổi. Thứ 'liên minh' gì mà lại không chịu dẹp ổ hải tặc đang ẩn náu ở Kapteyn, bọn đã quấy rối chúng tôi suốt... suốt nhiều chu kỳ! Còn thuế hạm đội nữa!"" 
+gaFCArchonLetMeSeeHerGoad,DialogOptionSelected,$option == gaFC_archonLetMeSeeHerGoad,,"""Không phải như vậy đâu,"" archon lắp bắp. ""Laicaille tự do và kiêu hãnh! Nhỏ thì có nhỏ, nhưng quan trọng về mặt chiến lược. Và chúng tôi không bị trói buộc vào thứ chính trị gens thiên vị họ hàng của Kazeron."" Mặt $hisOrHer bắt đầu đỏ lên, ""Họ không hiểu! Ở đây ngoài kia chúng tôi phải lao động mới có cái ăn. Chúng tôi đối mặt rủi ro mà đám ngu ngốc đó không thể tưởng tượng nổi. Thứ 'liên minh' gì mà lại không chịu dẹp ổ hải tặc đang ẩn náu ở Kapteyn, bọn đã quấy rối chúng tôi suốt... suốt nhiều chu kỳ! Còn thuế hạm đội nữa!"" 
 
 Archon $personLastName nhắm mắt và hít thở sâu vài nhịp, rồi nhìn bạn với một quyết tâm mới.
 
 ""Ngài biết không. Ngài nói đúng.""","gaFC_archonLetMeSeeHerGoad2:""Tôi sao?""",
 gaFCArchonLetMeSeeHerGoad2,DialogOptionSelected,$option == gaFC_archonLetMeSeeHerGoad2,"$option = gaFC_archonSuccessEnd 0
 FireBest DialogOptionSelected","Giọng archon vững lại, mang theo cơn giận lạnh lùng đã âm ỉ suốt nhiều chu kỳ, có vẻ vậy. ""Đã đến lúc cho chúng thấy Laicaille thuộc về ai - và không phải một lũ trẻ con gens Kazeron lê bụi bẩn khắp trạm đẹp đẽ của chúng ta.""",,
-gaFCArchonLetMeSeeHerAppeal,DialogOptionSelected,$option == gaFC_archonLetMeSeeHerAppeal,$player.ethosHonorable++,"""Nghe này, chúng tôi trân trọng tự do ở đây không kém gì- không, chúng tôi trân trọng nó hơn đám tài phiệt rởm từ Kazeron,"" archon lắp bắp. ""Laicaille tự do và kiêu hãnh! Và trời ơi, điều đó có ý nghĩa ở đây, dù ngài không thấy, và-"" Mặt $HisOrHer bắt đầu đỏ lên, ""họ bảo 'đừng hỏi nhiều', họ bảo 'phòng thủ Liên minh' và 'cần biết' và 'chúng tôi đang nắm tình hình'. Vậy à? Khi cả mớ hỗn độn này sắp nổ tung?""
+gaFCArchonLetMeSeeHerAppeal,DialogOptionSelected,$option == gaFC_archonLetMeSeeHerAppeal,$player.ethosHonorable++,"""Nghe này, chúng tôi trân trọng tự do ở đây không kém gì- không, chúng tôi trân trọng nó hơn đám tài phiệt rởm từ Kazeron,"" archon lắp bắp. ""Laicaille tự do và kiêu hãnh! Và trời ơi, điều đó có ý nghĩa ở đây, dù ngài không thấy, và-"" Mặt $hisOrHer bắt đầu đỏ lên, ""họ bảo 'đừng hỏi nhiều', họ bảo 'phòng thủ Liên minh' và 'cần biết' và 'chúng tôi đang nắm tình hình'. Vậy à? Khi cả mớ hỗn độn này sắp nổ tung?""
 
 Archon $personLastName nhắm mắt, hít thở sâu vài nhịp, rồi nhìn bạn và nói, ""Ngài nói đúng. Tôi đã để mấy tên gián điệp Kazeron đẩy mình đi. Đẩy Laicaille đi. Lên mặt với đống 'hồ sơ an ninh' rác rưởi của chúng. Tôi đã... phụ lòng ý nghĩa của việc là người Laicaille.""","gaFC_archonLetMeSeeHerAppeal2:Không nói gì",
 gaFCArchonLetMeSeeHerAppeal2,DialogOptionSelected,$option == gaFC_archonLetMeSeeHerAppeal2,"$option = gaFC_archonSuccessEnd 0
@@ -19501,7 +19501,7 @@ gaPZHegemonyEncounterInitialCont,GAPZHegInitialCont,,"MakeOtherFleetNonHostile g
 MakeOtherFleetImportant gaPZ false
 MakeOtherFleetGoAway true","""Dù việc thúc đẩy công nghiệp và đổi mới nằm trong lợi ích của Hegemony và của việc khôi phục Domain,"" $heOrShe nói gần như máy móc, như đọc theo kịch bản của một quan chức, ""thì sự giám sát và hạn chế nhất định là cần thiết vì an toàn của tất cả. Xin lưu ý rằng Ministry of Technology Standards tuyên bố ý định trấn an khối thịnh vượng kế thừa Domain là Hegemony, bằng cách bảo đảm thân tàu Ziggurat-class tuân thủ các điều khoản của Hiệp ước Crom Cruach năm chu kỳ 194,"" $hisOrHer ánh mắt ngước lên nhìn bạn, ""hiệp ước đã kết thúc Chiến tranh AI lần thứ hai""
 
-$personRank của Hegemony kết lại không chút cảm xúc: ""Hãy coi đây là một lời cảnh báo."" Sau đó $HeOrShe cắt liên lạc mà không thèm buông một lời chào tạm biệt nào.","cutCommLinkNoText:Tiếp tục",
+$PersonRank của Hegemony kết lại không chút cảm xúc: ""Hãy coi đây là một lời cảnh báo."" Sau đó $heOrShe cắt liên lạc mà không thèm buông một lời chào tạm biệt nào.","cutCommLinkNoText:Tiếp tục",
 gaPZ_heg1,DialogOptionSelected,$option == gaPZ_heg1,,"Lấy cớ nào đó, bạn kéo dài thời gian của $personRank của Hegemony thêm vài phút để bàn bạc với đội trên cầu tàu.
 
 ""Việc này không hẳn là tiêu chuẩn, nhưng về mặt kỹ thuật họ có thể đòi quét mà không cần lệnh vi phạm thuế quan,"" sĩ quan cảm biến của bạn giải thích. ""Tôi từng nghe điều khoản này được dùng, nhưng chủ yếu để chặn các tàu vận tải bị nghi chở đặc vụ Pather hay những thứ tương tự. Họ không có quyền vào toàn bộ tàu, chỉ các thứ chính yếu, ừm: khóa khí chính, khoang hàng, lò phản ứng, động cơ siêu không gian. Để đảm bảo độ bền thân tàu và chắc rằng lò phản ứng của bạn không nổ. Về lý thuyết thì vậy.""","gaPZ_heg2:Tiếp tục",
@@ -19530,8 +19530,8 @@ MakeOtherFleetImportant gaPZ false
 MakeOtherFleetGoAway true","Sĩ quan chiến thuật của bạn tắt vùng phủ PD để cho tàu con thoi của đội quét cập bến, và bạn xem qua màn hình cảnh các kỹ thuật viên Hegemony bước vào khoang khóa khí, quẹt gì đó trên máy tính bảng, rồi lùi lại vào tàu con thoi.
 
 ""Cảm ơn sự hợp tác của ngài trong cuộc điều tra này, thuyền trưởng. Ngài được phép đi."" $PersonRank $personName nở một nụ cười nhỏ đầy mỉa mai, nói ""Vì Domain,"" rồi ngắt liên lạc.","cutCommLinkNoText:Tiếp tục",
-gaPZ_hegHub1c,DialogOptionSelected,$option == gaPZ_hegHub1c,FireAll GAPZHegHub,"$personRank của Hegemony thở dài và xoa trán như thể việc này đang gây cho $himOrHer một cơn đau đầu khủng khiếp. ""Tôi đang cố làm việc với ngài, thuyền trưởng. Nhưng tôi sẽ không liều sự nghiệp của mình vì ngài.""",,
-gaPZ_hegHub2,DialogOptionSelected,$option == gaPZ_hegHub2,,"$personRank của Hegemony miễn cưỡng chấp nhận phản hồi chậm trễ của bạn, và cuộc quét tiếp diễn với tất cả sự rườm rà quen thuộc của các thủ tục Hegemony, khi bộ máy muốn bạn biết rằng họ sẽ dành toàn bộ thời gian trên đời, chỉ chờ bạn phạm sai lầm.
+gaPZ_hegHub1c,DialogOptionSelected,$option == gaPZ_hegHub1c,FireAll GAPZHegHub,"$PersonRank của Hegemony thở dài và xoa trán như thể việc này đang gây cho $himOrHer một cơn đau đầu khủng khiếp. ""Tôi đang cố làm việc với ngài, thuyền trưởng. Nhưng tôi sẽ không liều sự nghiệp của mình vì ngài.""",,
+gaPZ_hegHub2,DialogOptionSelected,$option == gaPZ_hegHub2,,"$PersonRank của Hegemony miễn cưỡng chấp nhận phản hồi chậm trễ của bạn, và cuộc quét tiếp diễn với tất cả sự rườm rà quen thuộc của các thủ tục Hegemony, khi bộ máy muốn bạn biết rằng họ sẽ dành toàn bộ thời gian trên đời, chỉ chờ bạn phạm sai lầm.
 
 Bạn không phạm sai lầm nào. An ninh nội bộ của bạn kiên quyết từ chối mọi quyền truy cập vượt quá phạm vi thanh tra, và đội quét - rõ ràng được lệnh thử giới hạn của bạn - dừng lại và bám sát kế hoạch.","gaPZ_hegHub2a:Chờ trong lúc cuộc quét tiếp diễn",
 gaPZ_hegHub2a,DialogOptionSelected,$option == gaPZ_hegHub2a,"MakeOtherFleetNonHostile gaPZ true
@@ -19553,7 +19553,7 @@ gaPZ_hegHubVanish1,DialogOptionSelected,$option == gaPZ_hegHubVanish1,,"Một v�
 ""Đây không phải trò chơi, thuyền trưởng $playerName. Tôi muốn ngài đưa con tàu đó ra khỏi pha ngay để chúng tôi tiến hành quét. Lập tức!""
 
 $HeOrShe hít một hơi sâu, rồi nói bằng giọng thấp hơn: ""Chúng tôi có thể cứ chờ cho đến khi ngài phải chịu thua. Một con tàu không thể ở trong pha quá vài phút.""","gaPZ_hegHubVanish2:Cứ chờ đến cùng",
-gaPZ_hegHubVanish2,DialogOptionSelected,$option == gaPZ_hegHubVanish2,,"$personRank của Hegemony vừa đúng vừa sai. Ziggurat-class không thể ở trong không gian pha mãi mãi. Nhưng nó có thể trụ được khá lâu, lâu hơn hầu hết các thân tàu pha khác. Và bạn biết rằng $personRank của Hegemony không hề biết mức năng lực của nó đến đâu.
+gaPZ_hegHubVanish2,DialogOptionSelected,$option == gaPZ_hegHubVanish2,,"$PersonRank của Hegemony vừa đúng vừa sai. Ziggurat-class không thể ở trong không gian pha mãi mãi. Nhưng nó có thể trụ được khá lâu, lâu hơn hầu hết các thân tàu pha khác. Và bạn biết rằng $personRank của Hegemony không hề biết mức năng lực của nó đến đâu.
 
 Sau gần một giờ, $personRank của Hegemony mở lại kênh liên lạc.","gaPZ_hegHubVanish3:""Chúng ta xong việc ở đây chưa?""",
 gaPZ_hegHubVanish3,DialogOptionSelected,$option == gaPZ_hegHubVanish3,"AdjustRepActivePerson VENGEFUL -20
@@ -19576,10 +19576,10 @@ gaPZTriTachEncounterStandard,GAPZTTInitial,,FireAll GAPZTTHub,"""Chào ca làm v
 $HeOrShe nhìn bạn chằm chằm không chớp mắt, chờ phản hồi của bạn.",,
 gaPZTriTachEncounterNoZig,GAPZTTInitial,!$entity.hasZiggurat,FireBest GAPZTTInitialCont,"""Chào buổi trực, thuyền trưởng,"" $rank Tri-Tachyon nói dứt khoát. ""Cảm biến tầm xa vừa phát hiện một chiếc Ziggurat-class TTS Xenorphica trong hạm đội của ngài; đây là tài sản thuộc Tri-Tachyon Corporation.""
 
-Ánh mắt $HisOrHer liếc xuống, đọc từ màn hình. ""Xin thông báo rằng Tri-Tachyon Corporation coi là hợp pháp mọi biện pháp thích đáng và cần thiết để thu hồi tài sản thuộc công ty nói trên, bao gồm việc sử dụng lực lượng quân sự, thuê lính đánh thuê hoặc tư nhân được cấp phép, vân vân.""",,
+Ánh mắt $hisOrHer liếc xuống, đọc từ màn hình. ""Xin thông báo rằng Tri-Tachyon Corporation coi là hợp pháp mọi biện pháp thích đáng và cần thiết để thu hồi tài sản thuộc công ty nói trên, bao gồm việc sử dụng lực lượng quân sự, thuê lính đánh thuê hoặc tư nhân được cấp phép, vân vân.""",,
 gaPZTriTachEncounterOnlyZig,GAPZTTInitial,$entity.hasOnlyZiggurat,FireBest GAPZTTInitialCont,"""Chào buổi trực, thuyền trưởng,"" $rank Tri-Tachyon nói dứt khoát. ""Ngài đang sở hữu tài sản thuộc Tri-Tachyon Corporation.""
 
-Ánh mắt $HisOrHer liếc xuống, đọc từ màn hình. ""Xin thông báo rằng Tri-Tachyon Corporation coi là hợp pháp mọi biện pháp thích đáng và cần thiết để thu hồi tài sản thuộc công ty nói trên, bao gồm việc sử dụng lực lượng quân sự, thuê lính đánh thuê hoặc tư nhân được cấp phép, vân vân.""",,
+Ánh mắt $hisOrHer liếc xuống, đọc từ màn hình. ""Xin thông báo rằng Tri-Tachyon Corporation coi là hợp pháp mọi biện pháp thích đáng và cần thiết để thu hồi tài sản thuộc công ty nói trên, bao gồm việc sử dụng lực lượng quân sự, thuê lính đánh thuê hoặc tư nhân được cấp phép, vân vân.""",,
 gaPZTriTachEncounterInitialCont,GAPZTTInitialCont,,"MakeOtherFleetNonHostile gaPZ true
 MakeOtherFleetImportant gaPZ false
 MakeOtherFleetGoAway true","$rank Tri-Tachyon nhìn thẳng vào bạn, không chút cảm xúc. ""Hãy xem đây là một lời cảnh báo rõ ràng.""
@@ -21362,13 +21362,13 @@ MakeOtherFleetGoAway true","""Ha-ha,"" vẫn là tiếng cười giả tạo ấ
 
 ""Burn bright, bạn của tôi,"" $heOrShe kết thúc run rẩy, rồi với tay đến nút ngắt liên lạc của $hisOrHer.","cutCommLink:Ngắt liên lạc",
 gaATGscavScanDialog3,DialogOptionSelected,$option == gaATG_scavScanDialog3,"$whyLingering = true 0
-FireAll GAATGscavScanHub","""Cái thứ cũ đó hả? Ha-ha."" Tiếng cười giả gượng của $HisOrHer nghe khá chói tai khi lặp lại, bạn nhận ra vậy. 
+FireAll GAATGscavScanHub","""Cái thứ cũ đó hả? Ha-ha."" Tiếng cười giả gượng của $hisOrHer nghe khá chói tai khi lặp lại, bạn nhận ra vậy. 
 
 ""Thì bạn biết nó cũ mà. Ở đây ai cũng là lão làng nghề nhặt rác, phải không, đồng nghiệp du hành? Đôi khi bạn tìm thấy nhiều xác tàu nhỏ quanh mấy cái Gate này từ hồi xưa, bạn biết đấy."" $HeOrShe ngập ngừng. 
 
 Rồi lại mở lời khi bạn không lấp được khoảng im lặng của $hisOrHer. ""Phải kiểm tra gấp đôi, gấp ba để chắc chắn, đúng không? Biết đâu ai đó đã bỏ sót thứ gì ngoài này, và đó sẽ là ngày may mắn của tôi,"" $heOrShe nói. ""Ờ, ừm. Bạn cần gì không?""",,
 gaATGscavScanDialog31,DialogOptionSelected,$option == gaATG_scavScanDialog31,"$whyGate = true 0
-FireAll GAATGscavScanHub","""Cái Gate á? Ha-ha ha-ha, ồ, Thuyền trưởng $playerName, bạn đúng là báu vật."" Tiếng cười giả của $HisOrHer nhanh chóng lắng xuống, và bạn thấy một giọt mồ hôi lăn trên trán $hisOrHer.
+FireAll GAATGscavScanHub","""Cái Gate á? Ha-ha ha-ha, ồ, Thuyền trưởng $playerName, bạn đúng là báu vật."" Tiếng cười giả của $hisOrHer nhanh chóng lắng xuống, và bạn thấy một giọt mồ hôi lăn trên trán $hisOrHer.
 
 ""Thì bạn biết dân vũ trụ chúng tôi mà. Lúc nào cũng kể chuyện về mấy cái Gate, đúng không. Đi quanh một Gate trống thì nhớ canh chừng lưng, người ta nói vậy. Có lẽ chỉ là, ờ, cái gì đó, tâm trí vô thức của tôi thôi.""",,
 gaATGscavScanDialog32,DialogOptionSelected,$option == gaATG_scavScanDialog32,"$howName = true 0
@@ -26400,7 +26400,7 @@ Call $market.dcom_ref updateStage","Bạn xem nguồn cấp hình ảnh mặt đ
 
 Sau khi cuộc đột kích hoàn tất và bằng chứng đã được tải lên một địa chỉ darknet an toàn, datapad của bạn khẽ kêu lên để báo rằng một khoản thanh toán ẩn danh đã được nhận.",,
 "# merc shows up later, maybe",,,,,,
-DCOMMercHail,DCOMMercHail,,$entity.ignorePlayerCommRequests = true,"$personRank lính đánh thuê trông rất hài lòng, và có lẽ hơi quá tự tin khi màn hình liên lạc ổn định. 
+DCOMMercHail,DCOMMercHail,,$entity.ignorePlayerCommRequests = true,"$PersonRank lính đánh thuê trông rất hài lòng, và có lẽ hơi quá tự tin khi màn hình liên lạc ổn định. 
 
 ""Chậc, chậc,"" $heOrShe nói. ""Người ta không thể mong đột kích tài sản của các tập đoàn kinh doanh lớn $dcom_marketOnOrAt $dcom_marketName mà không phải đối mặt với hậu quả."" $HeOrShe mỉm cười mãn nguyện khi ra hiệu cho ai đó ngoài màn hình. Trong mắt $heOrShe lóe lên tia sáng đặc trưng của cảnh báo chiến đấu.","cutCommLink2:""Nếu thế thì việc cử ngươi đến là một sai lầm.""
 cutCommLink:Không nói gì",
@@ -26504,7 +26504,7 @@ $cpc_military score:10","$missionId = cpc
 SetTextHighlights $cpc_maxCapacity $cpc_costPercent $cpc_days
 DoCanAffordCheck 0 cpc_pickPlayerBP false","""Người khách kia lắc đầu và đứng dậy khi bạn tiến đến, rồi rời đi với một cử chỉ chào kiểu dân sự, vụng về.
 
-$personRank đảo mắt rồi mời bạn ngồi vào bàn. ""Ngài quan tâm đến các suất sản xuất đúng không, thuyền trưởng"" $heOrShe nói, không chào hỏi gì.
+$PersonRank đảo mắt rồi mời bạn ngồi vào bàn. ""Ngài quan tâm đến các suất sản xuất đúng không, thuyền trưởng"" $heOrShe nói, không chào hỏi gì.
 
 ""Tôi không quen chào hàng, nên chỉ nêu điều kiện. Năng lực sản xuất nanoforge cấp quân sự trị giá $cpc_maxCapacity credits, với giá $cpc_costPercent giá gốc. Giao hàng trong vòng $cpc_days ngày. Ngài có thể nhận các suất và tự cung cấp bản thiết kế, hoặc chúng tôi nhập đơn dưới quyền của tôi, khi đó ngài sẽ dùng của tôi. Chọn một trong hai.""","cpc_pickPlayerBP:Chọn từ bản thiết kế của tôi
 cpc_pickContactBP:Xem họ có bản thiết kế nào
@@ -26546,7 +26546,7 @@ cpcOfferTextBarCoilGun1c,DialogOptionSelected,$option == cpcOffer_coilGun1c,,"M�
 ""Tôi thề, đây chính là lý do Hệ thống Gate sụp đổ. Những quan liêu chẳng biết gì, không chịu sửa một lỗi đơn giản vì họ cho rằng nó không quan trọng. Nhưng. Điều. Này. Quan. Trọng.""
 
 Những lời cuối được nhấn bằng cách gõ ngón tay xuống bàn như những viên đạn kim loại được gia tốc bởi một chuỗi cuộn từ trường.","cpcOffer_coilGun2:Tiếp tục",
-cpcOfferTextBarCoilGun2,DialogOptionSelected,$option == cpcOffer_coilGun2,,"""Cuộn!"" một tay đập xuống bàn, ""Ray!"" tay kia đập xuống phía bên kia. ""Vòng! Đường thẳng! Có khó gì đâu!"" Giờ $HeOrShe đang gào lên, khiến người khác quay lại nhìn từ khắp quầy bar.
+cpcOfferTextBarCoilGun2,DialogOptionSelected,$option == cpcOffer_coilGun2,,"""Cuộn!"" một tay đập xuống bàn, ""Ray!"" tay kia đập xuống phía bên kia. ""Vòng! Đường thẳng! Có khó gì đâu!"" Giờ $heOrShe đang gào lên, khiến người khác quay lại nhìn từ khắp quầy bar.
 
 ""Ngoại trừ, đúng rồi đúng rồi, một số loại thiết kế lai, thay thế và kỳ lạ, còn thì rõ như ngày với đêm! Tôi nói có đúng không?!"" $HeOrShe nhìn chằm chằm bạn bằng đôi mắt sáng rực vì cơn giận chính nghĩa.","cpcOffer_coilGun3a:""Đúng vậy. Vậy ngài có bán pháo ra- cuộn nào không?""
 cpcOffer_coilGun3b:""Tất nhiên! Phải sửa cho mọi người về những chuyện này chứ.""
@@ -27766,7 +27766,7 @@ FireAll LOCRLjudgeAddTooltips","""Thế là chúng tôi theo ông ta, một nhó
 LOCRLFsayLookingFor,DialogOptionSelected,$option == locrlf_sayLookingFor,"$saidLookingFor = true
 $askedWhatDoing = true
 FireAll LOCRLjudgerOptions
-FireAll LOCRLjudgeAddTooltips","""Ồ, tôi... tôi hiểu."" Vẻ mặt $HisOrHer thay đổi giữa nhẹ nhõm và lo lắng. ""Giáo hội, họ- chúng tôi đã ăn năn! Tôi thề điều đó, ngay cả trước khi ngài đến."" 
+FireAll LOCRLjudgeAddTooltips","""Ồ, tôi... tôi hiểu."" Vẻ mặt $hisOrHer thay đổi giữa nhẹ nhõm và lo lắng. ""Giáo hội, họ- chúng tôi đã ăn năn! Tôi thề điều đó, ngay cả trước khi ngài đến."" 
 
 ""Nhà tiên tri giả đã, đã dụ dỗ chúng tôi - những lời tuyên bố của ông ta trở nên kỳ quặc. Vô lý. Bất kính. Ông ta nổi giận trước bất kỳ câu hỏi nào, tuyên bố thiên thần đã ra lệnh cho mình, rồi thì. Ừm.""
 
@@ -27794,11 +27794,11 @@ FireAll LOCRLhub","$PersonRank $personLastName phật ý trước lời của b�
 
 ""Đúng, chúng tôi đã dại dột,"" $heOrShe nói, mắt cụp xuống. ""Nhưng đó là... đó là một tai nạn. Một tai nạn khủng khiếp, không hơn không kém.""
 
-Giọng $HisOrHer vỡ ra trong tuyệt vọng, bám víu vào một sự thật đã thống nhất.",,
+Giọng $hisOrHer vỡ ra trong tuyệt vọng, bám víu vào một sự thật đã thống nhất.",,
 LOCRLjudgeResponseD,DialogOptionSelected,$option == locrl_judgeOptD,"$player.luddicAttitudePather++
 FireAll LOCRLhub","$PersonRank $personLastName bồn chồn trước lời bạn.
 
-""Đó là một tai nạn. Một tai nạn khủng khiếp, không hơn không kém."" Giọng $HisOrHer vỡ ra trong tuyệt vọng, bám víu vào một sự thật đã thống nhất. ""Chúng tôi không phải kẻ giết người! Chúng tôi chỉ tìm sự bình yên của Ludd. Và, và để chuộc tội.""",,
+""Đó là một tai nạn. Một tai nạn khủng khiếp, không hơn không kém."" Giọng $hisOrHer vỡ ra trong tuyệt vọng, bám víu vào một sự thật đã thống nhất. ""Chúng tôi không phải kẻ giết người! Chúng tôi chỉ tìm sự bình yên của Ludd. Và, và để chuộc tội.""",,
 LOCRLjudgeResponseE,DialogOptionSelected,$option == locrl_judgeOptE,"$player.luddicAttitudeAtheistic++
 FireAll LOCRLhub","""Kiêu ngạo!"" Lời ấy bật ra từ $PersonRank $personLastName.
 
@@ -27808,7 +27808,7 @@ $HeOrShe lắc đầu. ""Chúng tôi đã bị trừng phạt vì lạc khỏi G
 LOCRLjudgeResponseF,DialogOptionSelected,$option == locrl_judgeOptF,"$player.ethosRuthless++
 FireAll LOCRLhub","$PersonRank $personLastName trông kinh hãi. ""Chúng tôi không... không... đó là một tai nạn! Một tai nạn khủng khiếp, không hơn không kém.""
 
-Giọng $HisOrHer vỡ ra trong tuyệt vọng, bám víu vào một sự thật đã thống nhất.
+Giọng $hisOrHer vỡ ra trong tuyệt vọng, bám víu vào một sự thật đã thống nhất.
 
 ""Chúng tôi chỉ tìm sự bình yên của Ludd. Và, và để chuộc tội.""",,
 LOCRLFbringNews1,DialogOptionSelected,$option == locrlf_bringNews,"$saidBringNewsMission = true
@@ -27997,7 +27997,7 @@ FireBest DialogOptionSelected","Pather gật đầu. ""Bước này nên làm nh
 LOCRLoffloadToPath2mercy,DialogOptionSelected,$option == locrl_hereticsToPather2mercy,"$option = locrl_hereticsToPath3 0
 FireBest DialogOptionSelected","Pather gần như thở dài. ""Hãy để lòng trắc ẩn bạn cảm nhận lúc này thắp lên sự tận tụy của bạn đối với một Điều Thiện tối thượng, lớn hơn những nỗi đau nhỏ mà họ - và chúng ta - phải gánh chịu.""
 
-Giọng $HisOrHer đầy niềm tin. ""Rốt cuộc, lời hứa của Ludd đang chờ tất cả chúng ta.""",,
+Giọng $hisOrHer đầy niềm tin. ""Rốt cuộc, lời hứa của Ludd đang chờ tất cả chúng ta.""",,
 LOCRLoffloadToPath3,DialogOptionSelected,$option == locrl_hereticsToPath3,"AdjustRepActivePerson FRIENDLY 4
 AdjustRep luddic_path 3
 unset $player.locr_hereticsToPath
@@ -31066,7 +31066,7 @@ $player.numColonies > 0",FireAll KDStationKingOptions,"""Ờ, ngươi là ai?"" 
 
 ""À,"" $heOrShe càu nhàu, thả cái datapad xuống với tiếng cạch. ""Giờ ta hiểu rồi. Ngươi chẳng là gì, phải không. Ngươi có một hai thuộc địa à. Có chuyện làm ăn gì muốn bàn?""",,
 kdSKHelloFirstTimeC,DialogOptionSelected,"$option == kdKanta_openComms
-!$player.metKDSK",FireAll KDStationKingOptions,"""Ờ, ngươi là ai?"" $personName gằn giọng, chẳng buồn liếc cái datapad bẩn thỉu. $heOrShe càu nhàu, thả cái datapad xuống với tiếng cạch. ""Ngươi chẳng là gì cả. Sao ngươi lại ở đây, phí thời gian của ta?""",,
+!$player.metKDSK",FireAll KDStationKingOptions,"""Ờ, ngươi là ai?"" $personName gằn giọng, chẳng buồn liếc cái datapad bẩn thỉu. $HeOrShe càu nhàu, thả cái datapad xuống với tiếng cạch. ""Ngươi chẳng là gì cả. Sao ngươi lại ở đây, phí thời gian của ta?""",,
 kdKantaGreetingRouteRevisitLoke,DialogOptionSelected,"$option == kdKanta_openComms
 $global.murderedCloneLoke score:1000",,"Vua cảng của Kanta's Den hiện ra trước mặt bạn với toàn bộ vẻ quyến rũ đặc trưng. ""Đồ ngốc đần độn, mất trí vì phóng xạ! Ngươi nghĩ ngươi có thể thả con cưng của Lãnh chúa xuống rồi nhảy múa quay về nhà bà ấy à? Ngươi có chút can đảm đấy, $playerName, nhưng lại dùng nó thay cho não. Ta gần như nể phục đấy.""
 
@@ -31207,7 +31207,7 @@ kdLandingDenied,DialogOptionSelected,"$option == kd_landing1
 $player.numColonies == 0","EndConversation DO_NOT_FIRE
 ShowDefaultVisual","Bạn để bốn lính gác và phi công ở lại với tàu con thoi. Hai lính gác nữa đi theo bạn. Một tay sai hải tặc liếc bạn với vẻ khó chịu rồi bước thẳng vào đường đi của bạn.
 
-Bất ngờ là gã mở lời bằng giọng điệu nghe như đang cố hòa hoãn. ""Nghe này anh bạn, lần này Kanta sẽ không gặp ngươi đâu. Lãnh chúa chỉ nói chuyện khi có việc làm ăn lớn thật sự. Nếu ngươi không phải người nhà hay chúa tể của hành tinh riêng, thì tốt hơn là bỏ cuộc đi.""
+Bất ngờ là gã mở lời bằng giọng điệu nghe như đang cố hòa hoãn. ""Nghe này, lần này Kanta sẽ không gặp ngươi đâu. Lãnh chúa chỉ nói chuyện khi có việc làm ăn lớn thật sự. Nếu ngươi không phải người nhà hay chúa tể của hành tinh riêng, thì tốt hơn là bỏ cuộc đi.""
 
 Gã nhếch mép cười méo. ""Ghé quán bar, say bét nhè, vui chơi chút đi. Chợ mở cửa, hoặc bến tàu.""","kd_landingDeniedMust:""Tôi thực sự phải nói chuyện với Kanta.""
 kd_landingDeniedStopMe:""Ngươi định ngăn tôi à?""
@@ -31219,7 +31219,7 @@ $player.transponderOn
 RepLTE pirates INHOSPITABLE","EndConversation DO_NOT_FIRE
 ShowDefaultVisual","Bạn để bốn lính gác và phi công ở lại với tàu con thoi. Hai lính gác nữa đi theo bạn. Một tay sai hải tặc liếc bạn với vẻ khó chịu rồi bước thẳng vào đường đi của bạn.
 
-Gã mở lời với giọng điệu hòa hoãn đến bất ngờ. ""Nghe này anh bạn, lần này Kanta sẽ không gặp ngươi đâu. Lãnh chúa chỉ nói chuyện khi có việc làm ăn lớn thật sự. Nếu ngươi không phải người nhà hay chúa tể hành tinh riêng, thì tốt hơn là bỏ cuộc đi.""
+Gã mở lời với giọng điệu hòa hoãn đến bất ngờ. ""Nghe này, lần này Kanta sẽ không gặp ngươi đâu. Lãnh chúa chỉ nói chuyện khi có việc làm ăn lớn thật sự. Nếu ngươi không phải người nhà hay chúa tể hành tinh riêng, thì tốt hơn là bỏ cuộc đi.""
 
 ""Ghé quán bar, say bét nhè, vui chơi chút đi. Chợ mở cửa, hoặc bến tàu. Ta còn chẳng thèm gây chuyện vì bộ phát đáp của ngươi đang bật.""
 
@@ -37948,7 +37948,7 @@ KantaCMD kapteynHasForge
 FireBest MarketPostOpen","Những vành đai nhà máy bỏ hoang từ lâu rền rĩ và lấp lánh công trình mới. Các thân tàu mới được lắp ráp, những sườn nhọn gắn tấm giáp và trang bị vũ khí chiến tranh. Kanta đã lắp đặt một nanoforge nguyên vẹn ở đây, và gia đình cô ta đang sử dụng nó.",,
 kpFusionLamp,KPFindGifts,"PlayerHasCargo orbital_fusion_lamp
 $kpNumGifts < 5
-$kpNumGifts++",,,"10:kpFusionLamp:An Orbital Fusion Lamp",
+$kpNumGifts++",,,"10:kpFusionLamp:Một Orbital Fusion Lamp",
 kpFusionLampSel,DialogOptionSelected,$option == kpFusionLamp,"AddRemoveAnyItem SPECIAL orbital_fusion_lamp -1
 KantaCMD installFusionLamp","""Thế,"" môi Cydonia nhếch lên thành nụ cười khinh miệt, ""nữ lãnh chúa vĩ đại sẽ làm gì với-""
 
@@ -39026,7 +39026,7 @@ $isContact",,"Bạn trình bày quan điểm của mình về tình huống, cò
 
 ""Tôi hiểu ngài, tôi lắng nghe ngài, và tôi tin rằng chúng ta có thể cùng nhau giải quyết sự hiểu lầm này,"" $heOrShe nói, giọng ấm áp theo đúng quy trình đào tạo chăm sóc khách hàng. $HeOrShe chuyển sang vẻ mặt áy náy, ""Dĩ nhiên tôi không muốn ngài nghĩ rằng tôi đứng sau bất cứ chuyện nào trong số này. Tri-Tachyon rất tin vào sự cạnh tranh nội bộ lành mạnh, và một số giám đốc điều hành thì... quá nhiệt tình."" $HeOrShe lắc đầu, ""Đánh giá sai lệch một cách tệ hại và thiếu tôn trọng mối quan hệ kinh doanh mà ngài và tôi đã cùng xây dựng."" 
 
-Thần thái $HisOrHer chuyển mượt sang chế độ đàm phán, ""Vậy nếu ngài cho phép tôi trình bày một đề xuất khiêm tốn...""","ttMakeDeal2:Xem xét đề xuất",
+Thần thái $hisOrHer chuyển mượt sang chế độ đàm phán, ""Vậy nếu ngài cho phép tôi trình bày một đề xuất khiêm tốn...""","ttMakeDeal2:Xem xét đề xuất",
 ttMakeDealOptSelContactLowTrust,DialogOptionSelected,"$option == ttMakeDeal
 $isContact
 $player.untrustworthy > 2",,"Bạn trình bày quan điểm của mình về tình huống. $Post của Tri-Tachyon ngày càng tỏ ra hoài nghi.
@@ -39035,7 +39035,7 @@ $player.untrustworthy > 2",,"Bạn trình bày quan điểm của mình về tì
 
 ""Tập đoàn Tri-Tachyon có kinh nghiệm thực tế trong việc xử lý những khó khăn PR sau khủng hoảng, và tôi nghĩ một số giám đốc điều hành có thể được thuyết phục đi đến thấu hiểu về những hành động trong quá khứ của ngài."" $HeOrShe cười tươi rói. ""Suy cho cùng, một trong những giá trị cốt lõi của chúng tôi là 'suy nghĩ vượt khuôn khổ'.""
 
-Thần thái $HisOrHer chuyển mượt sang chế độ đàm phán, ""Vậy nếu ngài cho phép tôi trình bày một đề xuất khiêm tốn...""","ttMakeDeal2:Xem xét đề xuất",
+Thần thái $hisOrHer chuyển mượt sang chế độ đàm phán, ""Vậy nếu ngài cho phép tôi trình bày một đề xuất khiêm tốn...""","ttMakeDeal2:Xem xét đề xuất",
 ttMakeDealOptSelContact2,DialogOptionSelected,$option == ttMakeDeal2,"SetTextHighlights ""khả năng tiếp cận gia tăng""","$PersonName xem qua một bộ điều khoản. Chia sẻ dữ liệu về một số hải đồ điều hướng và dự báo giá hàng hóa kỳ hạn, giao thức an toàn chung cho các hạm đội thương mại, và các thỏa thuận bảo dưỡng dùng chung ngoài thực địa cũng như trong ụ tàu. Về bản chất, đó là khả năng tiếp cận gia tăng cho thương mại của các thuộc địa của bạn, dựa trên quy mô thị trường - và tương ứng cũng vậy đối với Tri-Tachyon. 
 
 ""'Cartel' là một từ thật khó nghe,"" $heOrShe nói. ""Tôi thích - và bộ phận Marketing cũng đồng ý - coi đề xuất của chúng tôi dành cho ngài là một quan hệ đối tác chiến lược, sẽ nâng cao giá trị cổ đông của Tri-Tachyon, tăng sự hài lòng của khách hàng, và,"" $heOrShe cười đầy thèm khát, ""khiến cả hai ta kiếm được rất nhiều credits.""","ttDealConfirm:Xác nhận thỏa thuận
@@ -39386,7 +39386,7 @@ RemoveOption lcMakeDealProvide","Dù đã cố hết sức, một vẻ bối r�
 
 ""Dù gặp gian nan gì, dù những lời thì thầm lừa dối nào cố dẫn các Tín hữu lạc lối, Church of Galactic Redemption đã được lập ra nhân danh Ludd để chăm lo sức khỏe tâm linh của họ.""
 
-Ánh mắt $HeOrShe giờ đã lạnh lùng hẳn. ""Và điều đó sẽ xảy ra, bằng cách này hay cách khác.""",,
+Ánh mắt $heOrShe giờ đã lạnh lùng hẳn. ""Và điều đó sẽ xảy ra, bằng cách này hay cách khác.""",,
 LCmakeDealPath,DialogOptionSelected,$option == lcMakeDealPath,"$saidPathThing = true
 RemoveOption lcMakeDealPath","Dù đã cố hết sức, một vẻ bối rối rõ rệt vẫn hiện lên trên mặt $post.
 

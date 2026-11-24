@@ -1,0 +1,29 @@
+{
+	"New": {
+		"name": "Mới"
+	},
+	"Important": {
+		"name": "Quan trọng"
+	},
+	"Story": {
+		"name": "Cốt truyện"
+	},
+	"Major events": {
+		"name": "Sự kiện lớn"
+	},
+	"Colony threats": {
+		"name": "Mối đe dọa thuộc địa"
+	},
+	"Accepted": {
+		"name": "Đã nhận"
+	},
+	"Exploration": {
+		"name": "Thám hiểm"
+	},
+	"Fleet log": {
+		"name": "Nhật ký hạm đội"
+	},
+	"Luddic shrines": {
+		"name": "Thánh địa Luddic"
+	}
+}

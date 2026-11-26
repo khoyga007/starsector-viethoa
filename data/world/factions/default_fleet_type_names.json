@@ -1,43 +1,30 @@
 {
-	"trade":"Đoàn vận tải thương mại",
-	"tradeLiner":"Đoàn vận tải tuyến",
-	"tradeSmuggler":"Kẻ buôn lậu",
-	"smallTrader":"Thương nhân",
-	
-	"patrolSmall":"Tiền tiêu nhanh",
-	"patrolMedium":"Tuần tra",
-	"patrolLarge":"Biệt đội",
-	
-	"leagueEnforcer":"Đội thi hành",
-	"leagueArmada":"Đại hạm đội",
-	"supplyFleet":"Hạm đội tiếp tế",
-	
-	"commerceRaiders":"Đội đột kích thương mại",
-	"raider":"Đội đột kích",
-	
-	"sacredProtectors":"Các Hộ vệ Thiêng liêng",
-	
-	"investigators":"Điều tra viên",
-	
-	"inspectionFleet":"Hạm đội thanh tra",
-	"taskForce":"Đội đặc nhiệm",
-	
-	"scavengerSmall":"Thợ dò mỏ",
-	"scavengerMedium":"Người nhặt phế liệu",
-	"scavengerLarge":"Hạm đội trục vớt",
-	
-	"foodReliefFleet":"Đoàn cứu trợ",
-	
-	"shrinePilgrims":"Đoàn hành hương Luddic",
-	"academyFleet":"Dịch vụ tàu con thoi Học viện",
-	
-	"mercScout":"Trinh sát lính đánh thuê",
-	"mercBountyHunter":"Thợ săn tiền thưởng",
-	"mercPrivateer":"Tư nhân vũ trang",
-	"mercPatrol":"Tuần tra lính đánh thuê",
-	"mercArmada":"Công ty lính đánh thuê",
-	
-	"battlestation":"Trạm chiến đấu",
-	
-	#"":"",
+	"trade": "Đoàn vận tải thương mại",
+	"tradeLiner": "Đoàn vận tải tuyến",
+	"tradeSmuggler": "Kẻ buôn lậu",
+	"smallTrader": "Thương nhân",
+	"patrolSmall": "Tiền tiêu nhanh",
+	"patrolMedium": "Tuần tra",
+	"patrolLarge": "Biệt đội",
+	"leagueEnforcer": "Đội thi hành",
+	"leagueArmada": "Đại hạm đội",
+	"supplyFleet": "Hạm đội tiếp tế",
+	"commerceRaiders": "Đội đột kích thương mại",
+	"raider": "Đội đột kích",
+	"sacredProtectors": "Các Hộ vệ Thiêng liêng",
+	"investigators": "Điều tra viên",
+	"inspectionFleet": "Hạm đội thanh tra",
+	"taskForce": "Đội đặc nhiệm",
+	"scavengerSmall": "Thợ dò mỏ",
+	"scavengerMedium": "Người nhặt phế liệu",
+	"scavengerLarge": "Hạm đội trục vớt",
+	"foodReliefFleet": "Đoàn cứu trợ",
+	"shrinePilgrims": "Đoàn hành hương Luddic",
+	"academyFleet": "Dịch vụ tàu con thoi Học viện",
+	"mercScout": "Trinh sát lính đánh thuê",
+	"mercBountyHunter": "Thợ săn tiền thưởng",
+	"mercPrivateer": "Tư nhân vũ trang",
+	"mercPatrol": "Tuần tra lính đánh thuê",
+	"mercArmada": "Công ty lính đánh thuê",
+	"battlestation": "Trạm chiến đấu"
 }
